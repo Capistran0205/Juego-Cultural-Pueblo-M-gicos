@@ -1,0 +1,245 @@
+[gd_scene load_steps=24 format=3 uid="uid://b3dej8fqahe5f"]
+
+[ext_resource type="Script" uid="uid://bmu7rp2dyeddw" path="res://MenuPrincipal/menu_principal.gd" id="1_n362c"]
+[ext_resource type="Texture2D" uid="uid://dcwy51kvl28ax" path="res://Assets/LogoPueblosMagicos.webp" id="1_w42t8"]
+[ext_resource type="Texture2D" uid="uid://biikfd0se8k0n" path="res://Assets/FondoPrincipal.webp" id="2_wekhl"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tvj1c"]
+bg_color = Color(0.7607843, 0.09411765, 0.35686275, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xcel6"]
+bg_color = Color(0.64663523, 0.064084925, 0.29760206, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bsgi6"]
+bg_color = Color(0.84705883, 0.105882354, 0.3764706, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2ctud"]
+bg_color = Color(0.62126493, 0.0587312, 0.2846761, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_lmta7"]
+bg_color = Color(0, 0.46666667, 0.7137255, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_h8sab"]
+bg_color = Color(2.9359758e-06, 0.4126506, 0.6341272, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6uo3i"]
+bg_color = Color(0, 0.5882353, 0.78039217, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tdyaa"]
+bg_color = Color(1.2032688e-06, 0.41265061, 0.63412726, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7bj3u"]
+bg_color = Color(0.18039216, 0.49019608, 0.19607843, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_du0ul"]
+bg_color = Color(0.22123992, 0.6009637, 0.24244636, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_b2kfo"]
+bg_color = Color(0.21960784, 0.5568628, 0.23529412, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_fn7q6"]
+bg_color = Color(0.15024784, 0.41666204, 0.16347417, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_v0tx8"]
+bg_color = Color(0.7988832, 0.26885286, 0.16208482, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qboca"]
+bg_color = Color(0.6485322, 0.20406854, 0.11076536, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7a8b1"]
+bg_color = Color(0.84966093, 0.298599, 0.18450639, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8dq74"]
+bg_color = Color(0.66115963, 0.20791143, 0.11634704, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wekhl"]
+bg_color = Color(0.41568628, 0.105882354, 0.6039216, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_uvje2"]
+bg_color = Color(0.3266771, 0.07238499, 0.4800505, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_pk5xk"]
+bg_color = Color(0.5568628, 0.14117648, 0.6666667, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_35d3t"]
+bg_color = Color(0.3266771, 0.07238499, 0.4800505, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[node name="MenuPrincipal" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_n362c")
+
+[node name="FondoPrincipal" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+texture = ExtResource("2_wekhl")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.41400003
+anchor_top = 0.395
+anchor_right = 0.58900005
+anchor_bottom = 0.60400003
+offset_left = -0.8800659
+offset_top = -220.6
+offset_right = -0.88012695
+offset_bottom = -0.32000732
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="Logo" type="TextureRect" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+texture = ExtResource("1_w42t8")
+expand_mode = 1
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 4
+theme_override_constants/margin_top = 4
+theme_override_constants/margin_right = 4
+theme_override_constants/margin_bottom = 4
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="BtnUnJugador" type="Button" parent="VBoxContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.8745098, 0.8745098, 0.8745098, 1)
+theme_override_styles/normal = SubResource("StyleBoxFlat_tvj1c")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_xcel6")
+theme_override_styles/hover = SubResource("StyleBoxFlat_bsgi6")
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_2ctud")
+text = "Un Solo Jugador"
+
+[node name="BtnMultijugador" type="Button" parent="VBoxContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxFlat_lmta7")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_h8sab")
+theme_override_styles/hover = SubResource("StyleBoxFlat_6uo3i")
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_tdyaa")
+text = "Multijugador"
+
+[node name="BtnPerfil" type="Button" parent="VBoxContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxFlat_7bj3u")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_du0ul")
+theme_override_styles/hover = SubResource("StyleBoxFlat_b2kfo")
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_fn7q6")
+text = "Perfil"
+
+[node name="BtnRanking" type="Button" parent="VBoxContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxFlat_v0tx8")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_qboca")
+theme_override_styles/hover = SubResource("StyleBoxFlat_7a8b1")
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_8dq74")
+text = "Estadísticas"
+
+[node name="ButtonSalir" type="Button" parent="VBoxContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxFlat_wekhl")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_uvje2")
+theme_override_styles/hover = SubResource("StyleBoxFlat_pk5xk")
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_35d3t")
+text = "Salir"
+
+[node name="Version" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "V.1.0.0"
+horizontal_alignment = 1
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+
+[connection signal="pressed" from="VBoxContainer/MarginContainer/VBoxContainer/BtnUnJugador" to="." method="_on_btn_un_jugador_pressed"]
+[connection signal="pressed" from="VBoxContainer/MarginContainer/VBoxContainer/BtnMultijugador" to="." method="_on_btn_multijugador_pressed"]
+[connection signal="pressed" from="VBoxContainer/MarginContainer/VBoxContainer/BtnPerfil" to="." method="_on_btn_perfil_pressed"]
+[connection signal="pressed" from="VBoxContainer/MarginContainer/VBoxContainer/BtnRanking" to="." method="_on_btn_ranking_pressed"]

@@ -1,0 +1,32 @@
+[gd_scene load_steps=2 format=3 uid="uid://b1plyere0002"]
+
+[ext_resource type="Script" path="res://MenuPrincipal/Componentes/SalaEntry.gd" id="1_se001"]
+
+[node name="SalaEntry" type="PanelContainer"]
+custom_minimum_size = Vector2(0, 50)
+script = ExtResource("1_se001")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="LblSalaName" type="Label" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Sala"
+
+[node name="LblSalaPlayers" type="Label" parent="HBoxContainer"]
+custom_minimum_size = Vector2(60, 0)
+layout_mode = 2
+text = "0/6"
+horizontal_alignment = 1
+
+[node name="LblSalaStatus" type="Label" parent="HBoxContainer"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+text = "Esperando"
+horizontal_alignment = 1
+
+[node name="BtnUnirse" type="Button" parent="HBoxContainer"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+text = "Unirse"

@@ -1,0 +1,453 @@
+[gd_scene load_steps=23 format=3 uid="uid://bxtjmpnfl3o8h"]
+
+[ext_resource type="Script" uid="uid://ddn5olykwvrcy" path="res://MenuPrincipal/multijugador_modo.gd" id="1_mjmod"]
+[ext_resource type="Texture2D" uid="uid://biikfd0se8k0n" path="res://Assets/FondoPrincipal.webp" id="2_1egmv"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_03r3q"]
+bg_color = Color(0.9843137, 0.74509805, 0.38431373, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.8901961, 0.3254902, 0.21176471, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6t6ly"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kvo46"]
+bg_color = Color(1, 1, 1, 0)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_1egmv"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xxpws"]
+bg_color = Color(0.34799185, 0.72757196, 0.99999946, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.8, 0.8, 0.8, 0.1764706)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+expand_margin_left = 5.0
+expand_margin_right = 5.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_v01kl"]
+bg_color = Color(0.41568628, 0.105882354, 0.6039216, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.8901961, 0.3254902, 0.21176471, 0.011764706)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+expand_margin_left = 5.0
+expand_margin_right = 5.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_voc6n"]
+bg_color = Color(0.18039216, 0.49019608, 0.19607843, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.8, 0.8, 0.8, 0.03137255)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+expand_margin_left = 5.0
+expand_margin_right = 5.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ara82"]
+bg_color = Color(0.7607843, 0.09411765, 0.35686275, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.9411765, 0.40784314, 0.29803923, 0.015686275)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+expand_margin_left = 5.0
+expand_margin_right = 5.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1egmv"]
+bg_color = Color(0.40750512, 0.5786411, 0.993323, 0)
+draw_center = false
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cnkl3"]
+bg_color = Color(1, 1, 1, 0)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.8901961, 0.3254902, 0.21176471, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kionj"]
+bg_color = Color(1, 1, 1, 0)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.8901961, 0.3254902, 0.21176471, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_pwvpr"]
+bg_color = Color(1, 1, 1, 0)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.8901961, 0.3254902, 0.21176471, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tnqxg"]
+bg_color = Color(0.7607843, 0.09411765, 0.35686275, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ovj3o"]
+bg_color = Color(0.5644316, 0.04768736, 0.2558841, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_u13cx"]
+bg_color = Color(0.9238509, 0.17963788, 0.45175272, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_i4pir"]
+bg_color = Color(0.9238509, 0.17963788, 0.45175272, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tvvpo"]
+bg_color = Color(0.8901961, 0.3254902, 0.21176471, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_lt7b3"]
+bg_color = Color(0.7988832, 0.26885286, 0.16208482, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_418kv"]
+bg_color = Color(0.9414193, 0.40711161, 0.29755294, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ss2lr"]
+bg_color = Color(0.727641, 0.23540866, 0.13608658, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[node name="MultijugadorModo" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_mjmod")
+
+[node name="Background" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_1egmv")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -450.0
+offset_top = -350.0
+offset_right = 450.0
+offset_bottom = 350.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 12
+
+[node name="LblTitulo" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_styles/normal = SubResource("StyleBoxFlat_03r3q")
+theme_override_styles/focus = SubResource("StyleBoxFlat_6t6ly")
+text = "Multijugador"
+horizontal_alignment = 1
+
+[node name="TabContainer" type="TabContainer" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_colors/drop_mark_color = Color(0, 0, 0, 1)
+theme_override_colors/font_selected_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hovered_color = Color(1, 1, 1, 1)
+theme_override_colors/font_unselected_color = Color(1, 1, 1, 1)
+theme_override_styles/panel = SubResource("StyleBoxFlat_kvo46")
+theme_override_styles/tabbar_background = SubResource("StyleBoxTexture_1egmv")
+theme_override_styles/tab_unselected = SubResource("StyleBoxFlat_xxpws")
+theme_override_styles/tab_hovered = SubResource("StyleBoxFlat_v01kl")
+theme_override_styles/tab_selected = SubResource("StyleBoxFlat_voc6n")
+theme_override_styles/tab_focus = SubResource("StyleBoxFlat_ara82")
+current_tab = 0
+
+[node name="Partida Local" type="VBoxContainer" parent="VBoxContainer/TabContainer"]
+layout_mode = 2
+metadata/_tab_index = 0
+
+[node name="PanelContainer" type="PanelContainer" parent="VBoxContainer/TabContainer/Partida Local"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_1egmv")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/TabContainer/Partida Local/PanelContainer"]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="LblCuantos" type="Label" parent="VBoxContainer/TabContainer/Partida Local/PanelContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Elige la cantidad de jugadores para la partida."
+horizontal_alignment = 1
+
+[node name="LblNumJugadores" type="Label" parent="VBoxContainer/TabContainer/Partida Local/PanelContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "2 Jugadores"
+horizontal_alignment = 1
+
+[node name="SliderJugadores" type="HSlider" parent="VBoxContainer/TabContainer/Partida Local/PanelContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_styles/slider = SubResource("StyleBoxFlat_cnkl3")
+theme_override_styles/grabber_area = SubResource("StyleBoxFlat_kionj")
+theme_override_styles/grabber_area_highlight = SubResource("StyleBoxFlat_pwvpr")
+min_value = 2.0
+max_value = 6.0
+value = 2.0
+
+[node name="HSeparator" type="HSeparator" parent="VBoxContainer/TabContainer/Partida Local/PanelContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="ScrollContainer" type="ScrollContainer" parent="VBoxContainer/TabContainer/Partida Local/PanelContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 250)
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="VBoxPlayerList" type="VBoxContainer" parent="VBoxContainer/TabContainer/Partida Local/PanelContainer/VBoxContainer/ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 6
+
+[node name="HBoxContainer" type="VBoxContainer" parent="VBoxContainer/TabContainer/Partida Local/PanelContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 6
+theme_override_constants/separation = 8
+alignment = 1
+
+[node name="BtnComenzarLocal" type="Button" parent="VBoxContainer/TabContainer/Partida Local/PanelContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_styles/normal = SubResource("StyleBoxFlat_tnqxg")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_ovj3o")
+theme_override_styles/hover = SubResource("StyleBoxFlat_u13cx")
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_i4pir")
+text = "COMENZAR"
+
+[node name="BtnAtrasLocal" type="Button" parent="VBoxContainer/TabContainer/Partida Local/PanelContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_styles/normal = SubResource("StyleBoxFlat_tvvpo")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_lt7b3")
+theme_override_styles/hover = SubResource("StyleBoxFlat_418kv")
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_ss2lr")
+text = "ATRÁS"
+
+[node name="Partida en Linea" type="VBoxContainer" parent="VBoxContainer/TabContainer"]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 1
+
+[node name="PanelCrearSala" type="PanelContainer" parent="VBoxContainer/TabContainer/Partida en Linea"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/TabContainer/Partida en Linea/PanelCrearSala"]
+layout_mode = 2
+theme_override_constants/separation = 6
+
+[node name="LblCrear" type="Label" parent="VBoxContainer/TabContainer/Partida en Linea/PanelCrearSala/VBoxContainer"]
+layout_mode = 2
+text = "Crear Sala"
+
+[node name="HBoxNombre" type="HBoxContainer" parent="VBoxContainer/TabContainer/Partida en Linea/PanelCrearSala/VBoxContainer"]
+layout_mode = 2
+
+[node name="LblNombreSala" type="Label" parent="VBoxContainer/TabContainer/Partida en Linea/PanelCrearSala/VBoxContainer/HBoxNombre"]
+custom_minimum_size = Vector2(140, 0)
+layout_mode = 2
+text = "Nombre:"
+
+[node name="InputNombreSala" type="LineEdit" parent="VBoxContainer/TabContainer/Partida en Linea/PanelCrearSala/VBoxContainer/HBoxNombre"]
+layout_mode = 2
+size_flags_horizontal = 3
+placeholder_text = "Mi sala"
+
+[node name="HBoxMaxPlayers" type="HBoxContainer" parent="VBoxContainer/TabContainer/Partida en Linea/PanelCrearSala/VBoxContainer"]
+layout_mode = 2
+
+[node name="LblMaxPlayers" type="Label" parent="VBoxContainer/TabContainer/Partida en Linea/PanelCrearSala/VBoxContainer/HBoxMaxPlayers"]
+custom_minimum_size = Vector2(140, 0)
+layout_mode = 2
+text = "Máx jugadores:"
+
+[node name="SpinMaxPlayers" type="SpinBox" parent="VBoxContainer/TabContainer/Partida en Linea/PanelCrearSala/VBoxContainer/HBoxMaxPlayers"]
+layout_mode = 2
+min_value = 2.0
+max_value = 6.0
+value = 2.0
+
+[node name="BtnCrearSala" type="Button" parent="VBoxContainer/TabContainer/Partida en Linea/PanelCrearSala/VBoxContainer"]
+layout_mode = 2
+text = "CREAR SALA"
+
+[node name="HSeparator" type="HSeparator" parent="VBoxContainer/TabContainer/Partida en Linea"]
+layout_mode = 2
+
+[node name="PanelUnirse" type="PanelContainer" parent="VBoxContainer/TabContainer/Partida en Linea"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/TabContainer/Partida en Linea/PanelUnirse"]
+layout_mode = 2
+theme_override_constants/separation = 6
+
+[node name="LblUnirse" type="Label" parent="VBoxContainer/TabContainer/Partida en Linea/PanelUnirse/VBoxContainer"]
+layout_mode = 2
+text = "Unirse a Sala"
+
+[node name="HBoxBuscar" type="HBoxContainer" parent="VBoxContainer/TabContainer/Partida en Linea/PanelUnirse/VBoxContainer"]
+layout_mode = 2
+
+[node name="InputCodigo" type="LineEdit" parent="VBoxContainer/TabContainer/Partida en Linea/PanelUnirse/VBoxContainer/HBoxBuscar"]
+layout_mode = 2
+size_flags_horizontal = 3
+placeholder_text = "Código o nombre de sala"
+
+[node name="BtnBuscar" type="Button" parent="VBoxContainer/TabContainer/Partida en Linea/PanelUnirse/VBoxContainer/HBoxBuscar"]
+layout_mode = 2
+text = "Buscar"
+
+[node name="ScrollContainer" type="ScrollContainer" parent="VBoxContainer/TabContainer/Partida en Linea/PanelUnirse/VBoxContainer"]
+custom_minimum_size = Vector2(0, 200)
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="VBoxSalasList" type="VBoxContainer" parent="VBoxContainer/TabContainer/Partida en Linea/PanelUnirse/VBoxContainer/ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 4
+
+[node name="BtnAtrasOnline" type="Button" parent="VBoxContainer/TabContainer/Partida en Linea"]
+layout_mode = 2
+text = "ATRÁS"
+
+[node name="WaitingRoomLayer" type="CanvasLayer" parent="."]
+layer = 10
+visible = false
+
+[node name="WaitingRoom" type="PanelContainer" parent="WaitingRoomLayer"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -350.0
+offset_top = -300.0
+offset_right = 350.0
+offset_bottom = 300.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="WaitingRoomLayer/WaitingRoom"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="LblSalaInfo" type="Label" parent="WaitingRoomLayer/WaitingRoom/VBoxContainer"]
+layout_mode = 2
+text = "Sala: ABC123"
+horizontal_alignment = 1
+
+[node name="LblEsperando" type="Label" parent="WaitingRoomLayer/WaitingRoom/VBoxContainer"]
+layout_mode = 2
+text = "Esperando jugadores..."
+horizontal_alignment = 1
+
+[node name="HSeparator" type="HSeparator" parent="WaitingRoomLayer/WaitingRoom/VBoxContainer"]
+layout_mode = 2
+
+[node name="ScrollContainer" type="ScrollContainer" parent="WaitingRoomLayer/WaitingRoom/VBoxContainer"]
+custom_minimum_size = Vector2(0, 300)
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="VBoxPlayerSlots" type="VBoxContainer" parent="WaitingRoomLayer/WaitingRoom/VBoxContainer/ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="BtnIniciarPartida" type="Button" parent="WaitingRoomLayer/WaitingRoom/VBoxContainer"]
+layout_mode = 2
+text = "INICIAR"
+
+[node name="BtnSalirSala" type="Button" parent="WaitingRoomLayer/WaitingRoom/VBoxContainer"]
+layout_mode = 2
+text = "Salir de sala"

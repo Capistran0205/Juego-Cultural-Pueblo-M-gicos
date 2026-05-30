@@ -1,0 +1,82 @@
+[gd_scene load_steps=3 format=3 uid="uid://cywmx6cm0f7de"]
+
+[ext_resource type="Script" uid="uid://dlg43rulqrmpf" path="res://Juego/TableroJuego/tablero.gd" id="1_tab001"]
+[ext_resource type="Texture2D" uid="uid://dgiguokdq3kav" path="res://Assets/Mapas/Mexico.png" id="2_mapatex"]
+
+[node name="Tablero" type="Node2D"]
+script = ExtResource("1_tab001")
+
+[node name="Camara" type="Camera2D" parent="."]
+position = Vector2(960, 540)
+
+[node name="Mapa" type="Node2D" parent="."]
+
+[node name="Fondo" type="TextureRect" parent="Mapa"]
+offset_left = 3.0
+offset_top = -9.0
+offset_right = 1928.0
+offset_bottom = 1105.0
+texture = ExtResource("2_mapatex")
+expand_mode = 1
+
+[node name="Estados" type="Node2D" parent="Mapa"]
+
+[node name="HUD" type="CanvasLayer" parent="."]
+layer = 5
+
+[node name="HUDRoot" type="Control" parent="HUD"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="BtnRegresar" type="Button" parent="HUD/HUDRoot"]
+layout_mode = 1
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 140.0
+offset_bottom = 60.0
+grow_vertical = 0
+text = "← Menú"
+
+[node name="PanelStats" type="PanelContainer" parent="HUD/HUDRoot"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -380.0
+offset_top = 20.0
+offset_right = -20.0
+offset_bottom = 520.0
+grow_horizontal = 0
+
+[node name="MarginContainer" type="MarginContainer" parent="HUD/HUDRoot/PanelStats"]
+layout_mode = 2
+theme_override_constants/margin_left = 12
+theme_override_constants/margin_top = 12
+theme_override_constants/margin_right = 12
+theme_override_constants/margin_bottom = 12
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HUD/HUDRoot/PanelStats/MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="LblTitulo" type="Label" parent="HUD/HUDRoot/PanelStats/MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "Jugadores"
+horizontal_alignment = 1
+
+[node name="HSeparator" type="HSeparator" parent="HUD/HUDRoot/PanelStats/MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="ScrollContainer" type="ScrollContainer" parent="HUD/HUDRoot/PanelStats/MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="VBoxJugadores" type="VBoxContainer" parent="HUD/HUDRoot/PanelStats/MarginContainer/VBoxContainer/ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 6
