@@ -16,6 +16,7 @@ var player_index: int = 0
 # Inicializa la fila a partir del diccionario de jugador
 # (mismo formato que InformacionJuego._create_player).
 func setup(player_data: Dictionary, avatar_texture: Texture2D) -> void:
+	visible = true
 	player_index = player_data.get("index", 0)
 	lbl_nombre.text = player_data.get("name", "Jugador")
 	color_rect.color = player_data.get("color", Color.WHITE)

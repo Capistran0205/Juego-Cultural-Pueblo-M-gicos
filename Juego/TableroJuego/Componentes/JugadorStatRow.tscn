@@ -1,35 +1,72 @@
-[gd_scene load_steps=2 format=3 uid="uid://b3jugstatrow001"]
+[gd_scene load_steps=3 format=3 uid="uid://dqbq5e1yrcaiq"]
 
-[ext_resource type="Script" path="res://Juego/TableroJuego/Componentes/jugador_stat_row.gd" id="1_jsr001"]
+[ext_resource type="Script" uid="uid://cnmhfqqsw6mni" path="res://Juego/TableroJuego/Componentes/jugador_stat_row.gd" id="1_jsr001"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_row"]
+content_margin_left = 8.0
+content_margin_top = 6.0
+content_margin_right = 10.0
+content_margin_bottom = 6.0
+bg_color = Color(0.9843137, 0.74509805, 0.38431373, 0)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0.8901961, 0.3254902, 0.21176471, 1)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
 
 [node name="JugadorStatRow" type="PanelContainer"]
-custom_minimum_size = Vector2(0, 50)
+visible = false
+custom_minimum_size = Vector2(0, 58)
+offset_right = 413.0
+offset_bottom = 86.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_row")
 script = ExtResource("1_jsr001")
 
 [node name="HBox" type="HBoxContainer" parent="."]
 layout_mode = 2
-theme_override_constants/separation = 8
-
-[node name="ColorJugador" type="ColorRect" parent="HBox"]
-custom_minimum_size = Vector2(6, 0)
-layout_mode = 2
-color = Color(1, 1, 1, 1)
+theme_override_constants/separation = 10
 
 [node name="Avatar" type="TextureRect" parent="HBox"]
-custom_minimum_size = Vector2(36, 36)
+custom_minimum_size = Vector2(42, 42)
 layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
 expand_mode = 1
 stretch_mode = 5
 
 [node name="Info" type="VBoxContainer" parent="HBox"]
 layout_mode = 2
 size_flags_horizontal = 3
+size_flags_vertical = 4
+theme_override_constants/separation = 4
 
 [node name="LblNombre" type="Label" parent="HBox/Info"]
+custom_minimum_size = Vector2(70, 35)
 layout_mode = 2
+size_flags_vertical = 6
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 25
 text = "Jugador"
+horizontal_alignment = 1
+autowrap_mode = 3
+text_overrun_behavior = 3
 
 [node name="LblCasilla" type="Label" parent="HBox/Info"]
+custom_minimum_size = Vector2(70, 35)
 layout_mode = 2
+size_flags_vertical = 6
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 25
 text = "Inicio"
-theme_override_font_sizes/font_size = 11
+horizontal_alignment = 1
+autowrap_mode = 3
+text_overrun_behavior = 3
+
+[node name="ColorJugador" type="ColorRect" parent="HBox"]
+custom_minimum_size = Vector2(8, 0)
+layout_mode = 2
+size_flags_horizontal = 3

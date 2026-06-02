@@ -3,6 +3,62 @@
 [ext_resource type="Script" uid="uid://ddn5olykwvrcy" path="res://MenuPrincipal/multijugador_modo.gd" id="1_mjmod"]
 [ext_resource type="Texture2D" uid="uid://biikfd0se8k0n" path="res://Assets/FondoPrincipal.webp" id="2_1egmv"]
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tnqxg"]
+bg_color = Color(0.7607843, 0.09411765, 0.35686275, 1)
+corner_radius_top_left = 60
+corner_radius_top_right = 60
+corner_radius_bottom_right = 60
+corner_radius_bottom_left = 60
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ovj3o"]
+bg_color = Color(0.5644316, 0.04768736, 0.2558841, 1)
+corner_radius_top_left = 60
+corner_radius_top_right = 60
+corner_radius_bottom_right = 60
+corner_radius_bottom_left = 60
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_u13cx"]
+bg_color = Color(0.9238509, 0.17963788, 0.45175272, 1)
+corner_radius_top_left = 60
+corner_radius_top_right = 60
+corner_radius_bottom_right = 60
+corner_radius_bottom_left = 60
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_i4pir"]
+bg_color = Color(0.9238509, 0.17963788, 0.45175272, 1)
+corner_radius_top_left = 60
+corner_radius_top_right = 60
+corner_radius_bottom_right = 60
+corner_radius_bottom_left = 60
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tvvpo"]
+bg_color = Color(0.8901961, 0.3254902, 0.21176471, 1)
+corner_radius_top_left = 60
+corner_radius_top_right = 60
+corner_radius_bottom_right = 60
+corner_radius_bottom_left = 60
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_lt7b3"]
+bg_color = Color(0.7988832, 0.26885286, 0.16208482, 1)
+corner_radius_top_left = 60
+corner_radius_top_right = 60
+corner_radius_bottom_right = 60
+corner_radius_bottom_left = 60
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_418kv"]
+bg_color = Color(0.9414193, 0.40711161, 0.29755294, 1)
+corner_radius_top_left = 60
+corner_radius_top_right = 60
+corner_radius_bottom_right = 60
+corner_radius_bottom_left = 60
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ss2lr"]
+bg_color = Color(0.727641, 0.23540866, 0.13608658, 1)
+corner_radius_top_left = 60
+corner_radius_top_right = 60
+corner_radius_bottom_right = 60
+corner_radius_bottom_left = 60
+
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_03r3q"]
 bg_color = Color(0.9843137, 0.74509805, 0.38431373, 1)
 border_width_left = 3
@@ -126,62 +182,6 @@ corner_radius_top_right = 20
 corner_radius_bottom_right = 20
 corner_radius_bottom_left = 20
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tnqxg"]
-bg_color = Color(0.7607843, 0.09411765, 0.35686275, 1)
-corner_radius_top_left = 30
-corner_radius_top_right = 30
-corner_radius_bottom_right = 30
-corner_radius_bottom_left = 30
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ovj3o"]
-bg_color = Color(0.5644316, 0.04768736, 0.2558841, 1)
-corner_radius_top_left = 30
-corner_radius_top_right = 30
-corner_radius_bottom_right = 30
-corner_radius_bottom_left = 30
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_u13cx"]
-bg_color = Color(0.9238509, 0.17963788, 0.45175272, 1)
-corner_radius_top_left = 30
-corner_radius_top_right = 30
-corner_radius_bottom_right = 30
-corner_radius_bottom_left = 30
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_i4pir"]
-bg_color = Color(0.9238509, 0.17963788, 0.45175272, 1)
-corner_radius_top_left = 30
-corner_radius_top_right = 30
-corner_radius_bottom_right = 30
-corner_radius_bottom_left = 30
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tvvpo"]
-bg_color = Color(0.8901961, 0.3254902, 0.21176471, 1)
-corner_radius_top_left = 30
-corner_radius_top_right = 30
-corner_radius_bottom_right = 30
-corner_radius_bottom_left = 30
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_lt7b3"]
-bg_color = Color(0.7988832, 0.26885286, 0.16208482, 1)
-corner_radius_top_left = 30
-corner_radius_top_right = 30
-corner_radius_bottom_right = 30
-corner_radius_bottom_left = 30
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_418kv"]
-bg_color = Color(0.9414193, 0.40711161, 0.29755294, 1)
-corner_radius_top_left = 30
-corner_radius_top_right = 30
-corner_radius_bottom_right = 30
-corner_radius_bottom_left = 30
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ss2lr"]
-bg_color = Color(0.727641, 0.23540866, 0.13608658, 1)
-corner_radius_top_left = 30
-corner_radius_top_right = 30
-corner_radius_bottom_right = 30
-corner_radius_bottom_left = 30
-
 [node name="MultijugadorModo" type="Control"]
 layout_mode = 3
 anchors_preset = 15
@@ -202,6 +202,38 @@ texture = ExtResource("2_1egmv")
 expand_mode = 1
 stretch_mode = 6
 
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 537.0
+offset_top = 822.0
+offset_right = 1357.0
+offset_bottom = 947.0
+size_flags_vertical = 4
+theme_override_constants/separation = 10
+alignment = 1
+
+[node name="BtnComenzarLocal" type="Button" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxFlat_tnqxg")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_ovj3o")
+theme_override_styles/hover = SubResource("StyleBoxFlat_u13cx")
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_i4pir")
+text = "COMENZAR"
+
+[node name="BtnAtrasLocal" type="Button" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxFlat_tvvpo")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_lt7b3")
+theme_override_styles/hover = SubResource("StyleBoxFlat_418kv")
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_ss2lr")
+text = "ATRÁS"
+
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 1
 anchors_preset = 8
@@ -210,9 +242,9 @@ anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
 offset_left = -450.0
-offset_top = -350.0
+offset_top = -405.0
 offset_right = 450.0
-offset_bottom = 350.0
+offset_bottom = 245.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_constants/separation = 12
@@ -220,6 +252,7 @@ theme_override_constants/separation = 12
 [node name="LblTitulo" type="Label" parent="VBoxContainer"]
 layout_mode = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 25
 theme_override_styles/normal = SubResource("StyleBoxFlat_03r3q")
 theme_override_styles/focus = SubResource("StyleBoxFlat_6t6ly")
 text = "Multijugador"
@@ -233,6 +266,7 @@ theme_override_colors/drop_mark_color = Color(0, 0, 0, 1)
 theme_override_colors/font_selected_color = Color(1, 1, 1, 1)
 theme_override_colors/font_hovered_color = Color(1, 1, 1, 1)
 theme_override_colors/font_unselected_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 25
 theme_override_styles/panel = SubResource("StyleBoxFlat_kvo46")
 theme_override_styles/tabbar_background = SubResource("StyleBoxTexture_1egmv")
 theme_override_styles/tab_unselected = SubResource("StyleBoxFlat_xxpws")
@@ -257,12 +291,14 @@ theme_override_constants/separation = 8
 [node name="LblCuantos" type="Label" parent="VBoxContainer/TabContainer/Partida Local/PanelContainer/VBoxContainer"]
 layout_mode = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 25
 text = "Elige la cantidad de jugadores para la partida."
 horizontal_alignment = 1
 
 [node name="LblNumJugadores" type="Label" parent="VBoxContainer/TabContainer/Partida Local/PanelContainer/VBoxContainer"]
 layout_mode = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 25
 text = "2 Jugadores"
 horizontal_alignment = 1
 
@@ -287,31 +323,6 @@ size_flags_vertical = 3
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/separation = 6
-
-[node name="HBoxContainer" type="VBoxContainer" parent="VBoxContainer/TabContainer/Partida Local/PanelContainer/VBoxContainer"]
-layout_mode = 2
-size_flags_vertical = 6
-theme_override_constants/separation = 8
-alignment = 1
-
-[node name="BtnComenzarLocal" type="Button" parent="VBoxContainer/TabContainer/Partida Local/PanelContainer/VBoxContainer/HBoxContainer"]
-layout_mode = 2
-size_flags_horizontal = 3
-size_flags_vertical = 3
-theme_override_styles/normal = SubResource("StyleBoxFlat_tnqxg")
-theme_override_styles/pressed = SubResource("StyleBoxFlat_ovj3o")
-theme_override_styles/hover = SubResource("StyleBoxFlat_u13cx")
-theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_i4pir")
-text = "COMENZAR"
-
-[node name="BtnAtrasLocal" type="Button" parent="VBoxContainer/TabContainer/Partida Local/PanelContainer/VBoxContainer/HBoxContainer"]
-layout_mode = 2
-size_flags_vertical = 3
-theme_override_styles/normal = SubResource("StyleBoxFlat_tvvpo")
-theme_override_styles/pressed = SubResource("StyleBoxFlat_lt7b3")
-theme_override_styles/hover = SubResource("StyleBoxFlat_418kv")
-theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_ss2lr")
-text = "ATRÁS"
 
 [node name="Partida en Linea" type="VBoxContainer" parent="VBoxContainer/TabContainer"]
 visible = false

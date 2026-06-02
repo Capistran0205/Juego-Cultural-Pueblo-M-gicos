@@ -18,8 +18,8 @@ const TAB_ONLINE_NAME := "Partida en Linea"
 @onready var slider_jugadores: HSlider = tab_local.get_node("PanelContainer/VBoxContainer/SliderJugadores")
 @onready var lbl_num_jugadores: Label = tab_local.get_node("PanelContainer/VBoxContainer/LblNumJugadores")
 @onready var vbox_player_list: VBoxContainer = tab_local.get_node("PanelContainer/VBoxContainer/ScrollContainer/VBoxPlayerList")
-@onready var btn_comenzar_local: Button = tab_local.get_node("PanelContainer/VBoxContainer/HBoxContainer/BtnComenzarLocal")
-@onready var btn_atras_local: Button = tab_local.get_node("PanelContainer/VBoxContainer/HBoxContainer/BtnAtrasLocal")
+@onready var btn_comenzar_local: Button = $HBoxContainer/BtnComenzarLocal
+@onready var btn_atras_local: Button = $HBoxContainer/BtnAtrasLocal
 
 # === NODOS: Tab Online ===
 @onready var input_nombre_sala: LineEdit = tab_online.get_node("PanelCrearSala/VBoxContainer/HBoxNombre/InputNombreSala")

@@ -3,6 +3,62 @@
 [ext_resource type="Script" uid="uid://bqylxqhsk72x5" path="res://MenuPrincipal/un_jugador_modo.gd" id="1_qhoni"]
 [ext_resource type="Texture2D" uid="uid://biikfd0se8k0n" path="res://Assets/FondoPrincipal.webp" id="2_p3i2r"]
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6bmxi"]
+bg_color = Color(0.7607843, 0.09411765, 0.35686275, 1)
+corner_radius_top_left = 60
+corner_radius_top_right = 60
+corner_radius_bottom_right = 60
+corner_radius_bottom_left = 60
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_sfps6"]
+bg_color = Color(0.5647059, 0.047058824, 0.25490198, 1)
+corner_radius_top_left = 60
+corner_radius_top_right = 60
+corner_radius_bottom_right = 60
+corner_radius_bottom_left = 60
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_n0dhp"]
+bg_color = Color(0.9254902, 0.18039216, 0.4509804, 1)
+corner_radius_top_left = 60
+corner_radius_top_right = 60
+corner_radius_bottom_right = 60
+corner_radius_bottom_left = 60
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_lrn1o"]
+bg_color = Color(0.9254902, 0.18039216, 0.4509804, 1)
+corner_radius_top_left = 60
+corner_radius_top_right = 60
+corner_radius_bottom_right = 60
+corner_radius_bottom_left = 60
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_clcw6"]
+bg_color = Color(0.8901961, 0.3254902, 0.21176471, 1)
+corner_radius_top_left = 60
+corner_radius_top_right = 60
+corner_radius_bottom_right = 60
+corner_radius_bottom_left = 60
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3lj2a"]
+bg_color = Color(0.8, 0.27058825, 0.16078432, 1)
+corner_radius_top_left = 60
+corner_radius_top_right = 60
+corner_radius_bottom_right = 60
+corner_radius_bottom_left = 60
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_w2j58"]
+bg_color = Color(0.9411765, 0.40784314, 0.29803923, 1)
+corner_radius_top_left = 60
+corner_radius_top_right = 60
+corner_radius_bottom_right = 60
+corner_radius_bottom_left = 60
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_q2hjn"]
+bg_color = Color(0.7294118, 0.23529412, 0.13725491, 1)
+corner_radius_top_left = 60
+corner_radius_top_right = 60
+corner_radius_bottom_right = 60
+corner_radius_bottom_left = 60
+
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_p3i2r"]
 bg_color = Color(0.6, 0.6, 0.6, 0.015686275)
 
@@ -19,72 +75,60 @@ corner_radius_bottom_right = 20
 corner_radius_bottom_left = 20
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wwkf1"]
+bg_color = Color(0.83889705, 0.83889705, 0.838897, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_36388"]
+bg_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_m7y2m"]
+bg_color = Color(0.73300546, 0.73300546, 0.7330052, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_34lld"]
+bg_color = Color(0.8117647, 0.8117647, 0.8117647, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ktchr"]
+bg_color = Color(0.8392157, 0.8392157, 0.8392157, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_a4ep5"]
+bg_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6oy18"]
+bg_color = Color(0.73333335, 0.73333335, 0.73333335, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_k5gge"]
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6bmxi"]
-bg_color = Color(0.7607843, 0.09411765, 0.35686275, 1)
+bg_color = Color(0.8117647, 0.8117647, 0.8117647, 1)
 corner_radius_top_left = 30
 corner_radius_top_right = 30
 corner_radius_bottom_right = 30
 corner_radius_bottom_left = 30
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_sfps6"]
-bg_color = Color(0.5647059, 0.047058824, 0.25490198, 1)
-corner_radius_top_left = 30
-corner_radius_top_right = 30
-corner_radius_bottom_right = 30
-corner_radius_bottom_left = 30
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_n0dhp"]
-bg_color = Color(0.9254902, 0.18039216, 0.4509804, 1)
-corner_radius_top_left = 30
-corner_radius_top_right = 30
-corner_radius_bottom_right = 30
-corner_radius_bottom_left = 30
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_lrn1o"]
-bg_color = Color(0.9254902, 0.18039216, 0.4509804, 1)
-corner_radius_top_left = 30
-corner_radius_top_right = 30
-corner_radius_bottom_right = 30
-corner_radius_bottom_left = 30
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_clcw6"]
-bg_color = Color(0.8901961, 0.3254902, 0.21176471, 1)
-corner_radius_top_left = 30
-corner_radius_top_right = 30
-corner_radius_bottom_right = 30
-corner_radius_bottom_left = 30
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3lj2a"]
-bg_color = Color(0.8, 0.27058825, 0.16078432, 1)
-corner_radius_top_left = 30
-corner_radius_top_right = 30
-corner_radius_bottom_right = 30
-corner_radius_bottom_left = 30
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_w2j58"]
-bg_color = Color(0.9411765, 0.40784314, 0.29803923, 1)
-corner_radius_top_left = 30
-corner_radius_top_right = 30
-corner_radius_bottom_right = 30
-corner_radius_bottom_left = 30
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_q2hjn"]
-bg_color = Color(0.7294118, 0.23529412, 0.13725491, 1)
 
 [node name="UnJugadorModo" type="Control"]
 layout_mode = 3
@@ -107,17 +151,69 @@ texture = ExtResource("2_p3i2r")
 expand_mode = 1
 stretch_mode = 6
 
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 700.0
+offset_top = 655.0
+offset_right = 1200.0
+offset_bottom = 755.0
+
+[node name="BtnComenzar" type="Button" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/normal = SubResource("StyleBoxFlat_6bmxi")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_sfps6")
+theme_override_styles/hover = SubResource("StyleBoxFlat_n0dhp")
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_lrn1o")
+text = "COMENZAR"
+
+[node name="BtnAtras" type="Button" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/normal = SubResource("StyleBoxFlat_clcw6")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_3lj2a")
+theme_override_styles/hover = SubResource("StyleBoxFlat_w2j58")
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_q2hjn")
+text = "ATRAS"
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 700.0
+offset_top = 655.0
+offset_right = 1200.0
+offset_bottom = 755.0
+
+[node name="BtnComenzar" type="Button" parent="HBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 25
+theme_override_styles/normal = SubResource("StyleBoxFlat_6bmxi")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_sfps6")
+theme_override_styles/hover = SubResource("StyleBoxFlat_n0dhp")
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_lrn1o")
+text = "COMENZAR"
+
+[node name="BtnAtras" type="Button" parent="HBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 25
+theme_override_styles/normal = SubResource("StyleBoxFlat_clcw6")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_3lj2a")
+theme_override_styles/hover = SubResource("StyleBoxFlat_w2j58")
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_q2hjn")
+text = "ATRAS"
+
 [node name="PanelContainer" type="PanelContainer" parent="."]
 layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -300.0
-offset_top = -250.0
-offset_right = 300.0
-offset_bottom = 250.0
+anchors_preset = -1
+anchor_left = 0.344
+anchor_top = 0.26900002
+anchor_right = 0.656
+anchor_bottom = 0.49
+offset_left = -0.4800415
+offset_top = -0.52001953
+offset_right = 0.47998047
+offset_bottom = -0.2000122
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_styles/panel = SubResource("StyleBoxFlat_p3i2r")
@@ -142,9 +238,6 @@ text = "Modo un Jugador"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="HSeparator" type="HSeparator" parent="PanelContainer/MarginContainer/VBoxContainer"]
-layout_mode = 2
-
 [node name="HBoxContainer" type="HBoxContainer" parent="PanelContainer/MarginContainer/VBoxContainer"]
 layout_mode = 2
 
@@ -152,12 +245,18 @@ layout_mode = 2
 custom_minimum_size = Vector2(100, 0)
 layout_mode = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
-text = "Nombre:"
+theme_override_font_sizes/font_size = 25
+text = "Nombre: "
 vertical_alignment = 1
 
 [node name="lblNombreActual" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(70, 25)
 layout_mode = 2
 size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 25
+text = "Jugador 1"
+autowrap_mode = 3
 
 [node name="HBoxContainer2" type="HBoxContainer" parent="PanelContainer/MarginContainer/VBoxContainer"]
 layout_mode = 2
@@ -167,6 +266,7 @@ alignment = 1
 custom_minimum_size = Vector2(100, 0)
 layout_mode = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 25
 text = "Avatar:"
 vertical_alignment = 1
 
@@ -179,6 +279,10 @@ alignment = 1
 [node name="BtnAvatarPrev" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer2/HBoxContainer"]
 custom_minimum_size = Vector2(40, 40)
 layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0.20392157, 0.20392157, 0.20392157, 1)
+theme_override_colors/font_hover_color = Color(0.20392157, 0.20392157, 0.20392157, 1)
+theme_override_font_sizes/font_size = 30
 theme_override_styles/normal = SubResource("StyleBoxFlat_wwkf1")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_36388")
 theme_override_styles/hover = SubResource("StyleBoxFlat_m7y2m")
@@ -194,34 +298,21 @@ stretch_mode = 5
 [node name="BtnAvatarSig" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer2/HBoxContainer"]
 custom_minimum_size = Vector2(40, 40)
 layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0.20392157, 0.20392157, 0.20392157, 1)
+theme_override_colors/font_hover_color = Color(0.20392157, 0.20392157, 0.20392157, 1)
+theme_override_font_sizes/font_size = 30
 theme_override_styles/normal = SubResource("StyleBoxFlat_ktchr")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_a4ep5")
 theme_override_styles/hover = SubResource("StyleBoxFlat_6oy18")
 theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_k5gge")
 text = ">"
 
-[node name="HSeparator2" type="HSeparator" parent="PanelContainer/MarginContainer/VBoxContainer"]
-layout_mode = 2
-
-[node name="BtnComenzar" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer"]
-layout_mode = 2
-theme_override_styles/normal = SubResource("StyleBoxFlat_6bmxi")
-theme_override_styles/pressed = SubResource("StyleBoxFlat_sfps6")
-theme_override_styles/hover = SubResource("StyleBoxFlat_n0dhp")
-theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_lrn1o")
-text = "COMENZAR"
-
-[node name="BtnAtras" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer"]
-layout_mode = 2
-theme_override_styles/normal = SubResource("StyleBoxFlat_clcw6")
-theme_override_styles/pressed = SubResource("StyleBoxFlat_3lj2a")
-theme_override_styles/hover = SubResource("StyleBoxFlat_w2j58")
-theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_q2hjn")
-text = "ATRAS"
-
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
 
+[connection signal="pressed" from="HBoxContainer/BtnComenzar" to="." method="_on_btn_comenzar_pressed"]
+[connection signal="pressed" from="HBoxContainer/BtnAtras" to="." method="_on_btn_atras_pressed"]
+[connection signal="pressed" from="HBoxContainer2/BtnComenzar" to="." method="_on_btn_comenzar_pressed"]
+[connection signal="pressed" from="HBoxContainer2/BtnAtras" to="." method="_on_btn_atras_pressed"]
 [connection signal="pressed" from="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer2/HBoxContainer/BtnAvatarPrev" to="." method="_on_btn_avatar_prev_pressed"]
 [connection signal="pressed" from="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer2/HBoxContainer/BtnAvatarSig" to="." method="_on_btn_avatar_sig_pressed"]
-[connection signal="pressed" from="PanelContainer/MarginContainer/VBoxContainer/BtnComenzar" to="." method="_on_btn_comenzar_pressed"]
-[connection signal="pressed" from="PanelContainer/MarginContainer/VBoxContainer/BtnAtras" to="." method="_on_btn_atras_pressed"]
