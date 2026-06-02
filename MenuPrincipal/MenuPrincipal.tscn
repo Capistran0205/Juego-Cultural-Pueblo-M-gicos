@@ -1,4 +1,4 @@
-[gd_scene load_steps=24 format=3 uid="uid://b3dej8fqahe5f"]
+[gd_scene format=3 uid="uid://b3dej8fqahe5f"]
 
 [ext_resource type="Script" uid="uid://bmu7rp2dyeddw" path="res://MenuPrincipal/menu_principal.gd" id="1_n362c"]
 [ext_resource type="Texture2D" uid="uid://dcwy51kvl28ax" path="res://Assets/LogoPueblosMagicos.webp" id="1_w42t8"]
@@ -144,7 +144,7 @@ corner_radius_top_right = 30
 corner_radius_bottom_right = 30
 corner_radius_bottom_left = 30
 
-[node name="MenuPrincipal" type="Control"]
+[node name="MenuPrincipal" type="Control" unique_id=812596546]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -153,13 +153,13 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_n362c")
 
-[node name="FondoPrincipal" type="TextureRect" parent="."]
+[node name="FondoPrincipal" type="TextureRect" parent="." unique_id=1386910367]
 layout_mode = 0
 offset_right = 1920.0
 offset_bottom = 1080.0
 texture = ExtResource("2_wekhl")
 
-[node name="VBoxContainer" type="VBoxContainer" parent="."]
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1826565876]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.41400003
@@ -174,24 +174,24 @@ grow_horizontal = 2
 grow_vertical = 2
 alignment = 1
 
-[node name="Logo" type="TextureRect" parent="VBoxContainer"]
+[node name="Logo" type="TextureRect" parent="VBoxContainer" unique_id=1755682604]
 layout_mode = 2
 size_flags_vertical = 3
 texture = ExtResource("1_w42t8")
 expand_mode = 1
 
-[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer"]
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer" unique_id=1566231480]
 layout_mode = 2
 theme_override_constants/margin_left = 4
 theme_override_constants/margin_top = 4
 theme_override_constants/margin_right = 4
 theme_override_constants/margin_bottom = 4
 
-[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/MarginContainer"]
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/MarginContainer" unique_id=1928284857]
 layout_mode = 2
 theme_override_constants/separation = 10
 
-[node name="BtnUnJugador" type="Button" parent="VBoxContainer/MarginContainer/VBoxContainer"]
+[node name="BtnUnJugador" type="Button" parent="VBoxContainer/MarginContainer/VBoxContainer" unique_id=1295173898]
 layout_mode = 2
 theme_override_colors/font_color = Color(0.8745098, 0.8745098, 0.8745098, 1)
 theme_override_styles/normal = SubResource("StyleBoxFlat_tvj1c")
@@ -200,7 +200,7 @@ theme_override_styles/hover = SubResource("StyleBoxFlat_bsgi6")
 theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_2ctud")
 text = "Un Solo Jugador"
 
-[node name="BtnMultijugador" type="Button" parent="VBoxContainer/MarginContainer/VBoxContainer"]
+[node name="BtnMultijugador" type="Button" parent="VBoxContainer/MarginContainer/VBoxContainer" unique_id=1732311355]
 layout_mode = 2
 theme_override_styles/normal = SubResource("StyleBoxFlat_lmta7")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_h8sab")
@@ -208,7 +208,7 @@ theme_override_styles/hover = SubResource("StyleBoxFlat_6uo3i")
 theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_tdyaa")
 text = "Multijugador"
 
-[node name="BtnPerfil" type="Button" parent="VBoxContainer/MarginContainer/VBoxContainer"]
+[node name="BtnPerfil" type="Button" parent="VBoxContainer/MarginContainer/VBoxContainer" unique_id=525584902]
 layout_mode = 2
 theme_override_styles/normal = SubResource("StyleBoxFlat_7bj3u")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_du0ul")
@@ -216,7 +216,7 @@ theme_override_styles/hover = SubResource("StyleBoxFlat_b2kfo")
 theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_fn7q6")
 text = "Perfil"
 
-[node name="BtnRanking" type="Button" parent="VBoxContainer/MarginContainer/VBoxContainer"]
+[node name="BtnRanking" type="Button" parent="VBoxContainer/MarginContainer/VBoxContainer" unique_id=967469868]
 layout_mode = 2
 theme_override_styles/normal = SubResource("StyleBoxFlat_v0tx8")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_qboca")
@@ -224,7 +224,7 @@ theme_override_styles/hover = SubResource("StyleBoxFlat_7a8b1")
 theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_8dq74")
 text = "Estadísticas"
 
-[node name="ButtonSalir" type="Button" parent="VBoxContainer/MarginContainer/VBoxContainer"]
+[node name="ButtonSalir" type="Button" parent="VBoxContainer/MarginContainer/VBoxContainer" unique_id=1315595827]
 layout_mode = 2
 theme_override_styles/normal = SubResource("StyleBoxFlat_wekhl")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_uvje2")
@@ -232,12 +232,12 @@ theme_override_styles/hover = SubResource("StyleBoxFlat_pk5xk")
 theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_35d3t")
 text = "Salir"
 
-[node name="Version" type="Label" parent="VBoxContainer"]
+[node name="Version" type="Label" parent="VBoxContainer" unique_id=631969109]
 layout_mode = 2
 text = "V.1.0.0"
 horizontal_alignment = 1
 
-[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=121174950]
 
 [connection signal="pressed" from="VBoxContainer/MarginContainer/VBoxContainer/BtnUnJugador" to="." method="_on_btn_un_jugador_pressed"]
 [connection signal="pressed" from="VBoxContainer/MarginContainer/VBoxContainer/BtnMultijugador" to="." method="_on_btn_multijugador_pressed"]
