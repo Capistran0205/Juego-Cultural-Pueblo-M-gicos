@@ -1,8 +1,10 @@
-[gd_scene load_steps=10 format=3 uid="uid://cywmx6cm0f7de"]
+[gd_scene load_steps=14 format=3 uid="uid://cywmx6cm0f7de"]
 
 [ext_resource type="Script" uid="uid://dlg43rulqrmpf" path="res://Juego/TableroJuego/tablero.gd" id="1_tab001"]
 [ext_resource type="Texture2D" uid="uid://dgiguokdq3kav" path="res://Assets/Mapas/Mexico.png" id="2_mapatex"]
 [ext_resource type="PackedScene" uid="uid://de187f75q2jol" path="res://Juego/TableroJuego/Componentes/roll_screen.tscn" id="3_rollscreen"]
+[ext_resource type="Script" uid="uid://hmta6dis73vs" path="res://Juego/TableroJuego/casilla_tablero.gd" id="3_2en27"]
+[ext_resource type="Texture2D" uid="uid://xr8i4ryh4xdo" path="res://Assets/Jugadores/Jugador1_bg.png" id="4_5brom"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jggqs"]
 bg_color = Color(0.8901961, 0.3254902, 0.21176471, 1)
@@ -51,15 +53,19 @@ corner_radius_top_right = 30
 corner_radius_bottom_right = 30
 corner_radius_bottom_left = 30
 
-[node name="Tablero" type="Node2D"]
+[sub_resource type="CircleShape2D" id="CircleShape2D_jggqs"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_2en27"]
+
+[node name="Tablero" type="Node2D" unique_id=1182673572]
 script = ExtResource("1_tab001")
 
-[node name="Camara" type="Camera2D" parent="."]
+[node name="Camara" type="Camera2D" parent="." unique_id=159000735]
 position = Vector2(960, 540)
 
-[node name="Mapa" type="Node2D" parent="."]
+[node name="Mapa" type="Node2D" parent="." unique_id=1747952333]
 
-[node name="Fondo" type="TextureRect" parent="Mapa"]
+[node name="Fondo" type="TextureRect" parent="Mapa" unique_id=1331723477]
 offset_left = 3.0
 offset_top = -66.0
 offset_right = 1928.0
@@ -67,21 +73,352 @@ offset_bottom = 1139.0
 texture = ExtResource("2_mapatex")
 expand_mode = 1
 
-[node name="Estados" type="Node2D" parent="Mapa"]
+[node name="Estados" type="Node2D" parent="Mapa" unique_id=1953641894]
 
-[node name="HUD" type="CanvasLayer" parent="."]
+[node name="Polygon2D" type="Polygon2D" parent="Mapa/Estados" unique_id=853848284]
+position = Vector2(1065, 814)
+polygon = PackedVector2Array(1, -13, 8, -11, 12, 8, -7, 10, -11, -3, -4, -6)
+script = ExtResource("3_2en27")
+
+[node name="Area2D" type="Area2D" parent="Mapa/Estados/Polygon2D" unique_id=395290007]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Mapa/Estados/Polygon2D/Area2D" unique_id=2031722281]
+shape = SubResource("CircleShape2D_jggqs")
+
+[node name="Polygon2D1" type="Polygon2D" parent="Mapa/Estados" unique_id=1012913992]
+position = Vector2(1077, 755)
+polygon = PackedVector2Array(1, 30, 13, 29, 20, 37, 36, 37, 39, 22, 46, 15, 41, 10, 52, -4, 52, -11, 47, -11, 28, 3, 22, -5, 30, -15, 42, -24, 43, -33, 27, -38, 19, -42, 11, -35, -5, -38, -11, -33, -25, -31, -29, -20, -32, -10, -46, -4, -49, 3, -47, 11, -37, 14, -31, 21, -31, 30, -25, 32, -19, 24, -6, 20, -4, 28)
+script = ExtResource("3_2en27")
+
+[node name="Location_1" type="Area2D" parent="Mapa/Estados/Polygon2D1" unique_id=1146998123]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Mapa/Estados/Polygon2D1/Location_1" unique_id=164973174]
+shape = SubResource("CircleShape2D_2en27")
+
+[node name="Polygon2D2" type="Polygon2D" parent="Mapa/Estados" unique_id=182582980]
+position = Vector2(1018, 740)
+polygon = PackedVector2Array(-8, 36, -20, 34, -22, 24, -29, 22, -31, 12, -37, 7, -34, 1, -34, -4, -25, -4, -23, -7, -13, -7, -1, -20, 4, -18, 12, -24, 8, -35, 27, -32, 38, -40, 44, -32, 51, -27, 48, -19, 33, -16, 26, 3, 13, 10, 8, 16, 8, 25, 0, 26, -1, 33)
+script = ExtResource("3_2en27")
+
+[node name="Location_2" type="Area2D" parent="Mapa/Estados/Polygon2D2" unique_id=836768871]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Mapa/Estados/Polygon2D2/Location_2" unique_id=1603186761]
+shape = SubResource("CircleShape2D_2en27")
+
+[node name="Polygon2D3" type="Polygon2D" parent="Mapa/Estados" unique_id=1382557974]
+position = Vector2(993, 665)
+polygon = PackedVector2Array(-38, 26, -16, 40, -1, 33, 16, 39, 29, 42, 34, 39, 48, 41, 62, 34, 73, 43, 79, 51, 93, 54, 106, 48, 106, 40, 99, 30, 104, 26, 109, 24, 105, 21, 105, 15, 110, 7, 112, 0, 96, -6, 86, -3, 73, -7, 64, -8, 50, -17, 43, -17, 30, -23, 20, -24, 18, -31, 20, -35, 14, -39, 9, -47, -4, -44, -9, -56, -10, -70, -10, -76, -16, -78, -16, -86, -20, -104, -28, -106, -37, -96, -44, -90, -46, -83, -56, -76, -56, -72, -77, -60, -87, -55, -89, -53, -101, -49, -103, -38, -103, -31, -101, -26, -102, -21, -93, -20, -90, -14, -83, -8, -74, -10, -64, -17, -56, -17, -54, -6, -56, -3, -55, 9, -56, 16, -62, 22, -51, 27)
+script = ExtResource("3_2en27")
+
+[node name="Location_3" type="Area2D" parent="Mapa/Estados/Polygon2D3" unique_id=1360659816]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Mapa/Estados/Polygon2D3/Location_3" unique_id=445450599]
+shape = SubResource("CircleShape2D_2en27")
+
+[node name="Polygon2D4" type="Polygon2D" parent="Mapa/Estados" unique_id=91442411]
+position = Vector2(1084, 577)
+color = Color(1, 1, 1, 0.96862745)
+polygon = PackedVector2Array(-27, 78, -39, 69, -50, 68, -66, 63, -70, 58, -70, 52, -74, 49, -80, 38, -70, 33, -64, 17, -51, 15, -47, 7, -54, -4, -52, -15, -56, -20, -45, -26, -40, -32, -32, -32, -27, -49, -15, -51, 9, -68, 3, -74, 0, -97, -12, -96, -19, -99, -25, -99, -33, -104, -39, -106, -47, -116, -48, -118, -45, -124, -53, -128, -55, -137, -62, -140, -61, -146, -63, -161, -70, -167, -64, -177, -52, -176, -48, -163, -47, -159, -43, -152, -44, -145, -40, -140, -35, -135, -34, -126, -27, -118, -18, -116, -11, -112, -1, -109, 8, -106, 19, -100, 28, -101, 48, -100, 58, -95, 69, -93, 78, -95, 75, -77, 62, -60, 60, -52, 57, -43, 54, -35, 53, -25, 49, -10, 50, 5, 50, 26, 49, 82, 41, 84, 31, 78, 20, 80, 8, 80, -4, 83, -15, 80, -25, 79)
+script = ExtResource("3_2en27")
+
+[node name="Location_4" type="Area2D" parent="Mapa/Estados/Polygon2D4" unique_id=1077798093]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Mapa/Estados/Polygon2D4/Location_4" unique_id=446455530]
+shape = SubResource("CircleShape2D_2en27")
+
+[node name="Polygon2D5" type="Polygon2D" parent="Mapa/Estados" unique_id=421463668]
+position = Vector2(1026, 512)
+polygon = PackedVector2Array(4, 51, 0, 45, 11, 39, 17, 30, 24, 32, 30, 15, 38, 13, 43, 12, 62, -3, 56, -9, 57, -29, 44, -30, 40, -33, 34, -33, 22, -39, 18, -41, 10, -52, 12, -59, 4, -62, 2, -70, -6, -75, -5, -81, -7, -96, -13, -99, -14, -103, -8, -112, -9, -118, -24, -113, -28, -116, -35, -116, -41, -100, -49, -97, -60, -92, -62, -84, -52, -85, -50, -79, -51, -71, -52, -65, -59, -63, -79, -49, -73, -37, -62, -32, -64, -25, -60, -13, -50, -7, -43, 0, -29, 2, -32, 10, -50, 9, -56, 10, -59, 17, -56, 26, -59, 44, -51, 48, -48, 63, -48, 73, -42, 75, -42, 86, -41, 97, -37, 106, -26, 105, -21, 101, -14, 98, -9, 81, 2, 78, 8, 73, 1, 64)
+script = ExtResource("3_2en27")
+
+[node name="Location_5" type="Area2D" parent="Mapa/Estados/Polygon2D5" unique_id=1759612894]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Mapa/Estados/Polygon2D5/Location_5" unique_id=1657150403]
+shape = SubResource("CircleShape2D_2en27")
+
+[node name="Polygon2D6" type="Polygon2D" parent="Mapa/Estados" unique_id=1472109006]
+position = Vector2(900, 437)
+polygon = PackedVector2Array(6, -138, 37, -132, 69, -105, 79, -85, 89, -67, 115, -44, 102, -40, 91, -43, 83, -27, 62, -18, 61, -9, 73, -7, 71, 9, 44, 25, 50, 38, 61, 43, 60, 50, 63, 62, 74, 68, 80, 74, 94, 78, 91, 83, 69, 82, 65, 91, 68, 101, 65, 118, 51, 114, 40, 105, 24, 106, 4, 93, -20, 86, -31, 92, -47, 110, -66, 106, -76, 91, -83, 86, -78, 77, -84, 71, -78, 66, -73, 59, -76, 50, -71, 38, -92, 11, -103, -40, -69, -91, -52, -99, -35, -121, -35, -129, -15, -139)
+script = ExtResource("3_2en27")
+
+[node name="Location_6" type="Area2D" parent="Mapa/Estados/Polygon2D6" unique_id=21658408]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Mapa/Estados/Polygon2D6/Location_6" unique_id=250729838]
+shape = SubResource("CircleShape2D_2en27")
+
+[node name="Polygon2D7" type="Polygon2D" parent="Mapa/Estados" unique_id=1694291846]
+position = Vector2(669, 344)
+polygon = PackedVector2Array(-73, -147, 12, -146, 18, -130, 42, -116, 53, -103, 80, -88, 82, -78, 91, -70, 92, -56, 99, -42, 114, -34, 126, -23, 145, -16, 150, -9, 164, -7, 128, 48, 136, 100, 113, 103, 91, 124, 79, 116, 68, 118, 63, 113, 54, 118, 35, 107, 19, 99, 8, 102, 1, 114, -6, 118, -12, 133, -15, 151, -37, 153, -59, 126, -78, 123, -85, 98, -99, 80, -114, 86, -120, 52, -134, 32, -134, 19, -104, 14, -111, -33, -101, -39, -99, -85, -112, -100, -112, -113, -109, -126, -72, -126)
+script = ExtResource("3_2en27")
+
+[node name="Location_7" type="Area2D" parent="Mapa/Estados/Polygon2D7" unique_id=562169116]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Mapa/Estados/Polygon2D7/Location_7" unique_id=1781005473]
+shape = SubResource("CircleShape2D_2en27")
+
+[node name="Polygon2D8" type="Polygon2D" parent="Mapa/Estados" unique_id=293431537]
+position = Vector2(461, 300)
+polygon = PackedVector2Array(-196, -167, -10, -91, 95, -85, 94, -57, 107, -43, 104, 4, 95, 9, 100, 57, 77, 61, 74, 76, 87, 98, 91, 135, 54, 156, 47, 139, 25, 135, 21, 117, -6, 109, -11, 77, -43, 67, -67, 37, -70, 22, -77, 21, -107, -37, -106, -45, -115, -63, -118, -71, -118, -88, -140, -102, -145, -114, -155, -118, -161, -112, -207, -141)
+script = ExtResource("3_2en27")
+
+[node name="Location_9" type="Area2D" parent="Mapa/Estados/Polygon2D8" unique_id=1740565578]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Mapa/Estados/Polygon2D8/Location_9" unique_id=11891779]
+shape = SubResource("CircleShape2D_2en27")
+
+[node name="Polygon2D9" type="Polygon2D" parent="Mapa/Estados" unique_id=1853075953]
+position = Vector2(221, 186)
+polygon = PackedVector2Array(44, 170, 117, 174, 109, 154, 95, 131, 83, 128, 85, 114, 39, 68, 38, 49, 39, 29, 33, 13, 40, -10, 30, -24, 39, -51, 49, -54, 48, -62, -68, -65, -63, -56, -57, -39, -48, -33, -48, -20, -43, -4, -38, 5, -38, 16, -29, 23, -29, 37, -19, 44, -19, 71, -2, 89, 46, 135, 54, 149)
+script = ExtResource("3_2en27")
+
+[node name="Location_9" type="Area2D" parent="Mapa/Estados/Polygon2D9" unique_id=698316833]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Mapa/Estados/Polygon2D9/Location_9" unique_id=2046200234]
+shape = SubResource("CircleShape2D_2en27")
+
+[node name="Polygon2D10" type="Polygon2D" parent="Mapa/Estados" unique_id=1914649966]
+position = Vector2(377, 485)
+polygon = PackedVector2Array(86, 142, 98, 133, 109, 130, 113, 108, 99, 101, 94, 87, 72, 67, 69, 78, 53, 74, 50, 61, 54, 40, 42, 26, 39, 10, 21, -11, 19, -45, 13, -50, 6, -49, 0, -53, 0, -65, -5, -75, -13, -80, -17, -93, -38, -110, -39, -123, -113, -126, -103, -109, -121, -115, -164, -124, -151, -115, -138, -107, -130, -90, -103, -76, -94, -69, -88, -63, -69, -68, -67, -58, -50, -44, -35, -36, -23, -15, -23, 13, -28, 29, -9, 52, -1, 54, 4, 66, 15, 66, 43, 91, 67, 108, 75, 135)
+script = ExtResource("3_2en27")
+
+[node name="Location_10" type="Area2D" parent="Mapa/Estados/Polygon2D10" unique_id=44809533]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Mapa/Estados/Polygon2D10/Location_10" unique_id=1872371688]
+shape = SubResource("CircleShape2D_2en27")
+
+[node name="Polygon2D11" type="Polygon2D" parent="Mapa/Estados" unique_id=133824992]
+position = Vector2(606, 533)
+polygon = PackedVector2Array(-89, -75, -52, -95, -50, -101, -37, -105, -24, -90, -18, -65, 2, -62, 23, -35, 13, -25, 17, -2, 33, 12, 44, 31, 52, 33, 60, 29, 77, 47, 81, 64, 87, 75, 91, 86, 107, 90, 101, 99, 99, 111, 100, 120, 86, 122, 63, 96, 56, 95, 49, 90, 39, 74, 23, 54, -10, 29, -10, 20, -40, 2, -34, -1, -39, -14, -70, -29, -76, -39, -89, -40, -101, -46, -101, -64)
+script = ExtResource("3_2en27")
+
+[node name="Location_11" type="Area2D" parent="Mapa/Estados/Polygon2D11" unique_id=2111372471]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Mapa/Estados/Polygon2D11/Location_11" unique_id=167220149]
+shape = SubResource("CircleShape2D_2en27")
+
+[node name="Polygon2D12" type="Polygon2D" parent="Mapa/Estados" unique_id=811308223]
+position = Vector2(734, 536)
+polygon = PackedVector2Array(34, 123, 41, 108, 47, 100, 52, 74, 64, 64, 66, 48, 79, 42, 94, 30, 100, 32, 112, 27, 122, 31, 140, 25, 137, 13, 135, -4, 117, 13, 98, 8, 88, -8, 81, -12, 86, -21, 80, -28, 87, -33, 91, -40, 87, -49, 93, -63, 73, -86, 51, -88, 28, -66, 14, -73, 2, -73, -2, -77, -13, -73, -46, -92, -57, -89, -63, -75, -69, -73, -77, -42, -105, -36, -112, -29, -110, -7, -93, 8, -84, 25, -77, 28, -69, 24, -51, 42, -46, 60, -39, 70, -34, 80, -22, 85, -21, 93, 2, 96, 1, 113, 15, 112, 27, 124)
+script = ExtResource("3_2en27")
+
+[node name="Location_12" type="Area2D" parent="Mapa/Estados/Polygon2D12" unique_id=63882842]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Mapa/Estados/Polygon2D12/Location_12" unique_id=921558865]
+shape = SubResource("CircleShape2D_2en27")
+
+[node name="Polygon2D13" type="Polygon2D" parent="Mapa/Estados" unique_id=1027408477]
+position = Vector2(848, 602)
+polygon = PackedVector2Array(43, 12, 87, -10, 87, -13, 97, -20, 100, -30, 111, -39, 116, -44, 101, -49, 91, -58, 76, -58, 55, -71, 32, -78, 22, -70, 28, -40, 10, -34, -2, -38, -13, -32, -21, -36, -35, -22, -46, -19, -49, 1, -60, 8, -65, 35, -76, 55, -74, 60, -60, 57, -59, 50, -63, 44, -58, 39, -51, 39, -46, 40, -52, 52, -49, 55, -42, 51, -44, 67, -42, 71, -36, 70, -28, 63, -20, 54, -11, 61, -14, 76, -26, 79, -39, 93, -39, 100, -48, 106, -47, 114, -43, 118, -35, 116, -36, 122, -28, 122, -16, 124, -15, 116, 2, 114, 11, 103, 5, 100, 0, 89, 7, 80, 15, 67, 33, 58, 39, 64, 55, 68, 55, 75, 68, 78, 80, 85, 87, 79, 88, 59, 88, 48, 69, 55, 59, 56, 51, 45, 45, 45, 42, 37, 39, 25)
+script = ExtResource("3_2en27")
+
+[node name="Location_13" type="Area2D" parent="Mapa/Estados/Polygon2D13" unique_id=921118628]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Mapa/Estados/Polygon2D13/Location_13" unique_id=1720303128]
+shape = SubResource("CircleShape2D_2en27")
+
+[node name="Polygon2D14" type="Polygon2D" parent="Mapa/Estados" unique_id=396255342]
+position = Vector2(878, 680)
+polygon = PackedVector2Array(-26, 9, -25, 15, -3, 16, 4, 19, 14, 15, 23, 5, 31, 2, 23, -4, 19, -9, 6, -13, 3, -18, -14, -10)
+script = ExtResource("3_2en27")
+
+[node name="Location_14" type="Area2D" parent="Mapa/Estados/Polygon2D14" unique_id=1037802591]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Mapa/Estados/Polygon2D14/Location_14" unique_id=1874512208]
+shape = SubResource("CircleShape2D_2en27")
+
+[node name="Polygon2D15" type="Polygon2D" parent="Mapa/Estados" unique_id=78055350]
+position = Vector2(737, 691)
+polygon = PackedVector2Array(3, 38, -6, 44, -16, 44, -23, 54, -36, 51, -22, 38, -19, 16, -26, 6, -35, -2, -38, -15, -45, -34, -33, -35, -28, -38, -31, -47, -27, -61, -3, -57, -4, -41, 2, -38, 7, -41, 23, -30, 35, -29, 26, -20, 27, -12, 40, -5, 34, 5, 35, 15, 48, 18, 47, 24, 34, 26, 35, 36, 32, 42, 28, 51, 15, 42, 9, 41)
+script = ExtResource("3_2en27")
+
+[node name="Location_15" type="Area2D" parent="Mapa/Estados/Polygon2D15" unique_id=643820939]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Mapa/Estados/Polygon2D15/Location_15" unique_id=1652279472]
+shape = SubResource("CircleShape2D_2en27")
+
+[node name="Polygon2D16" type="Polygon2D" parent="Mapa/Estados" unique_id=33835148]
+position = Vector2(805, 759)
+polygon = PackedVector2Array(-27, 47, 3, 47, 7, 54, 5, 57, 10, 60, 6, 71, 13, 71, 20, 69, 31, 71, 45, 61, 54, 60, 60, 50, 47, 47, 47, 41, 42, 36, 49, 30, 31, 23, 29, 15, 43, 12, 51, 13, 69, 2, 76, 0, 85, 3, 96, -2, 98, -9, 91, -19, 116, -48, 115, -58, 119, -70, 107, -78, 96, -72, 89, -63, 79, -59, 70, -62, 50, -62, 54, -56, 48, -44, 29, -39, 28, -32, 16, -34, 7, -33, 7, -40, -1, -36, -7, -43, -6, -52, 2, -60, 3, -66, 15, -79, 26, -83, 30, -95, 23, -101, 10, -87, 1, -85, -3, -88, 0, -105, -7, -101, -11, -105, -7, -116, -18, -115, -16, -98, -30, -95, -40, -87, -40, -81, -29, -78, -25, -73, -33, -63, -32, -56, -20, -52, -16, -47, -23, -41, -31, -40, -40, -16, -54, -26, -64, -29, -73, -23, -84, -22, -91, -13, -93, -6, -112, -2, -112, 9, -106, 10, -104, 23, -97, 26, -89, 39, -85, 44, -77, 51, -69, 57, -60, 61, -54, 54, -31, 53)
+script = ExtResource("3_2en27")
+
+[node name="Location_16" type="Area2D" parent="Mapa/Estados/Polygon2D16" unique_id=299073734]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Mapa/Estados/Polygon2D16/Location_16" unique_id=112632274]
+shape = SubResource("CircleShape2D_2en27")
+
+[node name="Polygon2D17" type="Polygon2D" parent="Mapa/Estados" unique_id=1227965311]
+position = Vector2(786, 825)
+polygon = PackedVector2Array(-34, -11, -11, -11, -7, -18, 22, -18, 25, -13, 22, -9, 27, -6, 24, 5, 23, 12, 20, 16, 18, 20, 13, 22, 0, 15, -13, 9, -26, 1, -39, -1)
+script = ExtResource("3_2en27")
+
+[node name="Location_17" type="Area2D" parent="Mapa/Estados/Polygon2D17" unique_id=64994087]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Mapa/Estados/Polygon2D17/Location_17" unique_id=1026071631]
+shape = SubResource("CircleShape2D_2en27")
+
+[node name="Polygon2D18" type="Polygon2D" parent="Mapa/Estados" unique_id=1793596720]
+position = Vector2(897, 823)
+polygon = PackedVector2Array(-86, 12, -71, 6, -62, 9, -48, -1, -36, -1, -29, -14, -29, -18, -42, -18, -41, -26, -47, -28, -40, -34, -41, -40, -58, -41, -60, -48, -41, -49, -18, -61, -5, -59, 3, -64, 7, -63, 7, -58, 18, -53, 29, -60, 33, -58, 36, -56, 36, -46, 42, -43, 53, -48, 58, -47, 62, -44, 64, -37, 68, -38, 74, -41, 76, -44, 83, -41, 90, -42, 98, -47, 103, -48, 109, -45, 112, -41, 107, -29, 108, -22, 105, -14, 101, -11, 100, -1, 96, 6, 85, 10, 81, 14, 77, 16, 76, 21, 80, 28, 82, 34, 82, 38, 75, 38, 68, 34, 57, 32, 51, 31, 44, 30, 41, 32, 31, 30, 21, 25, 9, 27, 8, 33, 8, 40, -7, 47, -8, 58, -32, 56, -53, 50, -73, 45, -87, 39, -93, 23, -88, 20)
+script = ExtResource("3_2en27")
+
+[node name="Location_18" type="Area2D" parent="Mapa/Estados/Polygon2D18" unique_id=1745379049]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Mapa/Estados/Polygon2D18/Location_18" unique_id=1766078298]
+shape = SubResource("CircleShape2D_2en27")
+
+[node name="Polygon2D19" type="Polygon2D" parent="Mapa/Estados" unique_id=191459466]
+position = Vector2(951, 737)
+polygon = PackedVector2Array(-51, 3, -28, -24, -29, -35, -24, -48, -10, -45, 3, -46, 24, -33, 41, -38, 73, -29, 76, -21, 70, -17, 63, -19, 54, -6, 43, -5, 32, -2, 30, 6, 29, 12, 35, 15, 35, 24, 43, 27, 45, 35, 36, 43, 30, 44, 23, 40, 19, 45, 12, 48, 9, 40, 3, 37, -3, 37, -12, 41, -16, 40, -16, 29, -25, 25, -36, 31, -45, 27, -46, 22, -49, 22, -47, 13)
+script = ExtResource("3_2en27")
+
+[node name="Location_19" type="Area2D" parent="Mapa/Estados/Polygon2D19" unique_id=1526093362]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Mapa/Estados/Polygon2D19/Location_19" unique_id=1468423477]
+shape = SubResource("CircleShape2D_2en27")
+
+[node name="Polygon2D20" type="Polygon2D" parent="Mapa/Estados" unique_id=1299042782]
+position = Vector2(1033, 805)
+polygon = PackedVector2Array(-43, 44, -31, 53, -20, 44, -10, 44, 1, 35, 13, 36, 25, 20, 20, 6, 26, 3, 32, -5, 40, -3, 42, 3, 46, 20, 60, 24, 60, -3, 58, -7, 61, -14, 57, -22, 42, -20, 39, -30, 25, -27, 19, -16, 11, -16, 12, -29, 5, -37, -6, -39, -15, -37, -16, -30, -24, -27, -27, -11, -26, -3, -29, 4, -34, 8, -38, 23, -50, 30, -42, 36)
+script = ExtResource("3_2en27")
+
+[node name="Location_20" type="Area2D" parent="Mapa/Estados/Polygon2D20" unique_id=966087051]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Mapa/Estados/Polygon2D20/Location_20" unique_id=1350255347]
+shape = SubResource("CircleShape2D_2en27")
+
+[node name="Polygon2D21" type="Polygon2D" parent="Mapa/Estados" unique_id=1053682834]
+position = Vector2(1070, 840)
+polygon = PackedVector2Array(-23, 2, -12, -14, 5, -17, 9, -13, 21, -9, 20, 2, 23, 7, 20, 14, 15, 13, 7, 21, -3, 15, -11, 14)
+script = ExtResource("3_2en27")
+
+[node name="Location_21" type="Area2D" parent="Mapa/Estados/Polygon2D21" unique_id=255504078]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Mapa/Estados/Polygon2D21/Location_21" unique_id=1030808517]
+shape = SubResource("CircleShape2D_2en27")
+
+[node name="Polygon2D22" type="Polygon2D" parent="Mapa/Estados" unique_id=1213851769]
+position = Vector2(1123, 805)
+polygon = PackedVector2Array(-29, -9, -12, -10, -7, -12, 0, -14, 7, -10, 14, -10, 18, -4, 28, 1, 27, 6, 18, 8, 14, 13, 4, 12, 2, 15, -6, 15, -24, 0, -28, -1, -30, -8)
+script = ExtResource("3_2en27")
+
+[node name="Location_22" type="Area2D" parent="Mapa/Estados/Polygon2D22" unique_id=1981766151]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Mapa/Estados/Polygon2D22/Location_22" unique_id=1326278018]
+shape = SubResource("CircleShape2D_2en27")
+
+[node name="Polygon2D23" type="Polygon2D" parent="Mapa/Estados" unique_id=1929714536]
+position = Vector2(1131, 840)
+polygon = PackedVector2Array(35, 32, 52, 24, 61, 25, 78, 15, 80, 6, 65, 6, 55, 0, 46, 0, 43, -8, 49, -10, 49, -23, 61, -25, 59, -34, 49, -35, 39, -39, 39, -48, 42, -55, 43, -65, 47, -73, 31, -79, 27, -73, 21, -73, 15, -80, 15, -86, 22, -90, 21, -96, 15, -96, 12, -105, 5, -107, 1, -90, -11, -75, -7, -72, -13, -63, -15, -51, -3, -50, 1, -49, 9, -44, 18, -37, 21, -33, 21, -27, 11, -25, 7, -21, -4, -22, -14, -19, -35, -35, -35, -14, -38, -9, -39, -1, -37, 9, -40, 15, -45, 15, -53, 21, -54, 26, -40, 33, -25, 36, -14, 39, 2, 34, 19, 35, 17, 28, 17, 21, 27, 21, 30, 31)
+script = ExtResource("3_2en27")
+
+[node name="Location_23" type="Area2D" parent="Mapa/Estados/Polygon2D23" unique_id=746229470]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Mapa/Estados/Polygon2D23/Location_23" unique_id=1424308059]
+shape = SubResource("CircleShape2D_2en27")
+
+[node name="Polygon2D24" type="Polygon2D" parent="Mapa/Estados" unique_id=406752945]
+position = Vector2(1026, 896)
+polygon = PackedVector2Array(-119, -13, -77, 13, -28, 30, 6, 42, 46, 50, 63, 54, 86, 63, 95, 60, 100, 45, 111, 37, 110, 25, 100, 17, 96, 2, 89, -1, 88, -16, 59, -23, 44, -38, 31, -41, 19, -52, 6, -53, -3, -45, -13, -44, -25, -37, -36, -46, -38, -55, -46, -58, -50, -54, -45, -34, -58, -32, -62, -37, -85, -41, -90, -40, -103, -42, -108, -45, -119, -44, -119, -34, -120, -29, -132, -25, -134, -14, -126, -13)
+script = ExtResource("3_2en27")
+
+[node name="Location_24" type="Area2D" parent="Mapa/Estados/Polygon2D24" unique_id=1181881728]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Mapa/Estados/Polygon2D24/Location_24" unique_id=1157829995]
+shape = SubResource("CircleShape2D_2en27")
+
+[node name="Polygon2D25" type="Polygon2D" parent="Mapa/Estados" unique_id=291561230]
+position = Vector2(1226, 925)
+polygon = PackedVector2Array(99, -20, 161, -19, 152, 4, 151, 30, 120, 24, 103, 19, 70, 38, 6, 60, -40, 49, -70, 47, -106, 36, -97, 19, -89, 10, -84, -2, -96, -11, -101, -25, -109, -31, -109, -44, -94, -50, -76, -48, -77, -62, -69, -62, -65, -52, -61, -52, -43, -59, -34, -58, -20, -64, -14, -71, -14, -82, -3, -82, 7, -72, 16, -63, 35, -60, 33, -51, 36, -37, 45, -34, 49, -31, 62, -34, 72, -43, 74, -35, 83, -25, 89, -23, 95, -20)
+script = ExtResource("3_2en27")
+
+[node name="Location_25" type="Area2D" parent="Mapa/Estados/Polygon2D25" unique_id=1976962015]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Mapa/Estados/Polygon2D25/Location_25" unique_id=1306654692]
+shape = SubResource("CircleShape2D_2en27")
+
+[node name="Polygon2D26" type="Polygon2D" parent="Mapa/Estados" unique_id=345867163]
+position = Vector2(1461, 928)
+polygon = PackedVector2Array(61, 16, 131, 12, 129, -3, 115, -9, 113, -17, 75, -34, 58, -46, 50, -48, 47, -58, 32, -67, 16, -59, 10, -53, 0, -51, -1, -44, -12, -39, -18, -43, -26, -44, -33, -54, -33, -60, -44, -64, -51, -60, -63, -33, -72, -25, -82, 0, -82, 28, -54, 40, 34, 100, 39, 88, 35, 77, 40, 65, 33, 58)
+script = ExtResource("3_2en27")
+
+[node name="Location_26" type="Area2D" parent="Mapa/Estados/Polygon2D26" unique_id=2044975480]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Mapa/Estados/Polygon2D26/Location_26" unique_id=1363097317]
+shape = SubResource("CircleShape2D_2en27")
+
+[node name="Polygon2D27" type="Polygon2D" parent="Mapa/Estados" unique_id=1152191177]
+position = Vector2(1583, 799)
+polygon = PackedVector2Array(-27, 61, 58, 51, 51, -36, 5, -77, -18, -82, -20, -48, -27, -41, -33, -13, -62, 8, -100, 24, -121, 25, -119, 33, -106, 34, -105, 46, -87, 57, -83, 53, -73, 55, -68, 47, -34, 52)
+script = ExtResource("3_2en27")
+
+[node name="Location_27" type="Area2D" parent="Mapa/Estados/Polygon2D27" unique_id=1365510589]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Mapa/Estados/Polygon2D27/Location_27" unique_id=723942941]
+shape = SubResource("CircleShape2D_2en27")
+
+[node name="Polygon2D28" type="Polygon2D" parent="Mapa/Estados" unique_id=1880365957]
+position = Vector2(1695, 755)
+polygon = PackedVector2Array(-59, 9, 2, -36, 11, -40, 30, -70, 29, -96, 42, -96, 47, -101, 62, -100, 67, -85, 64, -67, 40, -39, 41, -20, 44, -16, 32, -6, 33, 1, 44, -1, 44, 7, 32, 14, 34, 19, 42, 18, 33, 66, 21, 59, 17, 40, 9, 43, 3, 58, -10, 58, -27, 87, -35, 85, -43, 89, -41, 96, -52, 95)
+script = ExtResource("3_2en27")
+
+[node name="Location_28" type="Area2D" parent="Mapa/Estados/Polygon2D28" unique_id=599307402]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Mapa/Estados/Polygon2D28/Location_28" unique_id=2042501403]
+shape = SubResource("CircleShape2D_2en27")
+
+[node name="Polygon2D29" type="Polygon2D" parent="Mapa/Estados" unique_id=755218996]
+position = Vector2(1639, 707)
+polygon = PackedVector2Array(-3, 55, 57, 10, 64, 6, 82, -21, 80, -46, 58, -50, -2, -34, -49, -22, -69, -10, -74, 7, -51, 12)
+script = ExtResource("3_2en27")
+
+[node name="Location_29" type="Area2D" parent="Mapa/Estados/Polygon2D29" unique_id=230544445]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Mapa/Estados/Polygon2D29/Location_29" unique_id=2146898837]
+shape = SubResource("CircleShape2D_2en27")
+
+[node name="Polygon2D30" type="Polygon2D" parent="Mapa/Estados" unique_id=802187293]
+position = Vector2(1451, 856)
+polygon = PackedVector2Array(102, 28, 103, 3, 64, -8, 63, 0, 50, -1, 47, 1, 27, -8, 25, -21, 13, -21, 6, -31, -3, -31, -20, -17, -36, -16, -50, -15, -83, -3, -81, 7, -61, 18, -56, 39, -43, 15, -44, 11, -37, 6, -21, 7, -20, 17, -16, 25, -6, 26, -2, 31, 6, 27, 8, 19, 18, 16, 30, 9, 41, 3, 58, 12, 60, 21, 69, 22, 82, 31)
+script = ExtResource("3_2en27")
+
+[node name="Location_30" type="Area2D" parent="Mapa/Estados/Polygon2D30" unique_id=2098901075]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Mapa/Estados/Polygon2D30/Location_30" unique_id=1229334872]
+shape = SubResource("CircleShape2D_2en27")
+
+[node name="Polygon2D31" type="Polygon2D" parent="Mapa/Estados" unique_id=662306045]
+position = Vector2(1209, 803)
+polygon = PackedVector2Array(111, 100, 176, 103, 178, 99, 183, 95, 180, 74, 159, 62, 157, 52, 136, 56, 113, 36, 91, 30, 60, 31, 36, 13, 13, -10, 4, -29, -25, -56, -49, -87, -50, -102, -67, -122, -76, -140, -84, -140, -93, -146, -118, -145, -104, -139, -104, -131, -110, -123, -110, -118, -106, -113, -112, -111, -115, -108, -109, -99, -109, -91, -108, -88, -88, -81, -90, -70, -102, -62, -108, -54, -104, -47, -83, -60, -79, -60, -75, -71, -67, -70, -63, -61, -57, -60, -54, -52, -61, -49, -61, -44, -57, -38, -53, -38, -49, -42, -41, -43, -31, -38, -34, -25, -35, -15, -38, -7, -35, -3, -29, 1, -17, 3, -16, 14, -27, 15, -28, 26, -33, 30, -31, 35, -22, 36, -14, 40, 1, 41, 2, 37, 16, 39, 33, 56, 53, 61, 52, 71, 54, 82, 61, 85, 66, 90, 79, 86, 88, 78, 91, 79, 92, 86, 99, 95, 104, 97)
+script = ExtResource("3_2en27")
+
+[node name="Location_31" type="Area2D" parent="Mapa/Estados/Polygon2D31" unique_id=650212051]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Mapa/Estados/Polygon2D31/Location_31" unique_id=1933217554]
+shape = SubResource("CircleShape2D_2en27")
+
+[node name="Jugadores" type="Node2D" parent="." unique_id=582488148]
+
+[node name="Sprite2D" type="Sprite2D" parent="Jugadores" unique_id=592769603]
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("4_5brom")
+
+[node name="HUD" type="CanvasLayer" parent="." unique_id=1772871791]
 layer = 5
 
-[node name="HUDRoot" type="Control" parent="HUD"]
+[node name="HUDRoot" type="Control" parent="HUD" unique_id=2106441951]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_left = 33.0
+offset_top = 3.0
+offset_right = 33.0
+offset_bottom = 3.0
 grow_horizontal = 2
 grow_vertical = 2
 mouse_filter = 2
 
-[node name="BtnRegresar" type="Button" parent="HUD/HUDRoot"]
+[node name="BtnRegresar" type="Button" parent="HUD/HUDRoot" unique_id=1454981717]
 layout_mode = 1
 offset_left = 39.0
 offset_top = 20.0
@@ -94,7 +431,7 @@ theme_override_styles/hover = SubResource("StyleBoxFlat_5brom")
 theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_g20b0")
 text = "← Menú"
 
-[node name="PanelStats" type="PanelContainer" parent="HUD/HUDRoot"]
+[node name="PanelStats" type="PanelContainer" parent="HUD/HUDRoot" unique_id=1115560230]
 layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
@@ -106,18 +443,18 @@ offset_bottom = 646.0
 grow_horizontal = 0
 theme_override_styles/panel = SubResource("StyleBoxFlat_0vw8n")
 
-[node name="MarginContainer" type="MarginContainer" parent="HUD/HUDRoot/PanelStats"]
+[node name="MarginContainer" type="MarginContainer" parent="HUD/HUDRoot/PanelStats" unique_id=2087146913]
 layout_mode = 2
 theme_override_constants/margin_left = 12
 theme_override_constants/margin_top = 12
 theme_override_constants/margin_right = 12
 theme_override_constants/margin_bottom = 12
 
-[node name="VBoxContainer" type="VBoxContainer" parent="HUD/HUDRoot/PanelStats/MarginContainer"]
+[node name="VBoxContainer" type="VBoxContainer" parent="HUD/HUDRoot/PanelStats/MarginContainer" unique_id=1789819968]
 layout_mode = 2
 theme_override_constants/separation = 8
 
-[node name="LblTitulo" type="Label" parent="HUD/HUDRoot/PanelStats/MarginContainer/VBoxContainer"]
+[node name="LblTitulo" type="Label" parent="HUD/HUDRoot/PanelStats/MarginContainer/VBoxContainer" unique_id=1845052965]
 layout_mode = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 25
@@ -125,14 +462,14 @@ theme_override_styles/normal = SubResource("StyleBoxFlat_08fu4")
 text = "Jugadores"
 horizontal_alignment = 1
 
-[node name="HSeparator" type="HSeparator" parent="HUD/HUDRoot/PanelStats/MarginContainer/VBoxContainer"]
+[node name="HSeparator" type="HSeparator" parent="HUD/HUDRoot/PanelStats/MarginContainer/VBoxContainer" unique_id=1403814475]
 layout_mode = 2
 
-[node name="ScrollContainer" type="ScrollContainer" parent="HUD/HUDRoot/PanelStats/MarginContainer/VBoxContainer"]
+[node name="ScrollContainer" type="ScrollContainer" parent="HUD/HUDRoot/PanelStats/MarginContainer/VBoxContainer" unique_id=269186671]
 layout_mode = 2
 size_flags_vertical = 3
 
-[node name="VBoxJugadores" type="VBoxContainer" parent="HUD/HUDRoot/PanelStats/MarginContainer/VBoxContainer/ScrollContainer"]
+[node name="VBoxJugadores" type="VBoxContainer" parent="HUD/HUDRoot/PanelStats/MarginContainer/VBoxContainer/ScrollContainer" unique_id=1760519224]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/separation = 8
