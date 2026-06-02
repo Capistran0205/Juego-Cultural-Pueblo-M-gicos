@@ -1,5 +1,6 @@
 {
     "conventionalCommits.scopes": [
-        "Aplicando diseño a las interfaces."
+        "Aplicando diseño a las interfaces.",
+        "Integrando Mapeo de Nodos (Inicial) con el diseño de interfaces"
     ]
 }

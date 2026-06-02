@@ -1,0 +1,1380 @@
+{
+	"questions": [
+		{
+			"correct_index": 0,
+			"explanation": "2005 (El Himno al Estado de Veracruz es el himno oficial del estado mexicano de Veracruz, sus autores fueron José Francisco Morosini Cordero, escritor de la letra, y Ryszard Siwy Machalica, compositor de la música._ El himno está conformado por un coro y dos estrofas. La ley del himno al estado de Veracruz fue publicada en la gaceta oficial del estado, el 2 de diciembre de 2005)",
+			"options": [
+				"2005.0",
+				"2003.0",
+				"2011.0"
+			],
+			"question": "¿En que año fue escrito el himno a Veracruz?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 0,
+			"explanation": "San Juan de Ulúa (Fue el 24 de junio de 1518 cuando los españoles arribaron a esa isla durante la segunda expedición de exploración de las costas del Golfo de México comandada por Juan de Grijalva. Los nativos se referían a ella como “culhúa” y Grijalva  le agregó el nombre de su santo patrón cuya festividad se conmemora ese día, por lo que el islote fue llamado San Juan de Ulúa)",
+			"options": [
+				"San Juan de Ulúa",
+				"Isla de Sacrificios",
+				"Isla de En medio"
+			],
+			"question": "¿Que isla fue descubierta un 24 de junio por Juan de Grijalba?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 2,
+			"explanation": "En Veracruz (conocido comúnmente como Luis de Alba o el Pirrurris, es un actor y comediante mexicano. el Pirruris, se convirtió en un fenómeno de fines de los setenta, al grado de recibir en 1978 la oportunidad de tener su propio programa de TV, además de participar en varias películas exitosas al lado de Alfonso Zayas, Maribel Guardia, Yolanda Liévana, Pedro Weber \"Chatanuga\", entre otros)",
+			"options": [
+				"Boca del Río",
+				"Alvarado",
+				"En Veracruz"
+			],
+			"question": "El famoso cómico Luis de Alva \"El pirrurris\", nació el 7 de marzo de 1945 ¿En donde?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 0,
+			"explanation": "Iguala (La Goleta Iguala formó parte de la primera escuadrilla mexicana y es también la unidad de superficie que por primera vez y de manera oficial izó el pabellón nacional, en el Puerto de Alvarado, en abril de 1822. De esta Goleta arranca la formación de la Marina de Guerra, ahora Armada de México)\nLa Goleta Iguala poseía doce cañones de 6” y uno de 12”)\"",
+			"options": [
+				"Iguala",
+				"Anáhuac",
+				"Chalco"
+			],
+			"question": "¿Cómo se llamaba el primer buque que izó el pabellón nacional?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 2,
+			"explanation": "Veracruz, Golfo de México, Alvarado, Medellín (Colinda al norte con el municipio de Veracruz y el Golfo de México; al este con el Golfo de México y el municipio de Alvarado; al sur con los municipios de Alvarado y Medellín; al oeste con los municipios de Medellín y Veracruz)",
+			"options": [
+				"Veracruz, Alvarado, Medellín",
+				"Veracruz, Golfo de México, Medellín",
+				"Veracruz, Golfo de México, Alvarado, Medellín."
+			],
+			"question": "¿Con quien tiene colindancias el municipio de Boca del Río?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 2,
+			"explanation": "Siete (Tuxpango, Chilapan, Encanto, Minas, Texolo, Teocelo y Huazuntlán)",
+			"options": [
+				"Once",
+				"Ocho",
+				"Siete"
+			],
+			"question": "¿Cuantas plantas hidroeléctricas hay en el estado?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 1,
+			"explanation": "En Boca del Río ( Este museo fue inspirado en el famoso Pirata Lorencillo, un pirata holandés que, con una tripulación de cientos de piratas atracó el Puerto de Veracruz el 17 de mayo de 1683)",
+			"options": [
+				"En Veracruz",
+				"En Boca del Río",
+				"En Alvarado"
+			],
+			"question": "¿En donde se encuentra el Museo del Pirata?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 0,
+			"explanation": "Con Cuatro (Veracruz, el más antiguo del país, es la puerta marítima de México hacia el mundo. se exportan automóviles, café, azúcar y productos industriales hacia América, Europa y Asia; \nTuxpan, alternativa estratégica por su cercanía a la Ciudad de México  y su capacidad para recibir embarcaciones de gran calado; Alvarado, conocido como “la capital camaronera de México”, abastece mercados nacionales con camarón, ostión y diversas especies marinas; y Coatzacoalcos, fundamental para la industria energética, al ser un punto clave para el transporte de petróleo, petroquímicos y carga a granel, en gran medida operada por Pemex)",
+			"options": [
+				"Cuatro",
+				"Seis",
+				"Ocho"
+			],
+			"question": "¿Con cuantos puertos cuenta el estado?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 0,
+			"explanation": "Heróico Veracruz de Ignacio de la Llave (En el año de 2023, los integrantes de la Comisión de Puntos Constitucionales de la Cámara de Diputados, aprobaron con 29 votos a favor y uno en contra, cambiarle el nombre al estado de Veracruz, y ahora se llamará \"Heróico Veracruz de Ignacio de la Llave”)",
+			"options": [
+				"Heróico Veracruz de Ignacio de la Llave",
+				"Estado Libre y Soberano de  Veracruz de Ignacio de la Llave",
+				"Veracruz de Ignacio de la Llave"
+			],
+			"question": "¿Cual es nombre oficial del Estado de Veracruz?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 1,
+			"explanation": "1988 (La transformación de Boca del Río comenzó con la elevación de su estatus de Villa a Ciudad por el gobernador Fernando Gutiérrez Barrios el 26 de enero de 1988)",
+			"options": [
+				"1990",
+				"1988",
+				"1992"
+			],
+			"question": "¿En que año Boca del Río fue reconocida como ciudad?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 1,
+			"explanation": "En Veracruz (Es un obelisco de aproximadamente 10 metros de altura, ubicado en el extremo norte del malecón del puerto)",
+			"options": [
+				"En Tuxpan",
+				"En Veracruz",
+				"En Alvarado"
+			],
+			"question": "¿En donde se encuentra el monumento en honor de los marinos, llamado \"Marinos del Mundo\"?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 1,
+			"explanation": "En honor del Gral. Ignacio de la Llave  (Orizaba 1818 - 1863. abogado, político y general del ejército mexicano, que se desempeñó como gobernador del estado de Veracruz, en dos ocasiones. En su honor, el Honorable Estado de Veracruz de Ignacio de la Llave, lleva su nombre)",
+			"options": [
+				"En honor a la historia que habla de una llave con las bondades del estado",
+				"En honor del Gral. Ignacio de la Llave",
+				"En honor a que a través de una llave se le otorgo el título al Estado de Veracruz"
+			],
+			"question": "¿Por que el nombre de el estado de Veracruz, lleva al final \"de Ignacio de la Llave Segura\"?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 2,
+			"explanation": "1524  (El trece de mayo del año de 1524, hace 500 años arribaron al puerto de Veracruz, los primeros doce hermanos de la orden de San Francisco. Fundada en el año 1209)",
+			"options": [
+				"1527.0",
+				"1525.0",
+				"1524.0"
+			],
+			"question": "¿En que año desembarcarón los primeros 12 frailes Franciscanos en Veracruz?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 0,
+			"explanation": "Villa Rica de la Veracruz (La Villa Rica de la Veracruz fue fundada el 22 de abril de 1519 por el conquistador español Hernán Cortés. Este asentamiento marcó el inicio de la colonización española en la región y se convirtió en el primer ayuntamiento de América continental. La elección del nombre refleja tanto la ambición de Cortés como el contexto religioso de su llegada)",
+			"options": [
+				"Villa Rica de la Veracruz",
+				"Villa Rica de la Cruz",
+				"Villa Rica de Veracruz"
+			],
+			"question": "¿En su fundación San Juan de Ulúa recibio el nombre de?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 2,
+			"explanation": "(Siete) Antonio López de Santa Anna, Francisco Javier Echeverria, José Joaquin de Herrera, Sebastian Lerdo de Tejada, Francisco Lagos Chazaro, Miguel Alemán Valdes,  y Adolfo Ruíz Cortínez).",
+			"options": [
+				"Cinco",
+				"Cuatro",
+				"Siete",
+				"Ocho"
+			],
+			"question": "¿Cuantos Presidentes de la República han sido veracruzanos?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 0,
+			"explanation": "37.2 km2 (La extensión territorial del municipio de Boca del Río, es de 37.2 mk2 según datos del INEGI)",
+			"options": [
+				"37.2 Km2",
+				"39.6 km 2",
+				"40.3 km2"
+			],
+			"question": "¿Cuál es la extensión territorial del municipio de Boca del Río?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 1,
+			"explanation": "El Baluarte de Santiago (también conocido como el baluarte de la pólvora. Es el único baluarte que sobrevive de los nueve, demolidos junto a la muralla de Veracruz en 1880)",
+			"options": [
+				"Baluarte de San Mateo",
+				"El Baluarte de Santiago",
+				"Baluarte de Santa Bárbara"
+			],
+			"question": "¿Cual es el único baluarte que quedó en pié despues de la demolición de la muralla de Veracruz?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 2,
+			"explanation": "El Acuario de Veracruz (Actualmente llamado Aquarium de Veracruz desde 2022,. Fue inaugurado en el año 1992 en la ciudad de Veracruz, es el acuario más importante del Estado de Veracruz y de todo México, también es considerado como el acuario más grande de América Latina. Tiene varias salas, siendo las más impresionantes La pecera arrecifal con mas de 1'250,000 litros en el tanque mayor, y el tiburonario con un volumen de 912,000 litros)",
+			"options": [
+				"San Juan de Ulúa",
+				"El Word Trade Center",
+				"El Acuario de Veracruz"
+			],
+			"question": "¿Cual es considerado como el mayor atractivo del puerto de Veracruz?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 2,
+			"explanation": "1911 (31 de mayo; Cuando Porfirio Díaz renunció a la presidencia, Huerta era el comandante militar de la Ciudad de México, por lo que garantizó la seguridad del exmandatario y después lo escoltó hasta el puerto de Veracruz, en donde lo vió partir a su exilio en Europa)",
+			"options": [
+				"1914.0",
+				"1915.0",
+				"1911.0"
+			],
+			"question": "¿El Gral. Victoriano Huerta, custodia al General Porfirio Díaz al puerto de Veracruz, para que parta a Europa, en que año?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 2,
+			"explanation": "Representaban a las 13 provincias que pertenecian a Veracruz ( Tiene una orla de oro que está tachonada con trece estrellas de esmalte azul, de cinco puntas cada una que simbolizan el número de provincias que en ese entonces pertenecían a la jurisdicción  del Gobierno de Veracruz)",
+			"options": [
+				"Las 13 Tribus que habian formado Tenochtitlán",
+				"Los 13 diferentes obsequios que diera el pueblo a los invasores",
+				"Las 13 provincias que pertenecian a Veracruz"
+			],
+			"question": "El escudo del estado de Veracruz, tiene 13 estrellas de color azul ¿Qué significaban?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 0,
+			"explanation": "Tres (Fue al Juego de Estrellas en 1952, 1954, y 1955. Fue el mayor generador de triples en 1952, y tuvo el mejor porcentaje de la Liga Americana en fildeo en 1953. Fue candidato al Jugador Más Valioso de las temporadas de 1951 y 1954)",
+			"options": [
+				"Tres",
+				"Dos",
+				"Cinco"
+			],
+			"question": "El beisbolista veracruzano Roberto Francisco Ávila González conocido como \"Beto Ávila\" jugaba en las grandes ligas, en la Liga Americana y participo en el Juego de las estrellas, ¿Cuántos años?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 0,
+			"explanation": "Problemas ambientales y rescates de emergencias (Nació en el puerto de Veracruz. Es egresada del Conalep y del Tecnológico Nacional de México)",
+			"options": [
+				"Problemas ambientales y rescates de emergencias",
+				"Problemas de turismo",
+				"Problemas de incendios forestales"
+			],
+			"question": "Valeria Palacios Cruz, ganadora de la Medalla Mundial de Educación 2025, ¿presentó proyectos con drones ¿Que tipo de problemas permiten atender?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 0,
+			"explanation": "Doce Regidores (Cinco del PAN; cinco de MORENA y dos de Movimiento Ciudadano)",
+			"options": [
+				"Doce Regidores",
+				"Dies Regidores",
+				"Once Regidores"
+			],
+			"question": "¿Cuántos regidores tiene el municipio de Boca del Río en la administración 2026 - 2029",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 2,
+			"explanation": "Benito Juárez (En 1853, por órdenes de Santa Anna, Benito Juárez fue apresado en las mazmorras húmedas e inundadas del Castillo, como se le conocía a San Juan de Ulúa, donde permaneció durante diez días)",
+			"options": [
+				"Venustiano Carranza",
+				"Antonio Lopez de Santa Anna",
+				"Benito Juárez"
+			],
+			"question": "¿Que presidente de México estuvo detenido en San Juan de Ulúa, once días?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 2,
+			"explanation": "El Dictamen Público (El Dictamen es un diario independiente con sede en la ciudad de Veracruz, fundado en 1898. Es el Decano de la Prensa Nacional, y el único diario vigente en México de los fundados en el siglo XIX.  En los primeros días de mayo de 1934, fue creada la Asociación de Editores de los Estados, cofundada por seis diarios: El Siglo de Torreón, cuyo director general Antonio de Juambelz fue el primer presidente de aquella; El Dictamen de Veracruz, Diario de Yucatán, El Porvenir, El Mundo de Tampico y El Informador de Guadalajara)",
+			"options": [
+				"El Periquito",
+				"El Mundo",
+				"El Dictamen Público"
+			],
+			"question": "El Dictamen, diario representativo de Veracruz, editado desde 1898, ¿Cuál era su nombre original?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 1,
+			"explanation": "Lic. Adolfo Ruiz Cortines  (Nació en Veracruz, el 30 de diciembre de 1889 y fallece en  Veracruz, el 3 de diciembre de 1973. Fue gobernador de Veracruz de 1944 a 1948, y en julio de ese año, se hace cargo de la Secretaría de Gobernación durante el gobierno del Lic. Miguel Alemán. fue un contador, militar revolucionario y político mexicano que se desempeñó como presidente de México del 1 de diciembre de 1952 al 30 de noviembre de 1958.)",
+			"options": [
+				"Ángel Carbajal Bernal",
+				"Adolfo Ruiz Cortines",
+				"Jorge Cerdán Lara"
+			],
+			"question": "¿Cual es el nombre del que fue gobernador de Veracruz, en los años de 1944 a 1948?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 0,
+			"explanation": "Tres (Congreso Mexicano, Corbeta Escuela Zaragoza, y Barca Escuela Yucatán)",
+			"options": [
+				"Tres",
+				"Cinco",
+				"Uno"
+			],
+			"question": "¿Cuantos barcos de la Armada de México, están hundidos en Veracruz?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 2,
+			"explanation": "En el Puerto de Veracruz (4 de mayo de 1858, Durante la Guerra de los Tres Años, el presidente Benito Juárez estableció la sede del Gobierno constitucional en Veracruz, desde donde continuó dictando las Leyes de Reforma. Permaneció en esa ciudad hasta su regreso a la Ciudad de México en 1861, luego del triunfo liberal)",
+			"options": [
+				"Puerto de Alvarado",
+				"Córdoba",
+				"En el Puerto de Veracruz"
+			],
+			"question": "Durante la Guerra de Tres Años, ¿En donde establece el Presidente Juárez, la sede de su gobierno?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 0,
+			"explanation": "Golpeando el vaso con la cuchara (La historia dice que había un tranvía cuya ruta pasaba por las calles 5 de mayo y Emparan, aproximadamente a las 6 de la mañana. Al acercarse, hacía sonar su campana para que el dueño pidiera a uno de los meseros que saliera a entregarle el café al tranviario, sin que éste tuviera que detener la marcha. \nCuando el conductor del tranvía falleció, el dueño del café y los meseros le rindieron homenaje y para recordarlo hicieron sonar sus vasos y tazas con la cuchara, fue así como surgió el tradicional llamado)\"",
+			"options": [
+				"Golpeando el vaso con la cuchara",
+				"Con un aplauso",
+				"Chocando los cubiertos"
+			],
+			"question": "En la Parroquia o los Portales de Veracruz, ¿Como se acostumbra solicitar al mesero un café lechero?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 2,
+			"explanation": "Seis (Guadalupe Victoria, Miguel Barragán Andrade, Antonio López de  Santa Anna, Francisco Lagos Chazaro, Miguel Alemán Valdes y Adolfo Ruíz Cortínez)",
+			"options": [
+				"Siete",
+				"Tres",
+				"Seis"
+			],
+			"question": "¿Cuantos gobernadores de Veracruz, han sido Presidentes de la República Mexicana?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 2,
+			"explanation": "Juan de Grijalva (Este llego a Veracruz en en 1518, enviado por el gobernador Diego Velázques de Cuellar (gobernador de Cuba), siendo esta la segunda expedición que enviaba. La expedición no tuvo el éxito esperado, pues no se establecieron villas o guarniciones.\nVelázquez designó en 1519 a Hernán Cortés para la tercera expedición, sin embargo tuvieron discrepancias, y Velázquez perdió el control de la expedición. Al librarse Cortés de la subordinación al Gobernador Velázquez, transformó la expedición en una campaña de conquista que culminó con la toma de la Gran Tenochtitlán y la caida del imperio Azteca)",
+			"options": [
+				"Diego Velázquez de Cuellar",
+				"Francisco Hernández de Córdoba",
+				"Juan de Grijalba"
+			],
+			"question": "¿Que capitán comandaba la expedición que llegó antes que Cristobal Colón a Veracruz?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 2,
+			"explanation": "Neoclásico (Inaugurado por el expresidente Porfirio Díaz en 1902, el edificio de Correos y Telégrafos es una majestuosa construcción de edificios gemelos.  Históricamente, frente al edificio de Correos de México, existió un kiosco llamado “El Correo” durante más de 60 años. Su función, independiente de la institución, complementaba el trabajo de Correos, ya que contaba con un escritorio público dedicado a escribir cartas para las personas que no sabían leer ni escribir)",
+			"options": [
+				"Colonial",
+				"Barroca",
+				"Neoclásico"
+			],
+			"question": "El edificio de Correos y Telégrafos de Veracruz, inaugurado en 1902, ¿es de estilo?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 2,
+			"explanation": "1992 (El record se ganó con un filete relleno de mariscos de más de 100 metros de largo y aproximadamente una tonelada y media de producto)",
+			"options": [
+				"1995",
+				"1990",
+				"1992"
+			],
+			"question": "¿En que año ganó Boca el Río el Record Guinnes del Filete Relleno de Mariscos más Grande del Mundo?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 0,
+			"explanation": "María Luisa Bandala Pantoja (Originaria del puerto de Veracruz, ha dedicado más de tres décadas de su vida a promover entornos accesibles y oportunidades equitativas para personas con discapacidad. Es una atleta paralímpica con experiencia en disciplinas como lanzamiento de bala, jabalina, disco y pruebas en pista, y posee certificación internacional en Para Danza Deportiva como atleta y como juez. Fue seleccionada para representar a México en el Mundial de Para Danza Deportiva en San Petersburgo, Rusia)",
+			"options": [
+				"María Luisa Bandala Pantoja",
+				"Gabriela Nohemy Ruíz Zetina",
+				"Jared Isaí Oliva Silva"
+			],
+			"question": "¿Cuál es el nombre de la atleta paralímpica que recibió la medalla Adolfo Ruíz Cortínez 2025, en el Congreso del Estado de Veracruz?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 0,
+			"explanation": "Actriz de doblaje (Sofía María del Rocío Garza Ramírez más conocida como Rocío Garcel, es una actriz, cantante, presentadora de televisión, locutora, pianista, guitarrista, exmodelo y directora de doblaje. Con más de seis décadas de trayectoria en cine, teatro, música y doblaje)",
+			"options": [
+				"Actriz de doblaje",
+				"Bailarina",
+				"Canto"
+			],
+			"question": "Rocío Garcel, actriz nacida en Veracruz, ¿se dedico a que arte?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 0,
+			"explanation": "Dos medallas de oro y una de plata (Es originaria de Veracruz y estudiante de Ingeniería Civil en la UV)",
+			"options": [
+				"Dos medallas de oro y una de plata",
+				"Dos medallas de  plata y una de oro",
+				"Dos medallas de oro y una de bronce"
+			],
+			"question": "¿Britanny Sainz Ochoa compitió en gimnasia ritmica por equipo femenino, gimnasia ritmica con pelotas y tres aros y dos pares de mazas . Cuantas medallas obtuvo en los juegos panamericanos 2019?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 2,
+			"explanation": "En el Faro Carranza (Es un carrillón; un instrumento musical que consiste en barras que han sido afinadas con precisión, de manera tal que pueden en conjunto producir un efecto armonioso, Está programado para hacerse sonar cada 60 minutos desde las 8:00 de la mañana hasta las 11:00 de la noche con la melodía de nombre “Veracruz” de Agustín Lara, un himno de la alegría y nostalgia de los jarochos)",
+			"options": [
+				"Torre de Pemex en Veracruz",
+				"Fuerte San Juan de Ulua",
+				"Faro Carranza"
+			],
+			"question": "¿En que lugar se encuentra un reloj que cada hora toca la melodia \"Veracruz\"?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 1,
+			"explanation": "28 (Pueblo Viejo, Tampico Alto, Ozuluama, Tamalín, \nTamiahua, Tuxpan, Cazones, Papantla,\nTecolutla, San Rafael, Nautla, Vega de Alatorre, Alto Lucero, Actopan, Úrsulo Galván, La Antigua, Veracruz, Boca del Río, Alvarado, Lerdo de Tejada, Ángel E. Cabada, San Andrés Tuxtla, Catemaco, Mecayapan, Tatahuicapan, Pajapan, Coatzacoalcos, Agua Dulce)",
+			"options": [
+				"32.0",
+				"28.0",
+				"46.0"
+			],
+			"question": "¿Cuántos municipios con playa tiene el estado de Veracruz?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 1,
+			"explanation": "Adhara Maite Pérez Sánchez (nació el 28 de agosto de 2011. A la edad de 11 años, obtuvo su maestría en Ingeniería Industrial en Matemáticas por el Centro de Investigación y de Estudios Avanzados (Cinvestav) del Instituto Politécnico Nacional (IPN), convirtiéndose en la persona más joven en lograr este título en México)",
+			"options": [
+				"Adhara López Reyes",
+				"Adhara Maite Pérez Sánchez",
+				"Adhara Maite Sánchez Pérez"
+			],
+			"question": "¿Como se llama la veracruzana que es la persona más joven en lograr un título de maestria en México?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 0,
+			"explanation": "144,550 habitantes (De acuerdo al INEGI y el Censo de Población y Vivienda del 2020, Boca del Río tiene 144,550 habitantes, de los cuales 76,565 son mujeres y 67,985 hombres)",
+			"options": [
+				"144,550 habitantes",
+				"153,700 habitantes",
+				"143,550 habitantes"
+			],
+			"question": "¿Cuál es la población aproximada de Boca del Río?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 0,
+			"explanation": "Manuel Montes - Argüelles Rendón (Profesionista (abogado). Orador. Nació en Orizaba el 18 de abril 1773. Murió en 1835. Estudió Latinidad en el Colegio de San Francisco en Tehuacán; Filosofía en el Colegio de San Ignacio de Puebla y en San Ildefonso, en Ciudad de México. Síndico procurador, regidor y alcalde de Orizaba. . Gobernador de Veracruz (1826 y 1829)",
+			"options": [
+				"Manuel Montes - Argüelles Rendón",
+				"Juan Soto Ramos",
+				"Manuel Gutiérrez Zamora"
+			],
+			"question": "¿Quien fue el primer gobernador del estado, de origen veracruzano?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 2,
+			"explanation": "Expo Regional Ganadera Ylang Ylang (La Expo ganadera es una celebración tradicional agropecuaria, cultural y de entretenimiento familiar)",
+			"options": [
+				"Summer Fest",
+				"Expo Ganadera estatal",
+				"Expo Regional Ganadera Ylang Ylang"
+			],
+			"question": "Durante las fiestas de Santa Ana en Boca del Río se lleva acabo una exposición ganadera ¿Cómo se llama?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 2,
+			"explanation": "Venustiano Carranza (En Veracruz estableció su propio gobierno, nombró al general Álvaro Obregón comandante del Ejército de Operaciones y planeó la ofensiva contra Emiliano Zapata y Pancho Villa. Al mismo tiempo expidió disposiciones agrarias, fiscales, laborales, judiciales y en materia de recursos petrolíferos y mineros. Instituyó asimismo el municipio libre, legalizó el divorcio, estableció la jornada máxima de trabajo y el salario mínimo)",
+			"options": [
+				"Benito Juárez",
+				"Alvaro Obregón",
+				"Venustiano Carranza"
+			],
+			"question": "¿Qué Presidente de México, tuvo como residencia oficial a Veracruz en 1915?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 1,
+			"explanation": "Jamapa (El Escudo de armas tiene un marco dorado en el que resaltan un arpa, que simboliza el folklore sotaventino; un río (el Jamapa); un puente (su comunicación con el centro y sureste del país); y un pez, por la actividad principal de los naturales del lugar. Todo se encuentra enmarcado en una franja blanca con tres estrellas en su parte superior con el nombre del municipio, que desciende por el lado izquierdo y asciende por el derecho. En su parte superior se lee: «Puerta del Sotavento». Inmediatamente arriba tiene una cruz)",
+			"options": [
+				"Laguna Redonda",
+				"Jamapa",
+				"Los Colibries"
+			],
+			"question": "El escudo de armas del municipio de Boca del Río, muestra un río, ¿Cuál río es?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 1,
+			"explanation": "Boca del Río (La Condesa de Malibrán se llamaba Beatriz del Real, vivió entre los años 1761 a 1802 en el puerto de Veracruz)",
+			"options": [
+				"Medellín",
+				"Boca del Río",
+				"Veracruz"
+			],
+			"question": "La leyenda de la Condesa de Malibrán, habla de que hacía desaparecer a sus amantes, ¿En que municipio vivió?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 1,
+			"explanation": "En Boca del Río (Fue inaugurado en el año 1994. El centro de exposiciones cuenta con una superficie de 9,000 m2 con 15 m de altura máxima, con la ventaja de poderse dividir en cuatro grandes salones, con capacidad para 600 stands de 3 x 3 m, servicios en cada uno, estacionamiento para 500 automóviles en área cubierta y 450 al aire libre)",
+			"options": [
+				"En Veracruz",
+				"En Boca del Río",
+				"En Córdoba"
+			],
+			"question": "¿En que municipio se encuentra el Word Trade Center del estado)",
+			"state_id": 33
+		},
+		{
+			"correct_index": 2,
+			"explanation": "Por su defensa en contra de la invasión Francesa, (El 16 de abril de 1838, tuvo lugar el inicio de la llamada Guerra de los Pasteles, conflicto bélico en el que los franceses invadieran por primera vez el territorio nacional. Después de la Independencia, varios ciudadanos franceses residentes en la Ciudad de México, entre ellos un pastelero (de allí el nombre del conflicto) de apellido Remontel reclamaron reparaciones por los daños sufridos en 1828, cuando oficiales mexicanos causaron daños a su local. Guerra de los Pasteles)",
+			"options": [
+				"Por su defensa en contra de la invasión Norteamericana",
+				"Por su defensa en contra de la invasión Inglesa",
+				"Por su defensa en contra de la invasión Francesa"
+			],
+			"question": "Por que defensa a la patria, Veracruz obtiene su segunda \"H\" (Heroica) 27 de noviembre de 1838?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 0,
+			"explanation": "De Veracruz (Militar (insurgente). Nació en la ciudad de Veracruz el 29 de diciembre de 1798 y murió el 7 de marzo de 1859 en la ciudad y puerto de Alvarado. Gobernador interino en tres ocasiones entre 1845 y 1846, mientras fungía como miembro de la Asamblea Departamental de Veracruz. Gobernador constitucional de Veracruz de 1846 a 1849, hubo de enfrentar la guerra con EUA (1847). Senador (1851). Gobernador de Veracruz (1855-1856) por licencia de Ignacio de la Llave. Diputado al Congreso Constituyente de 1856. Ministro de Guerra con Ignacio Comonfort (1856), puesto al que renunció por diferencias con el mandatario)",
+			"options": [
+				"De Veracruz",
+				"Chacaltianguis",
+				"Boca del Río"
+			],
+			"question": "¿De donde era originario el General Juan Soto Ramos?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 0,
+			"explanation": "Brujas y seres mágicos (Este relato trata sobre un pequeño pueblo pesquero rodeado por manglares donde supuestamente vivían brujas y seres mágicos. Aunque pueda parecer una historia para asustar niños, esta leyenda fomentó durante mucho tiempo una especie de turismo de suspenso e incluso hoy día influye en festividades como el Día De Los Brujos cuando residentes locales celebran su legado místico)",
+			"options": [
+				"Brujas y seres mágicos",
+				"Un gran tesoro",
+				"Seres extraterrestres"
+			],
+			"question": "¿De que habla la Leyenda de Mandinga?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 2,
+			"explanation": "Boca del Río ( Con una extensión de 450 metros de largo por 198 metros de ancho, el ecosistema de la Isla de Sacrificios ubicada en el municipio de Boca del Río, forma parte del entramado \nSistema Arrecifal Veracruzano (SAV), decretado Área Natural Protegida (ANP) con carácter de Parque Nacional el 24 de agosto de 1992 y que cuenta con una superficie de 52,284 hectáreas)\"",
+			"options": [
+				"Veracruz",
+				"Medellín",
+				"Boca del Río"
+			],
+			"question": "¿A que municipio pertenece la Isla de Sacrificios?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 0,
+			"explanation": "Ricardo Remes Rosales (Ingeniero de profesión, fue alcalde boqueño en el periodo de 1973 a 1976, tras la oficialización del municipio. Asimismo, el sindicado de trabajadores del ayuntamiento de Boca del Río lleva su nombre)",
+			"options": [
+				"Ricardo Remes Rosales",
+				"Miguel Ángel Yunez",
+				"Juan Manuel Unánue"
+			],
+			"question": "¿Quien fue el primer presidente Municipal de Boca del Río?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 1,
+			"explanation": "En Boca del Río (El museo alberga tres exhibiciones: la primera, la Sala de Banderas Patria y Libertad, una serie de 18 réplicas de las banderas que han representado a México.\nLa segunda es exposición de arte Héroes, Fragmentos de la Patria una colección de 14 pinturas.\nLa tercera, es una recopilación de documentos y objetos representativos de momentos claves de la historia del país: actas, tratados, libros, leyes, armas y artefactos, todos originales que datan de los siglos XIX y XX\"",
+			"options": [
+				"En Veracruz",
+				"En Boca del Río",
+				"En Alvarado"
+			],
+			"question": "¿En donde se encuentra el Museo Patria y Libertad?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 1,
+			"explanation": "El del Palacio Municipal (anexado al edificio en el año 1758)",
+			"options": [
+				"El del Faro Carranza",
+				"El del Palacio Municipal",
+				"Casa Museo Díaz Mirón"
+			],
+			"question": "En el Puerto de Veracruz, existen varios relojes públicos, ¿cual fue el primero?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 1,
+			"explanation": "La corona de bateo (En la temporada de 54 Beto Ávila conquistó la corona de bateo de la Liga Americana con un promedio de .341 lo cual fue una marca. Fue el primer latinoamericano en obtener un título de bateo en Ligas Mayores)",
+			"options": [
+				"El jonronero",
+				"La corona de bateo",
+				"Corona de Pitcheo"
+			],
+			"question": "En 1954 \"Beto Ávila\" jugador de las grandes ligas de beisbol, conquisto un titulo ¿Cuál?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 0,
+			"explanation": "1776 ( La parroquia fue terminada el 25 de diciembre de 1776 y se puso al servicio público, según una placa que se encuentra en el exterior)",
+			"options": [
+				"1776",
+				"1778",
+				"1789"
+			],
+			"question": "La iglesia de Santa Ana, en Boca del Río, fue una de las primeras iglesias que se construyeron en el continente americano, ¿En que año se construyo?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 2,
+			"explanation": "El Tío Cualandas (Escrito enteramente en versos que no pretendían necesariamente la calidad literaria sino la rima fácil, que permitiera la memorización y el fácil acceso al público popular, Contenía también algunos grabados picarescos. Asimismo publicaba avisos y correspondencia de los lectores, procurando que todo el contenido fuera versificado)",
+			"options": [
+				"Veracruz timeline",
+				"El Restaurador",
+				"El Tío Cualandas"
+			],
+			"question": "¿Cuál era el nombre del periódico que se editaba en 1857, y que estaba escrito en verso de rima fácil?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 2,
+			"explanation": "Ignacio Comonfort (Una vez promulgada la Constitución de 1857, se convoca a elecciones generales, las cuales gana\nComonfort y Benito Juárez gana la presidencia de la Suprema Corte. Ya en el Gobierno, Comonfort  duda que se pueda gobernar con la nueva constitución, cree que la dictadura es lo mejor, disuelve el Congreso y se une al Plan de Tacubaya que desconoce la Constitución, aprehende a Juárez y se convierte él mismo en presidente ilegal.\nLos conservadores que apoyan ese plan declaran presidente interino a Félix María Zuloaga, Comonfort trata de dar marcha atrás, libera a Juárez y restituye la Constitución. Demasiado tarde, porque según la misma Constitución, al no haber presidente, el puesto lo debe ocupar Juárez. Habiendo dos presidentes, Juárez y Zuloaga, estalla la guerra de los Tres Años y Comonfort es exiliado)\"",
+			"options": [
+				"Félix María Zuloaga",
+				"Benito Juárez",
+				"Ignacio Comonfort"
+			],
+			"question": "¿Qué Presidente de México, desconoció la Constitución Política de Veracruz y disolvió el Congreso?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 0,
+			"explanation": "En el Malecón (El ARM Guanajuato (C07) fue un cañonero que sirvió en la Armada de México hasta 2001. Estaba amarrado en la orilla del río Jamapa, en el municipio de Boca del Río, Veracruz, como buque museo. El museo incluía 16 exhibiciones distintas, mostrando como el buque se veía y funcionaba durante las décadas de 1930 y 1940)",
+			"options": [
+				"En el Malecón",
+				"En el Río Jamapa",
+				"En el Boulevard"
+			],
+			"question": "¿En donde estaba anclado en Boca del Río como museo el Buque Escuela Cañonero Guanajuato?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 1,
+			"explanation": "5 veces (En 1830-en la rebelión de 1830 con Santa Ana como gobernador; En  1855 con Ignacio de la Llave en el mandato y la Constitución Liberal. En marzo de 1865 pasa a ser capital en el Imperio de Maximiliano  con A. García como gobernador; En 1867 con Alatorre como gobernador; En 1871 con Hernández como gobernador)",
+			"options": [
+				"Cuatro veces",
+				"Cinco veces",
+				"Seis veces"
+			],
+			"question": "¿Cuantas veces Veracruz Puerto, ha sido capital del estado?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 2,
+			"explanation": "1988 (El municipio de Boca del Río fue oficialmente fundado el 26 de enero de 1988, cuando se separó administrativamente de Veracruz y obtuvo su propio gobierno municipal)",
+			"options": [
+				"1973",
+				"1984",
+				"1988"
+			],
+			"question": "¿En que año se fundó el municipio de Boca del Río?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 0,
+			"explanation": "Ypiranga (Luego de una larga dictadura el Gral. Porfirio Díaz, abandono el pais el 31 de mayo de 1911. El capitán del barco le envió a DÍaz una carta que le llegó el 24 de mayo en la que lo invitaba a realizar ese viaje completamente gratis  hospedado en camarotes de lujo, ¿habrá cambiado esta invitación el destino de México? No lo sabremos con certeza, el hecho es que por casualidad al siguiente día el mandatario presentó su renuncia a la Cámara de Diputados arguyendo que dejaba el cargo por las insurrecciones y evitar un mayor derramamiento de sangre)",
+			"options": [
+				"Ypiranga",
+				"Sinaia",
+				"Juan Sebastián Elcano"
+			],
+			"question": "¿Despues de una dictadura de más de 30 años, el General Porfirio Díaz abandona el pais por Veracruz, abordando el buque?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 2,
+			"explanation": "1731 (La Catedral de Veracruz, dedicada a la Virgen de la Asunción, se ubica en el centro histórico de la ciudad de Veracruz. Fue consagrada como tal en el año de 1963. Pertenece a la diócesis de Veracruz.\nAnterior al edificio, existía una parroquia de modestas proporciones. La actual se construyó a comienzos del siglo XVII, y se concluyó en el año de 1731. Algunas reformas le fueron realizadas a comienzos del siglo XIX. Cuenta con una sola torre en su lado derecho)",
+			"options": [
+				"1831",
+				"1776",
+				"1731"
+			],
+			"question": "¿En que año se concluyó la construcción de la Parroquia de la Asunción de Veracruz?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 2,
+			"explanation": "Atletismo (Obtuvo medalla de plata en la Olimpiada Nacional en los Juegos Nacionales CONADE 2023)",
+			"options": [
+				"Salto de altura",
+				"Levantamiento de pesas",
+				"Atletismo"
+			],
+			"question": "En que disciplina la deportista Alejandra Jatziri Torales, recibió medalla?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 0,
+			"explanation": "En Veracruz (Puertos que visitó la corbeta Zaragoza durante el viaje de circunnavegación: \nTampico, Barbados, Bahía de los Santos, Montevideo, Punta Arenas, Valparaíso, El Callao, Panamá y Acapulco. En la \nsegunda etapa zarpó en Guaymas y visitó los  puertos de San Luis Obispo, San Francisco, Honolulú, Yokohama, Nagasaki, Hong Kong, Singapur, Colombo, Ismalia, Port Said, Gibraltar, Toulon, Kingston y Veracruz, a donde arribó el 3 de julio de 1897)",
+			"options": [
+				"Veracruz",
+				"Manzanillo",
+				"Lázaro Cárdenas"
+			],
+			"question": "¿El barco Corbeta Escuela Zaragoza, fue el primer buque mexicano que dio la vuelta al mundo, completandola en que puerto?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 0,
+			"explanation": "50 metros (Tiene una altura de 50 metros y a sus costados posee dos edificios de dos pisos, en su interior guarda un patio de arcos. Inicialmente el faro tenía como objetivo guiar a los barcos a tierra firme y evitar que estos encallaran. En aquella época la luz del faro tenía un alcance de 150 kilómetros mar adentro.  En 1914, se convirtió en la sede del gobierno mexicano del presidente Venustiano Carranza, pues entonces la ciudad de Veracruz fungió como capital de México por un tiempo breve)",
+			"options": [
+				"50 Metros",
+				"48 Metros",
+				"52 Metros"
+			],
+			"question": "¿Cuántos metros de altura mide el Faro Carranza del Puerto de Veracruz?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 1,
+			"explanation": "Luis \"El Pirata\" Fuente (Inicialmente, cuando este estadio fue inaugurado el 17 de marzo de 1967, llevó el nombre de \"Estadio Veracruzano\". Posteriormente, y como homenaje al que es considerado el más grande futbolista veracruzano de todos los tiempos, Luis de la Fuente y Hoyos \"El pirata\", el estadio pasó a llamarse Estadio Luis \"Pirata\" Fuente)",
+			"options": [
+				"Estadio Veracruzano",
+				"Luis \"El Pirata\" Fuente",
+				"Estadio Municiapal de Deportes"
+			],
+			"question": "¿Cuál es el nombre del estadio de futbol que se encuentra en la zona conurbada de Veracruz - Boca del Río?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 1,
+			"explanation": "En Veracruz (El significado de la palabra atarazanas es, almacén de artillería o Arsenal y proviene del árabe, este edificio originalmente servía para reparar mástiles de embarcaciones y otras reparaciones menores, así como para embarcó y desembarco de mercancías.\nDentro del edificio podemos apreciar también, sus paredes de piedra muca y tabique, en una de sus remodelaciones se decidió «pelar» una de las paredes para que se distinguiera este peculiar detalle, extensivo en la arquitectura del centro de Veracruz)",
+			"options": [
+				"Alvarado",
+				"Veracruz",
+				"Boca del Río"
+			],
+			"question": "¿En que municipio se encuentra el Centro Cultural  Las Atarazanas?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 1,
+			"explanation": "Las Leyes de Reforma (El 7 de julio de 1859, el presidente Benito Juárez expidio un paquete de leyes que se conocen como Leyes de Reforma, en donde se propone la separación del estado y la iglesia)",
+			"options": [
+				"Las Leyes de las Fuerzas Armadas",
+				"Las Leyes de Reforma",
+				"Las leyes  Hacendarias"
+			],
+			"question": "¿Qué importantes leyes expidió Benito Juárez, Presidente de México, cuando tenía su residencia oficial en Veracruz?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 0,
+			"explanation": "Con una (Anterior al edificio, existía una parroquia de modestas proporciones. La actual se construyó a comienzos del siglo XVII, y se concluyó en el año de 1731. Algunas reformas le fueron realizadas a comienzos del siglo XIX. Cuenta con una sola torre en su lado derecho",
+			"options": [
+				"Con Una",
+				"Con Dos",
+				"Sin Torres"
+			],
+			"question": "La catedral de Veracruz es una construcción del siglo XVII, con 5 naves ¿y cuantas torres?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 2,
+			"explanation": "El 17 de marzo de 1967 (\"El Pirata\", tiene una capacidad para 30 000 aficionados, y fue objeto de una remodelación entre los años 2003 y 2004; y dentro de su renovación se agregaron butacas en todas sus zonas, así como una pantalla gigante)",
+			"options": [
+				"21 de marzo de 1968",
+				"17 de marzo de 1970",
+				"17 de marzo de 1967"
+			],
+			"question": "¿En que fecha se inauguro el Estadio Luis \"El Pirata\" Fuente?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 0,
+			"explanation": "La Ley Agraria (El 6 de enero de 1915, el entonces Presidente de la República, Venustiano Carranza, promulgó en Veracruz, la Ley Agraria, que fuera redactada por Luis Cabrera. Tenía la finalidad de rescatar los objetivos fundamentales de las luchas agrarias, que era la restitución y la dotación de tierra a los pueblos y comunidades indígenas del país)",
+			"options": [
+				"La Ley Agraria",
+				"La Ley Hacendaria",
+				"La Ley del Ejercito"
+			],
+			"question": "El Presidente venustiano Carranza con residencia oficial en Veracruz, ¿expidio que ley?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 1,
+			"explanation": "La Casa Benito Juárez (esta es una construcción habitada por Juárez y sus ministros, está catalogada como monumento histórico)",
+			"options": [
+				"El edificio de Correos",
+				"La Casa Benito Juárez",
+				"El Faro Carranza"
+			],
+			"question": "En Veracruz ¿Cuál fue el inmueble que ocupó Benito Juárez como Residencia Presidencial, cuando estubieron aquí los poderes?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 1,
+			"explanation": "Dante Delgado Rannauro (En el año 1989 se desarrolla el proyecto para realizar un foro capaz de recibir congresos y exposiciones. En 1994 el centro de congresos y convenciones de Veracruz era conocido como EXPOVER, hasta que en ese año consiguió la denominación por parte de la asociación internacional «World Trade Center»)",
+			"options": [
+				"Miguel Alemán Velasco",
+				"Dante Delgado Rannauro",
+				"Patricio Chirinos Calero"
+			],
+			"question": "¿Durante el periódo de que gobernador del estado se construyó el WTC?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 0,
+			"explanation": "Palacio municipal de Veracruz ( Este mural representa la historia, cultura y tradiciones del estado de Veracruz. Incluye escenas que muestran:\nLa época prehispánica y las culturas originarias.\nLa llegada de los españoles y el mestizaje)",
+			"options": [
+				"Palacio municipal de Veracruz",
+				"Palacio Municipal de Orizaba",
+				"Palacio Municipal de Tuxpan"
+			],
+			"question": "¿En que palacio de gobierno se encuentra un mural de mosaico que representa la historia, cultura, tradiciones y riqueza natural del estado, desde sus raíces prehispánicas hasta la época contemporánea, destacando su papel en la historia de México y su identidad veracruzana?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 2,
+			"explanation": "Dante Delgado Rannauro ((Fue inaugurado oficialmente el 13 de noviembre de 1992. El acuario cuenta con una gran variedad de ecosistemas y especies marinas, desde peces de agua dulce hasta tiburones, tortugas y medusas. Una de sus atracciones más destacada es el tanque oceánico, que permite a los visitantes tener una vista panorámica de grandes especies marinas en su hábitat. Esto ha convertido al acuario en un punto de encuentro para la educación ambiental y la sensibilización sobre la conservación de la vida marina.)",
+			"options": [
+				"Fernando Gutiérrez Barrios",
+				"Patricio Chirinos Calero",
+				"Dante Delgado Rannauro"
+			],
+			"question": "¿Durante el mandato de que gobernador del estado, se construyó e inauguró el Acuario de Veracruz?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 1,
+			"explanation": "En Veracruz ( fue un jesuita novohispano. Fue un filósofo, teólogo, canonista, historiador, geógrafo, traductor y creador de obras de gran interés sobre diversos temas. Es considerado entre los autores importantes de la Escuela Universalista Española del siglo XVIII)",
+			"options": [
+				"Medellín",
+				"En Veracruz",
+				"Boca del Río"
+			],
+			"question": "¿En que municipio nació el sacerdote jesuita Francisco Javier Alegre, el 12 de noviembre de 1729?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 2,
+			"explanation": "Miguel Ángel de Quevedo (Ubicado cerca de la zona centro del puerto de Veracruz y conocido anteriormente como parque Víveros o sólo como el Zoológico de Veracruz, cuenta con 3 zonas divididas por mamíferos, aves y reptiles, además de uno de los arboles mas antiguos de Veracruz, un huanacaxtle con una antigüedad de 260 a 300 años)",
+			"options": [
+				"Parque Vivero",
+				"Zoológico de Veracruz",
+				"Miguel Ángel de Quevedo"
+			],
+			"question": "¿Cual es el nombre de el zoológico de Veracruz, puerto?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 0,
+			"explanation": "Piedra coralífera o piedra mucar (Desde el interior del sitio histórico puede notarse el grosor de entre 3 y 4 metros de las paredes, murallas que resguardan el fuerte y los esqueletos de los corales que sirvieron para su construcción empotrados en algunas paredes)",
+			"options": [
+				"Piedra coralífera o piedra mucar",
+				"Piedra coralífera y hormigón",
+				"Piedra coralífera y cemento"
+			],
+			"question": "¿De que material fue construida la fortaleza de San Juan de Ulúa?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 0,
+			"explanation": "Dos veces (En 1915 Venustiano Carranza, utiliza San Juan de Ulúa como sede del poder ejecutivo. Durante la guerra de los Tres Años, el presidente Benito Juárez estableció la sede del Gobierno constitucional en Veracruz, llegando al puerto el 4 de mayo de 1858, desde donde continuó dictando las Leyes de Reforma. Permaneció en esa ciudad hasta su regreso a la Ciudad de México en 1861, luego del triunfo liberal)",
+			"options": [
+				"Dos veces",
+				"Tres veces",
+				"Cinco veces"
+			],
+			"question": "¿Cuántas veces el poder político del pais, ha residido en Veracruz?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 2,
+			"explanation": "Baluarte de Santiago (Es una edificación militar de acceso restringido, muros altos y gruesos, que se concluyó en 1635, en el siglo XVII. Fue parte de los nueve baluartes que conformaban la muralla integral que rodeaba la ciudad y puerto de Veracruz)",
+			"options": [
+				"Baluarte de Caleta",
+				"Baluarte de San Mateo",
+				"Baluarte de Santiago"
+			],
+			"question": "¿Como se llama el único baluarte que queda en el puerto de Veracruz?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 1,
+			"explanation": "Henry Morgan (El afamado pirata Henry Morgan según cuentan las historias, escondió parte de su tesoro en alguna parte dentro del mismo Boca del Río. Aunque nadie ha encontrado jamás el oro supuestamente enterrado, cada tanto surgen nuevas expediciones con el sueño dorado de hallarlo)",
+			"options": [
+				"Laurens de Graaff (Lorencillo)",
+				"Henry Morgan",
+				"Sir John Hawkins"
+			],
+			"question": "Según la leyenda un pirata escondió una parte de su tesoro en Boca del Río, ¿que pirata fué?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 0,
+			"explanation": "San Juan de Ulúa (Es una isla fortificada y sistema defensivo de la época novohispana del siglo XVI, Fortificación de traza italiana que, tras su uso defensivo, fue empleada como prisión y astillero en el siglo XIX, y desde finales del siglo XX funciona como museo)",
+			"options": [
+				"San Juan de Ulúa",
+				"San Pedro de Alvarado",
+				"San Juan"
+			],
+			"question": "¿Como se llama el fuerte que se encuentra en Veracruz?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 2,
+			"explanation": "71,820 km2 (Tiene un área de 71 820 km_. Es el undécimo estado más extenso, con el 3.66% de la superficie total del país._ Veracruz comprende una larga franja de tierra de bordes irregulares delimitada por el mar y por montañas. Se divide en 212 municipios)",
+			"options": [
+				"75,820 km2",
+				"73,820 km2",
+				"71,820 km2"
+			],
+			"question": "¿Cual es la medida territorial del estado de Veracruz?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 1,
+			"explanation": "En Veracruz (El significado de la palabra atarazanas es, almacén de artillería o Arsenal y proviene del árabe, este edificio originalmente servía para reparar mástiles de embarcaciones y otras reparaciones menores, así como para embarcó y desembarco de mercancías.\nDentro del edificio podemos apreciar también, sus paredes de piedra muca y tabique, en una de sus remodelaciones se decidió «pelar» una de las paredes para que se distinguiera este peculiar detalle, extensivo en la arquitectura del centro de Veracruz)",
+			"options": [
+				"Alvarado",
+				"Veracruz",
+				"Boca del Río"
+			],
+			"question": "¿En que municipio se encuentra el Centro Cultural  Las Atarazanas?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 2,
+			"explanation": "Venustiano Carranza y Benito Juárez (El sitio fue utilizado como sede de los poderes federales por los presidentes Benito Juárez y, posteriormente, Venustiano Carranza (1914-15). Este último decretó que dejara de usarse como presidio)",
+			"options": [
+				"Venustiano Carranza y  Miguel Miramón",
+				"Antonio Lopez de Santa Anna y Benito Juárez",
+				"Venustiano Carranza y Benito Juárez"
+			],
+			"question": "¿Como se llaman  los Presidentes de México que utilizaron a San Juan de Ulúa como sede de gobierno?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 0,
+			"explanation": "Golpeando el vaso con la cuchara (La historia dice que había un tranvía cuya ruta pasaba por las calles 5 de mayo y Emparan, aproximadamente a las 6 de la mañana. Al acercarse, hacía sonar su campana para que el dueño pidiera a uno de los meseros que saliera a entregarle el café al tranviario, sin que éste tuviera que detener la marcha. \nCuando el conductor del tranvía falleció, el dueño del café y los meseros le rindieron homenaje y para recordarlo hicieron sonar sus vasos y tazas con la cuchara, fue así como surgió el tradicional llamado)\"",
+			"options": [
+				"Golpeando el vaso con la cuchara",
+				"Con un aplauso",
+				"Chocando los cubiertos"
+			],
+			"question": "En la Parroquia o los Portales de Veracruz, ¿Como se acostumbra solicitar al mesero un café lechero?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 2,
+			"explanation": "Del Puerto de Veracruz (nació en el Puerto de Veracruz el 30 de diciembre de 1889, y fallecio en Veracruz, el día 3 de diciembre de 1973, fue un contador, militar revolucionario y político mexicano que se desempeñó como presidente de México del 1 de diciembre de 1952 al 30 de noviembre de 1958. en 1953 otorgó el voto a las mujeres)",
+			"options": [
+				"Boca del Río",
+				"Nanchital",
+				"Puerto de Veracruz"
+			],
+			"question": "¿De donde era originario el Lic. Adolfo Ruíz Cortinez?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 1,
+			"explanation": "1857 y 1861 (En la historia mexicana, se conoce como la Guerra de Reforma o la guerra de los Tres Años a una guerra civil que enfrentó a los liberales y los conservadores de México. Estos eran los dos partidos más importantes de la nación. El conflicto se extendió entre 1858 y 1861 y estalló a raíz de la oposición de los conservadores a la Constitución de 1857 y a las leyes reformistas que buscaban suprimir privilegios eclesiásticos y nobles)",
+			"options": [
+				"1863 y 1866",
+				"1857 y 1861",
+				"1849 y 1852"
+			],
+			"question": "¿En que años se llevo a cabo el conflicto armado conocido como \"La Guerra de los Tres Años\"?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 1,
+			"explanation": "Lanzamiento de jabalina (Obtuvo el 7° lugar en el Mundial de Atletismo Paralimpico de París )",
+			"options": [
+				"Carrera de fondo",
+				"Lanzamiento de jabalina",
+				"Lanzamiento de martillo"
+			],
+			"question": "En que disciplina Eliezer Gabriel Buenaventura, obtuvo un reconocimiento?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 2,
+			"explanation": "La Medalla Mundial de Educación 2025 (La Medalla Mundial de Educación, es un evento que reune a jovenes estudiantes de diferentes paises y se realiza en Londres Inglaterra, es organizado por la fundación HP)",
+			"options": [
+				"La Medalla Mundial de oro en natación 2025",
+				"La Medalla Mundial en robotica en  2025",
+				"La Medalla Mundial de Educación 2025"
+			],
+			"question": "La veracruzana Valeria Palacios Cruz, estudiante del Conalep y de la Universidad Ceulver, de 19 años ¿Qué premio internacional ganó?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 1,
+			"explanation": "En Boca del Río (Es un campo de golf de 18 hoyos, que se encuentra en la Rivera Veracruzana)",
+			"options": [
+				"En Veracruz",
+				"En Boca del Río",
+				"En Alvarado"
+			],
+			"question": "¿En que municipio se encuentra el campo de golf Villa Rica?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 2,
+			"explanation": "Agustín Acosta Lagunes (El proyecto museístico surgió como parte de la Universidad Veracruzana en 1986,impulsado por el Gobernador Agustín Acosta Lagunes en el mismo espacio del museo anterior. El museo fue inaugurado el mismo año. Cuenta con un área de exhibición con más de 9 mil metros cuadrados, en los que se distribuyen cerca de dos mil quinientas piezas de arte prehispánico. Esta área abarca un vestíbulo, una galería con 18 desniveles, 6 salas, y 3 patios cubiertos. La forma alargada y la disposición consecutiva en que se presenta la colección permanente, rinden homenaje a la geografía de Veracruz. De igual modo, las ventanas cuadrangulares evocan los nichos característicos de la arquitectura de la zona arqueológica de El Tajín)",
+			"options": [
+				"Antonio M. Quirasco",
+				"Fernando López Árias",
+				"Agustín Acosta Lagunes"
+			],
+			"question": "¿Que Gobernador del estado mando construir el Museo de Antropología?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 1,
+			"explanation": "Maximiliano de Habsburgo ( fue un noble, político y militar austríaco. Nació con el título de archiduque de Austria como Fernando Maximiliano de Austria, sin embargo, renunció a dicho título para ser emperador de México bajo el nombre de Maximiliano I. Su reinado fue el único del Segundo Imperio Mexicano, paralelo al gobierno encabezado por Benito Juárez. En la historiografía mexicana es conocido como Maximiliano de Habsburgo)",
+			"options": [
+				"Francisco José I",
+				"Maximiliano de Habsburgo",
+				"Francisco Carlos de Austria"
+			],
+			"question": "¿Quién fue el gobernante austriaco que llego al puerto de Veracruz en 1864 y 3 años más tarde por este lugar salió su cadaver?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 1,
+			"explanation": "Fiesta de Máscaras (se trataba de bailes de disfraces en los mejores salones de la ciudad que los participantes aprovechaban para desfilar por las calles cuando se dirigían a estos, a la vez que pobladores y curiosos, participaban del júbilo y bullicio)",
+			"options": [
+				"Fiesta de Blanco y Negro",
+				"Fiesta de Máscaras",
+				"Fiesta de Disfraces"
+			],
+			"question": "¿ En el siglo XIX, como se llamaba la celebración que dío origen a el Carnaval de Veracruz?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 2,
+			"explanation": "Ignacio de la Llave y Segura Zevallos (Desde la época de sus estudios se relacionó con notables personajes como Sebastián y Miguel Lerdo de Tejada y el general José Joaquín de Herrera, y cuando éste asume la presidencia nacional, De la Llave arranca del salón de cabildos el retrato de Santa Anna)",
+			"options": [
+				"Francisco Hernández y Hernández",
+				"Domingo Bureau Vazquez",
+				"Ignacio de la Llave y Segura Zevallos"
+			],
+			"question": "¿Nombre del personaje de Veracruz, que despues llegaría a ser gobernador del estado,  y que cuando joven quitó del salón de cabildos, el retrato del Gral. Santa Anna?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 0,
+			"explanation": "En la guerra contra los Franceses (El 4 de diciembre de 1838 los franceses lograron desembarcar en Veracruz. Cuando Santa Ana se dio cuenta los persiguió hasta el muelle y entabló una lucha sin resultados definitivos para ninguna de las partes. Al escapar, los franceses dispararon una bala de cañón, la cual hirió a Santa Anna, provocándole la amputación de una pierna y dedo)",
+			"options": [
+				"En la guerra contra los Franceses",
+				"En la guerra contra los Ingleses",
+				"En la guerra contra los Norte -Americanos"
+			],
+			"question": "¿En que circunstancia el Gral. Santa Anna pierde la pierna en 1838?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 0,
+			"explanation": "Tenaris Tamsa (En el puerto de Veracruz se levanta TenarisTamsa, la fábrica de tubos de acero sin costura más grande de América Latina y una de las más importantes del planeta. Parte del grupo global Tenaris, esta planta no solo ha impulsado la economía mexicana, sino que también ha consolidado al país como un referente estratégico en la industria siderúrgica internacional)",
+			"options": [
+				"Tenaris Tamsa",
+				"Aceros de México",
+				"Altos Hornos de México"
+			],
+			"question": "¿Cuál es la planta mas importante de fundido de tubos del estado?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 2,
+			"explanation": "Por que ha defendido al pais 4 veces de diferentes invasiones (La Independencia, expulsaron a los Españoles el 18 de noviembre de 1825; La Intervención Francesa, conocida como la Guerra de los Pasteles 27 de noviembre de 1838; La Intervención Norteamericana, defendio al país contra los Estados Unidos esto fué reconocido en marzo de 1847; y la cuarta vez contra los Estados Unidos en 1914)",
+			"options": [
+				"Por que han estado los poderes federales 4 veces en veracruz",
+				"Por que han estado los poderes estatales 4 veces en veracruz",
+				"Por que ha defendido al pais 4 veces de diferentes invasiones"
+			],
+			"question": "¿Por que se dice que el Puerto de Veracruz, es 4 veces Heróico?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 0,
+			"explanation": "La palabra VERA (la heráldica sólo hace constar los atributos que existen en la orla del centro, está cortado en dos campos: el superior en esmalte verde, el inferior en azul, coronado por una cruz malteada de rojo, teniendo escrito sobre los brazales Superiores la Palabra Latina Vera; Verdadera)",
+			"options": [
+				"Vera",
+				"Plus Ultra",
+				"Poder, Fortaleza y Grandeza"
+			],
+			"question": "¿El escudo del Estado de Veracruz tiene una cruz de color rojo, ¿Qué esta escrito en ella?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 2,
+			"explanation": "En las dos plantas (La fachada está compuesta por arcos de medio punto)",
+			"options": [
+				"En la primera planta",
+				"No tiene",
+				"En las dos plantas"
+			],
+			"question": "El palacio municipal de Veracruz, es una construcción de dos plantas, ¿Los arcos que tiene están en una o las dos plantas?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 0,
+			"explanation": "Miguel Barragan (La primera Constitución fue promulgada bajo el gobierno del gobernador constitucional del estado, Miguel Barragán, quien estuvo a cargo del estado desde el  20 de mayo de 1824, hasta el 05 de enero de 1828; siendo específicamente el 03 de junio de 1825, cuando promulgó la primera Constitución Política del Estado Libre y Soberano de Veracruz, la cual definió las bases de la organización política y jurídica del estado)",
+			"options": [
+				"Miguel Barragan",
+				"Manuel Gutiérrez Zamora",
+				"Félix María Zuloaga"
+			],
+			"question": "¿Qué gobernador de Veracruz, expidió la Primera Constitución Política del Estado de Veracruz?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 2,
+			"explanation": "Una (María Josefina Gamboa Torales es la primera mujer alcaldesa de Boca del Río, inició su trayectoria en la administración pública y política como presidenta del Consejo Intermunicipal de Equidad de Género en la zona centro, de 2013 al 2016. \nEn 2016  fue electa diputada local por la séptima cuarta legislatura del Congreso del Estado, Veracruz, cargo que desempeñó hasta 2018.\nDiputada local de 2018 a  2021,   Diputada federal de la sexagésima quinta legislatura del Congreso de la Unión de 2021 a 2024)\"",
+			"options": [
+				"Dos",
+				"Tres",
+				"Una"
+			],
+			"question": "¿Cuántas mujeres han sido presidentes municipales de Boca del Río?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 2,
+			"explanation": "El Doctor I.Q. (Nació en el Puerto de Veracruz. Dr. I.Q. fue un programa de concurso cultural basados en la conducción de Jorge Marrón durante los años 50 y 60. El programa comenzó en la radio y se transmitía desde varias salas de cine de la Ciudad de México. Estaba basado en la versión estadounidense del mismo nombre que se estrenó en 1953)",
+			"options": [
+				"La voz de Terciopelo",
+				"El Cronista",
+				"El Doctor I.Q."
+			],
+			"question": "¿El 10 de abril de 1903 nacio en Veracruz Jorge Marrón, mejor conocido como?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 0,
+			"explanation": "La Casita Blanca (  Ubicada dentro del Boulevard Veracruzano, en Costa Verde y con vista a la Isla de Sacrificios, fue un obsequio del Gobernador Marco Antonio Muñoz al Compositor. Hoy es la Casa Museo Agustín Lara)",
+			"options": [
+				"La Casita Blanca",
+				"La Casita Bohemia",
+				"Casa de la Poesía"
+			],
+			"question": "¿Como se conoce a la casa donde vivió el músico y compositor Agustín Lara en Veracruz?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 2,
+			"explanation": "MUMUMO  (El Museo Municipal de Moneda se encuentra en el segundo piso del Palacio Municipal de Boca del Río y cuenta con un acervo compuesto por 566 piezas originales y ocho réplicas. Sus salas de exhibición permanentes están divididas en dos áreas principales: monedas y billetes)",
+			"options": [
+				"MUMOMU",
+				"MOMUMU",
+				"MUMUMO"
+			],
+			"question": "En Boca del Río se encuentra el Museo Municipal de Moneda, ¿Cual es su acrónimo?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 1,
+			"explanation": "En 1627 (Edificación correspondiente al siglo XVII y sede original de la “Casa de Cabildo” se comenzó a construir en un terreno otorgado por el Virrey Luis de Velasco en 1609 y es finalizada en 1627)",
+			"options": [
+				"1657",
+				"1627",
+				"1702"
+			],
+			"question": "El palacio municipal de Veracruz es un edificio colonial de estilo toscano, ¿concluido en?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 0,
+			"explanation": "Medalla de plata y bronce (Nació en Veracruz el 21 de mayo de 1997. Fue Premio Estatal del Deporte en los años 2012 y 2014)",
+			"options": [
+				"Plata y bronce",
+				"Oro y plata",
+				"Dos de plata"
+			],
+			"question": "¿Dolores Hernández Monzón compitio en clavados Trampolin 3 mts y clavados sincronizados 3 mt. en Panamericanos 2019, que medallas obtuvo?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 1,
+			"explanation": "Tiene 800 (De acuerdo a los datos de la plataforma \"Datos Abiertos de México\", la cual es la oficial del INAH, la ciudad de Veracruz tiene un total de 800 edificios históricos registrados, de los cuales 500 son catalogados de gran valor)",
+			"options": [
+				"590",
+				"800",
+				"500"
+			],
+			"question": "¿De acuerdo a los registros del INAH, la ciudad de Veracruz tiene cuantos edificios históricos?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 1,
+			"explanation": "1931 (Aunque oficialmente el Carnaval comenzó en 1925. En 1931, inmediatamente después del carnaval organizado por las autoridades, el pueblo inició su propia celebración.\nEl origen de la “locura”, La fiesta nació como una protesta social pacífica y festiva. En aquel entonces, la realeza del carnaval estaba reservada para las familias de la alta sociedad, dejando fuera a las mujeres trabajadoras de los barrios populares.\nPepe Frade, un cubano radicado en la avenida Guerrero, fué quien movilizó a los jarochos inconformes. Fue bautizado como el “Carnaval de los locos”, quizás por la osadía de organizar una segunda fiesta masiva sin presupuesto oficial.\nEl conteo final para este 2026:\nSi contamos por años (1925-2026): 101 años.\nSi contamos por ediciones oficiales: 102 ediciones.\nSi contamos festejos totales: 103 carnavales (gracias a la “locura” de 1931)",
+			"options": [
+				"1925.0",
+				"1931.0",
+				"1930.0"
+			],
+			"question": "¿En que año se realizó el llamado Carnaval de Locos, en Veracruz?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 0,
+			"explanation": "2005 (El Himno al Estado de Veracruz es el himno oficial del estado de Veracruz, sus autores fueron José Francisco Morosini Cordero, escritor de la letra, y Ryszard Siwy Machalica, compositor de la música.​ El himno está conformado por un coro y dos estrofas. La ley del himno al estado de Veracruz fue publicada en la gaceta oficial del estado, el 2 de diciembre de 2005)",
+			"options": [
+				"2005",
+				"2003",
+				"2011"
+			],
+			"question": "¿En que año fué escrito el himno a Veracruz?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 1,
+			"explanation": "1'250,000 litros (La pecera arrecifal Tiene una forma cilíndrica y una vista panorámica a través de sus 13 ventanas de acrílico, incluyendo la principal con casi 8 metros de largo con 3 metros de alto, la más grande de Latinoamérica. Con un volumen de 1,250,000 litros es el tanque de mayor tamaño en el Acuario de Veracruz. En ella se exhiben corales artificiales típicos del Sistema Arrecifal Veracruzano y más de 20 especies de peces también propios de la región incluyendo enormes tiburones gata, meros, rayas blancas o de espina, barracudas, sábalos y decenas de miles de cardúmenes multicolores)",
+			"options": [
+				"890,000 litros",
+				"1'250,000 litros",
+				"1´150,000 litros"
+			],
+			"question": "¿Cuantos litros de agua tiene la pecera mas grande del Acuario de Veracruz?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 0,
+			"explanation": "En Veracruz (Un lugar de bastante interés para conocer la historia de la ciudad de Veracruz desde la época prehispánica, conquista, época colonial, las diversas intervenciones extranjeras y como ha cambiado con el paso de los años)",
+			"options": [
+				"En Veracruz",
+				"En Medellín",
+				"En Alvarado"
+			],
+			"question": "¿En donde se encuentra el Museo Coronel Manuel Gutiérrez Zamora?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 0,
+			"explanation": "En la guerra contra los Franceses (El 4 de diciembre de 1838 los franceses lograron desembarcar en Veracruz. Cuando Santa Ana se dio cuenta los persiguió hasta el muelle y entabló una lucha sin resultados definitivos para ninguna de las partes. Al escapar, los franceses dispararon una bala de cañón, la cual hirió a Santa Anna, provocándole la amputación de una pierna y dedo)",
+			"options": [
+				"En la guerra contra los Franceses",
+				"En la guerra contra los Ingleses",
+				"En la guerra contra los Norte -Americanos"
+			],
+			"question": "¿En que circunstancia el Gral. Santa Anna pierde la pierna en 1838?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 0,
+			"explanation": "Ignacio de la Llave y Segura Zevallos (Fue dos veces gobernador y comandante militar del estado, secretario de Gobernación durante la presidencia de Ignacio Comonfort, protege a Juárez cuando se refugia en Veracruz en 1858, y toma parte en la estructuración de las Leyes de Reforma junto con Lerdo y Melchor Ocampo. Influye en la construcción del ferrocarril Orizaba-Veracruz y marcha hacia Puebla para defenderla junto a Zaragoza de las fuerzas francesas, el 5 de mayo de 1862. Cae prisionero del capitán Forey y se fuga junto con Jesús González Ortega. Con dinero propio, buscan alcanzar a Juárez en San Luis Potosí; al pasar por Guanajuato, el gobernador les otorga una escolta, la cual al saber que llevan 500 onzas de oro despierta la codicia de sus escoltas, quienes les disparan a quemarropa para robarles)",
+			"options": [
+				"Ignacio de la Llave y Segura Zevallos",
+				"Francisco de Paula Milán",
+				"José Juan Landero y Coss"
+			],
+			"question": "¿Con el fin de robarlo, a que ex gobernador de Veracruz, sus mismos soldados le disparan por la espalda?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 0,
+			"explanation": "En Veracruz (Excelente lugar para conocer un poco mas de la historia de nuestro magnifico Mexico en 1872 era llamada Faro Benito Juarez. En su interior podrás encontrar estatuas de grandes mexicanos. En este recinto que fue construido en el siglo XVI y dónde el presidente Benito Juárez en el año 1858 y 1860 promulgó las leyes de reforma donde principalmente separa el estado (gobierno) de la iglesia)",
+			"options": [
+				"En Veracruz",
+				"En Medellín",
+				"En Alvarado"
+			],
+			"question": "¿En donde se encuentra el Museo Recinto de la Reforma?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 2,
+			"explanation": "En Veracruz, puerto (se realiza en la ciudad y puerto de Veracruz, México. Es uno de los carnavales más reconocidos de México y el mundo. Característico por su gran tradición y alegría, es considerado «El más alegre del mundo, Durante nueve días, los nueve anteriores al Miércoles de ceniza se realizan desfiles llenos de color que inundan sus calles con un ambiente musical y festivo, el primer evento del carnaval es la quema del \"Mal Humor\" en el cual es consumida en llamas una escultura que alude a los aspectos negativos del estado de Veracruz (la tristeza, violencia o el Huracán Karl, y en el noveno día se realiza el entierro de Juan Carnaval)",
+			"options": [
+				"Coscomatepec",
+				"Coyolillo",
+				"Veracruz"
+			],
+			"question": "¿En donde se realiza el carnaval mas renombrado del estado?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 0,
+			"explanation": "El Bocafest (Es un evento cultural y deportivo, se celebra generalmente en el mes de Junio y las actividades en su mayoría son gratuitas)",
+			"options": [
+				"El Bocafest",
+				"Summer Fest",
+				"Triatlón"
+			],
+			"question": "En Boca del Río se celebra a Santa Ana en julio, ¿en el mes de junio que realizan?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 1,
+			"explanation": "Hotel Mocambo (Inaugurado en 1939. Fue diseñado por el arquitecto español Jesús Martí Martín por encargo de entonces gobernador Miguel Alemán Valdés, quien posteriormente sería presidente de la república. Alemán buscó al empresario Jesús Álvarez y el coronel Carlos I. Serrano para adquirir un terreno frente a la playa de Mocambo y construir ahí un hotel-casino con la intención de atraer a ricos y famosos. Veracruz era un icono de destino turístico, pero no existía como tal un destino de lujo en playa, existían hoteles de lujo en el centro del país, pero como un resort este fue el primero en toda la costa mexicana)",
+			"options": [
+				"Gran Hotel de Oriente",
+				"Hotel Mocambo",
+				"Hotel Villa del Mar"
+			],
+			"question": "¿Cuál fue el primer hotel de playa precursor del concepto resort en México, y que es veracruzano ?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 0,
+			"explanation": "Tomás \"el Gusano\" Rojas (nacido el 12 de junio de 1980 en Veracruz, es un boxeador profesional Mexicano. Fue campeón mundial de peso Supermosca del CMB)",
+			"options": [
+				"Tomás \"El gusano\" Rojas",
+				"Alan \"Flaco de Oro\" León",
+				"Eduardo \"Explosivo\" Elvira"
+			],
+			"question": "¿Cual es el nombre del boxeador que ganó el título mundial interino de peso supermosca del CMB el 18 de julio de 2009 contra Landsman Everardo Morales?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 1,
+			"explanation": "En el de Boca del Río (El escudo de armas, cuenta al centro con un marco dorado, en el que resalta un arpa, simbolizando el folklor Sotaventino; un río en referencia al Río Jamapa; un puente que significa la comunicación con el centro y sureste del país; un pez por que la pesca es la actividad principal del pueblo. Todo esto enmarcado con una franja blanca que en su parte superior tiene tres estrellas y del lado izquierdo empieza a notarse el nombre del municipio en forma descendente y termina del lado derecho de manera ascendente. Alrededor, trabajado en finas maderas se leen en la parte superior “Puerta del Sotavento” e inmediatamente arriba, una cruz)",
+			"options": [
+				"En el de Alvarado",
+				"En el de Boca del Río",
+				"En el de Tlacotalpan"
+			],
+			"question": "¿En el escudo de que municipio se encuentra la frase \"Puerta del Sotavento\"?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 0,
+			"explanation": "Heroico Veracruz de Ignacio de la Llave (En el año de 2023, los integrantes de la Comisión de Puntos Constitucionales de la Cámara de Diputados, aprobaron con 29 votos a favor y uno en contra, cambiarle el nombre al estado de Veracruz, y ahora se llamará  \"Heroico Veracruz de Ignacio de la Llave”)",
+			"options": [
+				"Heroico Veracruz de Ignacio de la Llave",
+				"Estado Libre y Soberano de  Veracruz de Ignacio de la Llave",
+				"Veracruz de Ignacio de la Llave"
+			],
+			"question": "¿Cual es el nombre oficial del estado de Veracruz?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 0,
+			"explanation": "Quince (Gral. Guadalupe Víctoria; Gral. Miguel Barragán Andrade, Gral. Ignacio de Mora y Villamil, José Joaquín Pesado, Juan Francisco de Barcena y Blanco, Gral. Benito Quijano, Gral. Antonio Corona, Gral. Alejandro García, Ignacio R. Alatorre, Gral. Luis  Mier y Terán, Apolinar Castillo, Lic. Silvestre Moreno Cora, Gral. Agustín Millán, Ignacio Herrera Tejada, Norma Rocío Nahle García)",
+			"options": [
+				"Quince",
+				"Dies",
+				"Trece"
+			],
+			"question": "¿Cuantos gobernadores del estado no han sido veracruzanos?",
+			"state_id": 33
+		},
+		{
+			"correct_index": 1,
+			"explanation": "En Veracruz y Orizaba (Se imprimió en octavo, para hacer honor a su nombre en diminutivo. Contenía consejos útiles para los niños, algunas ilustraciones, charadas, acertijos y cuentos. Es mencionado por el Boletín del Hospicio de Orizaba (N° 15, julio 20 de 1872 ) como \"diminuto pero ilustrado colega\". Es una publicación importante, ya que se\ntrata del primer periódico infantil publicado fuera de la Ciudad de México.\" Siguió apareciendo hasta 1874)",
+			"options": [
+				"En Xalapa y Veracruz",
+				"En Veracruz y Orizaba",
+				"En Orizaba y Córdoba"
+			],
+			"question": "El Periquito, fue el primer periódico infantil editado fuera de la Ciudad de México, ¿en que ciudades circulaba?",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 1,
+			"explanation": "Fernando de Jesús Corona (Juan Fernando de Jesús Corona y Arpide. Abogado, Político. Nació en Coscomatepec el 29 de mayo de 1818 y murió en Córdoba el 1 de junio de 1891. Abogado (1844) por el Colegio Palafoxiano de Puebla. Liberal. Juez en Córdoba. Síndico del ayuntamiento. Miembro del Tribunal Mercantil de Córdoba. Presidente del Tribunal Superior de Justicia de Veracruz (1861). Gobernador sustituto de Veracruz en diversos períodos (1861, 1868-1869, 1870) sustituyendo a Manuel Gutiérrez Zamora y a Francisco Hernández y Hernández. Se negó a colaborar con los franceses y el imperio. A la restauración de la República, diputado local. Fiscal. Magistrado de la Suprema Corte de Justicia de la Nación y, nuevamente presidente del Tribunal Superior de Justicia. Elaboró los Códigos del Estado, llamados también «Códigos Corona» en 1869)",
+			"options": [
+				"Francisco Hernández y Hernández",
+				"Fernando de Jesús Corona",
+				"Manuel Muñoz Guerra"
+			],
+			"question": "¿Cómo se llamo el abogado ex gobernador de Veracruz, que escribio los \"Codigos Corona\"",
+			"state_id": 33.0
+		},
+		{
+			"correct_index": 1,
+			"explanation": "Playa Martí (esta es una playa de arena suave en la cual se han puesto porterias de futbol y redes para practicar voleibol)",
+			"options": [
+				"Playa Hornos",
+				"Playa Martí",
+				"Playa Costa de Oro"
+			],
+			"question": "¿Cuál es la playa que marca el límite entre Veracruz y Boca del Río?",
+			"state_id": 33.0
+		}
+	]
+}
