@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://b2estarea001"]
+
+[ext_resource type="Script" uid="uid://ctdcvhu6lo4k2" path="res://Juego/TableroJuego/Componentes/scripts/estado_area.gd" id="1_estarea"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_default"]
+radius = 30.0
+
+[node name="EstadoArea" type="Area2D"]
+script = ExtResource("1_estarea")
+
+[node name="Forma" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_default")
+
+[node name="Etiqueta" type="Label" parent="."]
+offset_left = -40.0
+offset_top = -55.0
+offset_right = 40.0
+offset_bottom = -35.0
+horizontal_alignment = 1
+vertical_alignment = 1
