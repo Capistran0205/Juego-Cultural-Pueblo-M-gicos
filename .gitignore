@@ -1,3 +1,8 @@
 # Godot 4+ specific ignores
 .godot/
 /android/
+
+# Claves de firma / keystores (NO versionar; guardar fuera del repo)
+Claves y APIS/
+*.keystore
+*.jks

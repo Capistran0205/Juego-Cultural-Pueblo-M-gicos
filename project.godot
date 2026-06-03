@@ -27,7 +27,7 @@ InformacionJuego="*res://ScriptsSinglentos/informacion_juego.gd"
 AdaptadorPantalla="*res://ScriptsSinglentos/adaptador_pantalla.gd"
 AdministradorOnline="*res://AdministradorOnline/ScriptsSinglentos/administrador_online.gd"
 Global="*res://ScriptsSinglentos/global.gd"
-ManejadorPreguntas="*res://Assets/manejador_preguntas.gd"
+ManejadorPreguntas="*res://ScriptsSinglentos/manejador_preguntas.gd"
 
 [display]
 
