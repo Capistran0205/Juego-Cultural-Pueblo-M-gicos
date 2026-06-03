@@ -1,8 +1,77 @@
-[gd_scene load_steps=4 format=3 uid="uid://y8mnfu3488vt"]
+[gd_scene load_steps=15 format=3 uid="uid://y8mnfu3488vt"]
 
-[ext_resource type="Script" uid="uid://ckqk8svb5n3hh" path="res://MenuPrincipal/perfil.gd" id="1_perfil"]
+[ext_resource type="Script" uid="uid://ckqk8svb5n3hh" path="res://MenuPrincipal/Componentes/Scripts/perfil.gd" id="1_perfil"]
 [ext_resource type="Texture2D" uid="uid://biikfd0se8k0n" path="res://Assets/FondoPrincipal.webp" id="2_fondo"]
 [ext_resource type="Texture2D" uid="uid://dcwy51kvl28ax" path="res://Assets/LogoPueblosMagicos.webp" id="3_logo"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_u8q3d"]
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_e025y"]
+corner_radius_top_left = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_y1k67"]
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+expand_margin_left = 5.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ter7a"]
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jc18h"]
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_b4mge"]
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rrbi2"]
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jo566"]
+bg_color = Color(0.8901961, 0.3254902, 0.21176471, 1)
+corner_radius_top_left = 40
+corner_radius_top_right = 40
+corner_radius_bottom_right = 40
+corner_radius_bottom_left = 49
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_lnxt7"]
+bg_color = Color(0.8, 0.27058825, 0.16078432, 1)
+corner_radius_top_left = 40
+corner_radius_top_right = 40
+corner_radius_bottom_right = 40
+corner_radius_bottom_left = 40
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_q7i2x"]
+bg_color = Color(0.9411765, 0.40784314, 0.29803923, 1)
+corner_radius_top_left = 40
+corner_radius_top_right = 40
+corner_radius_bottom_right = 40
+corner_radius_bottom_left = 40
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_fywd4"]
+bg_color = Color(0.7294118, 0.23529412, 0.13725491, 1)
+corner_radius_top_left = 40
+corner_radius_top_right = 40
+corner_radius_bottom_right = 40
+corner_radius_bottom_left = 40
 
 [node name="Perfil" type="Control"]
 layout_mode = 3
@@ -25,9 +94,15 @@ expand_mode = 1
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
+anchors_preset = -1
+anchor_left = 0.11400001
+anchor_top = 0.093
+anchor_right = 0.93000007
+anchor_bottom = 0.81600004
+offset_left = -37.88002
+offset_top = 39.559998
+offset_right = -37.600098
+offset_bottom = 39.71997
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_constants/margin_left = 40
@@ -48,6 +123,7 @@ stretch_mode = 5
 
 [node name="TarjetaUsuario" type="PanelContainer" parent="MarginContainer/Contenido"]
 layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_u8q3d")
 
 [node name="HBox" type="HBoxContainer" parent="MarginContainer/Contenido/TarjetaUsuario"]
 layout_mode = 2
@@ -65,6 +141,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_styles/normal = SubResource("StyleBoxFlat_e025y")
 text = "IS"
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -75,22 +152,32 @@ size_flags_horizontal = 3
 size_flags_vertical = 4
 
 [node name="LblNombre" type="Label" parent="MarginContainer/Contenido/TarjetaUsuario/HBox/DatosUsuario"]
+custom_minimum_size = Vector2(40, 40)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
 text = "Nombre"
+autowrap_mode = 3
 
 [node name="LblEmail" type="Label" parent="MarginContainer/Contenido/TarjetaUsuario/HBox/DatosUsuario"]
+custom_minimum_size = Vector2(40, 40)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
 text = "correo@ejemplo.com"
+autowrap_mode = 3
 
 [node name="TarjetaEstado" type="PanelContainer" parent="MarginContainer/Contenido"]
 layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_y1k67")
 
 [node name="VBox" type="VBoxContainer" parent="MarginContainer/Contenido/TarjetaEstado"]
 layout_mode = 2
 
 [node name="LblTitulo" type="Label" parent="MarginContainer/Contenido/TarjetaEstado/VBox"]
+custom_minimum_size = Vector2(40, 40)
 layout_mode = 2
-text = "ESTADO ACTUAL"
+theme_override_font_sizes/font_size = 25
+text = "Estado de Residencia"
+autowrap_mode = 3
 
 [node name="LblEstado" type="Label" parent="MarginContainer/Contenido/TarjetaEstado/VBox"]
 layout_mode = 2
@@ -105,71 +192,94 @@ columns = 2
 [node name="TarjetaVisitados" type="PanelContainer" parent="MarginContainer/Contenido/Estadisticas"]
 layout_mode = 2
 size_flags_horizontal = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_ter7a")
 
 [node name="VBox" type="VBoxContainer" parent="MarginContainer/Contenido/Estadisticas/TarjetaVisitados"]
 layout_mode = 2
 
 [node name="LblValor" type="Label" parent="MarginContainer/Contenido/Estadisticas/TarjetaVisitados/VBox"]
+custom_minimum_size = Vector2(40, 40)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
 text = "0"
 horizontal_alignment = 1
+autowrap_mode = 3
 
 [node name="LblEtiqueta" type="Label" parent="MarginContainer/Contenido/Estadisticas/TarjetaVisitados/VBox"]
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
 text = "Pueblos visitados"
 horizontal_alignment = 1
 
 [node name="TarjetaDescubiertos" type="PanelContainer" parent="MarginContainer/Contenido/Estadisticas"]
 layout_mode = 2
 size_flags_horizontal = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_jc18h")
 
 [node name="VBox" type="VBoxContainer" parent="MarginContainer/Contenido/Estadisticas/TarjetaDescubiertos"]
 layout_mode = 2
 
 [node name="LblValor" type="Label" parent="MarginContainer/Contenido/Estadisticas/TarjetaDescubiertos/VBox"]
+custom_minimum_size = Vector2(40, 40)
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
 text = "0"
 horizontal_alignment = 1
+autowrap_mode = 3
 
 [node name="LblEtiqueta" type="Label" parent="MarginContainer/Contenido/Estadisticas/TarjetaDescubiertos/VBox"]
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
 text = "Pueblos descubiertos"
 horizontal_alignment = 1
 
 [node name="TarjetaJugadas" type="PanelContainer" parent="MarginContainer/Contenido/Estadisticas"]
 layout_mode = 2
 size_flags_horizontal = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_b4mge")
 
 [node name="VBox" type="VBoxContainer" parent="MarginContainer/Contenido/Estadisticas/TarjetaJugadas"]
 layout_mode = 2
 
 [node name="LblValor" type="Label" parent="MarginContainer/Contenido/Estadisticas/TarjetaJugadas/VBox"]
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
 text = "0"
 horizontal_alignment = 1
 
 [node name="LblEtiqueta" type="Label" parent="MarginContainer/Contenido/Estadisticas/TarjetaJugadas/VBox"]
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
 text = "Partidas jugadas"
 horizontal_alignment = 1
 
 [node name="TarjetaGanadas" type="PanelContainer" parent="MarginContainer/Contenido/Estadisticas"]
 layout_mode = 2
 size_flags_horizontal = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_rrbi2")
 
 [node name="VBox" type="VBoxContainer" parent="MarginContainer/Contenido/Estadisticas/TarjetaGanadas"]
 layout_mode = 2
 
 [node name="LblValor" type="Label" parent="MarginContainer/Contenido/Estadisticas/TarjetaGanadas/VBox"]
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
 text = "0"
 horizontal_alignment = 1
 
 [node name="LblEtiqueta" type="Label" parent="MarginContainer/Contenido/Estadisticas/TarjetaGanadas/VBox"]
 layout_mode = 2
+theme_override_font_sizes/font_size = 25
 text = "Partidas ganadas"
 horizontal_alignment = 1
 
 [node name="BtnMenuPrincipal" type="Button" parent="MarginContainer/Contenido"]
+custom_minimum_size = Vector2(360, 0)
 layout_mode = 2
+size_flags_horizontal = 4
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxFlat_jo566")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_lnxt7")
+theme_override_styles/hover = SubResource("StyleBoxFlat_q7i2x")
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_fywd4")
 text = "MENÚ PRINCIPAL"

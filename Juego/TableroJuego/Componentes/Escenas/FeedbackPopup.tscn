@@ -1,0 +1,147 @@
+[gd_scene load_steps=16 format=3 uid="uid://duxbgttdepi46"]
+
+[ext_resource type="Script" path="res://Juego/TableroJuego/Componentes/scripts/feedback_popup.gd" id="1_scjpj"]
+[ext_resource type="FontFile" uid="uid://dh3vd5g8pxiv1" path="res://Assets/Fonts/NotoColorEmoji-Regular.ttf" id="2_scjpj"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qhkw5"]
+bg_color = Color(0.8392157, 0.59607846, 0.30588236, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="SystemFont" id="SystemFont_scjpj"]
+fallbacks = Array[Font]([ExtResource("2_scjpj")])
+subpixel_positioning = 0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yr8v5"]
+bg_color = Color(0.8392157, 0.59607846, 0.30588236, 1)
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color(0.8901961, 0.3254902, 0.21176471, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="SystemFont" id="SystemFont_nxa75"]
+subpixel_positioning = 0
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_scjpj"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_kf7ml"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_gqpqg"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_akajp"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dh4ub"]
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color(0.8901961, 0.3254902, 0.21176471, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_gqpqg"]
+bg_color = Color(0, 0, 0, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_akajp"]
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="SystemFont" id="SystemFont_kf7ml"]
+subpixel_positioning = 0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5atbn"]
+bg_color = Color(0.8392157, 0.59607846, 0.30588236, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[node name="FeedbackPopup" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_bottom = 70.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("1_scjpj")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 0.94000006
+offset_bottom = -0.00012207031
+theme_override_constants/separation = 0
+
+[node name="PanelContainerTitulo" type="PanelContainer" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_qhkw5")
+
+[node name="TituloLabel" type="Label" parent="VBoxContainer/PanelContainerTitulo"]
+custom_minimum_size = Vector2(100, 50)
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = SubResource("SystemFont_scjpj")
+theme_override_font_sizes/font_size = 60
+theme_override_styles/normal = SubResource("StyleBoxFlat_yr8v5")
+text = "Retroalimentación de la Respuesta"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="BotonContinuar" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = SubResource("SystemFont_nxa75")
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxEmpty_scjpj")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_kf7ml")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_gqpqg")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_akajp")
+
+[node name="PanelContainerRetroalimentacion" type="PanelContainer" parent="VBoxContainer"]
+custom_minimum_size = Vector2(0, 200)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_dh4ub")
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer/PanelContainerRetroalimentacion"]
+layout_mode = 2
+
+[node name="ScrollContainer" type="ScrollContainer" parent="VBoxContainer/PanelContainerRetroalimentacion/MarginContainer"]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_gqpqg")
+theme_override_styles/focus = SubResource("StyleBoxFlat_akajp")
+
+[node name="MensajeLabel" type="Label" parent="VBoxContainer/PanelContainerRetroalimentacion/MarginContainer/ScrollContainer"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = SubResource("SystemFont_kf7ml")
+theme_override_font_sizes/font_size = 45
+theme_override_styles/normal = SubResource("StyleBoxFlat_5atbn")
+text = "Retroalimentación"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[connection signal="pressed" from="VBoxContainer/BotonContinuar" to="." method="_on_boton_continuar_pressed"]

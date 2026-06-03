@@ -1,0 +1,97 @@
+[gd_scene load_steps=9 format=3 uid="uid://de187f75q2jol"]
+
+[ext_resource type="Script" uid="uid://b8elyl431ddr2" path="res://Juego/TableroJuego/Componentes/scripts/roll_screen.gd" id="1_tcoki"]
+[ext_resource type="Script" uid="uid://dsiemp3pev01o" path="res://addons/dice_roller/dice_roller_control/dice_roller_control.gd" id="2_oyk88"]
+[ext_resource type="Script" uid="uid://cohd4ovwrydr0" path="res://addons/dice_roller/dice_def.gd" id="3_blfir"]
+
+[sub_resource type="Resource" id="Resource_oq5jb"]
+script = ExtResource("3_blfir")
+metadata/_custom_type_script = "uid://cohd4ovwrydr0"
+
+[sub_resource type="Resource" id="Resource_x2rol"]
+script = ExtResource("3_blfir")
+metadata/_custom_type_script = "uid://cohd4ovwrydr0"
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_blfir"]
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_oyk88"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_oyk88"]
+
+[node name="RollScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("1_tcoki")
+
+[node name="DiceRollerControl" type="SubViewportContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.057000004
+anchor_top = 0.748
+anchor_right = 0.23900001
+anchor_bottom = 0.915
+offset_left = -0.44001007
+offset_top = 0.15997314
+offset_right = 0.11999512
+offset_bottom = -0.2000122
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 15
+size_flags_vertical = 15
+stretch = true
+mouse_filter = 2
+script = ExtResource("2_oyk88")
+dice_set = Array[ExtResource("3_blfir")]([SubResource("Resource_oq5jb"), SubResource("Resource_x2rol")])
+roller_color = Color(0.42745098, 0.14901961, 0.1764706, 1)
+roller_size = Vector3(15, 21, 9)
+interactive = false
+metadata/_custom_type_script = "uid://dsiemp3pev01o"
+
+[node name="Button" type="Button" parent="."]
+custom_minimum_size = Vector2(260, 115)
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.07300001
+anchor_top = 0.76900005
+anchor_right = 0.223
+anchor_bottom = 0.88500005
+offset_left = -0.16001892
+offset_top = -0.52008057
+offset_right = 0.83999634
+offset_bottom = 0.19995117
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_colors/font_color = Color(0, 0.22745098, 0.023529412, 1)
+theme_override_colors/font_pressed_color = Color(0.023529412, 0.22745098, 0.023529412, 1)
+theme_override_colors/icon_pressed_color = Color(0.023529412, 0.22745098, 0.023529412, 1)
+theme_override_styles/normal = SubResource("StyleBoxFlat_blfir")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_oyk88")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_oyk88")
+flat = true
+
+[node name="TextureRect" type="TextureRect" parent="Button"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -5.346
+anchor_top = -6.635
+anchor_right = -4.2730002
+anchor_bottom = -5.591
+offset_left = -0.039916992
+offset_top = 0.010009766
+offset_right = -0.019897461
+offset_bottom = -0.05303955
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 1
+
+[connection signal="roll_finnished" from="DiceRollerControl" to="." method="_on_dice_roller_control_roll_finnished"]
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

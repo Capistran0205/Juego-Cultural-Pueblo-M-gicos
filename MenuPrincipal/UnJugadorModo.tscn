@@ -1,6 +1,6 @@
 [gd_scene load_steps=21 format=3 uid="uid://xlyyikcxtnt0"]
 
-[ext_resource type="Script" uid="uid://bqylxqhsk72x5" path="res://MenuPrincipal/un_jugador_modo.gd" id="1_qhoni"]
+[ext_resource type="Script" uid="uid://bqylxqhsk72x5" path="res://MenuPrincipal/Componentes/Scripts/un_jugador_modo.gd" id="1_qhoni"]
 [ext_resource type="Texture2D" uid="uid://biikfd0se8k0n" path="res://Assets/FondoPrincipal.webp" id="2_p3i2r"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6bmxi"]

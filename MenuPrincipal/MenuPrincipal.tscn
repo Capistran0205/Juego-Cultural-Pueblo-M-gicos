@@ -1,6 +1,6 @@
 [gd_scene load_steps=24 format=3 uid="uid://b3dej8fqahe5f"]
 
-[ext_resource type="Script" uid="uid://bmu7rp2dyeddw" path="res://MenuPrincipal/menu_principal.gd" id="1_n362c"]
+[ext_resource type="Script" uid="uid://bmu7rp2dyeddw" path="res://MenuPrincipal/Componentes/Scripts/menu_principal.gd" id="1_n362c"]
 [ext_resource type="Texture2D" uid="uid://dcwy51kvl28ax" path="res://Assets/LogoPueblosMagicos.webp" id="1_w42t8"]
 [ext_resource type="Texture2D" uid="uid://biikfd0se8k0n" path="res://Assets/FondoPrincipal.webp" id="2_wekhl"]
 
@@ -155,9 +155,11 @@ size_flags_horizontal = 3
 script = ExtResource("1_n362c")
 
 [node name="FondoPrincipal" type="TextureRect" parent="."]
-layout_mode = 0
-offset_right = 1920.0
-offset_bottom = 1080.0
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 0.92300004
+offset_bottom = 0.08996582
 texture = ExtResource("2_wekhl")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]

@@ -160,13 +160,12 @@ func show_face(value):
 	roll_finished.emit(value)
 
 func highlight():
-	var side = upper_side()
-	var side_orientation: Vector3 = sides[side].normalized()
-	var perpendicular_side = side-1 if side-1 else len(sides)
-	var perpendicular_direction = to_global(highlight_orientation[side]) - to_global(Vector3.ZERO)
-	highlight_face.look_at(to_global(sides[side]), perpendicular_direction)
-	#prints("side", side, "perpendicular", perpendicular_side)
-	highlight_face.visible = true
+	# Resaltado de cara DESACTIVADO.
+	# El nodo FaceHighligth es un QuadMesh 1.1x el dado con un shader
+	# semitransparente; al activarse sobre la cara ganadora se renderiza como
+	# un cuadro "fantasma" encimado y distorsiona visualmente el dado.
+	# Es solo cosmético (no afecta el resultado), así que lo mantenemos oculto.
+	highlight_face.visible = false
 
 func dehighlight() -> void:
 	highlight_face.visible = false

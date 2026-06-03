@@ -1,0 +1,254 @@
+[gd_scene load_steps=23 format=3 uid="uid://cac8d8qn5cte0"]
+
+[ext_resource type="PackedScene" uid="uid://duxbgttdepi46" path="res://Juego/TableroJuego/Componentes/Escenas/FeedbackPopup.tscn" id="1_343jn"]
+[ext_resource type="Script" path="res://Juego/TableroJuego/Componentes/scripts/pregunta_popup.gd" id="1_joiry"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_skcjj"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jaxso"]
+bg_color = Color(0.8392157, 0.59607846, 0.30588236, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="SystemFont" id="SystemFont_skcjj"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_r8dio"]
+bg_color = Color(0.8392157, 0.59607846, 0.30588236, 1)
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color(0.8901961, 0.3254902, 0.21176471, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_cp43k"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_joiry"]
+bg_color = Color(0.8150025, 0.5060241, 0.4530329, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cp43k"]
+bg_color = Color(0.66474706, 0.3599962, 0.31152824, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hdbmd"]
+bg_color = Color(0.7282342, 0.40684995, 0.35269356, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_gwlu5"]
+bg_color = Color(0.64027965, 0.3427626, 0.29269016, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tbetp"]
+bg_color = Color(0.6666667, 0.36078432, 0.30980393, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_l1aee"]
+bg_color = Color(0.8150025, 0.5060241, 0.4530329, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_iqtaa"]
+bg_color = Color(0.6666667, 0.36078432, 0.30980393, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2ubq7"]
+bg_color = Color(0.7282342, 0.40684995, 0.35269356, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_j0cfs"]
+bg_color = Color(0.64027965, 0.3427626, 0.29269016, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jon2c"]
+bg_color = Color(0.6666667, 0.36078432, 0.30980393, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_f7ucj"]
+bg_color = Color(0.8150025, 0.5060241, 0.4530329, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1e8dk"]
+bg_color = Color(0.6666667, 0.36078432, 0.30980393, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_roo6s"]
+bg_color = Color(0.7282342, 0.40684995, 0.35269356, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_87voh"]
+bg_color = Color(0.64027965, 0.3427626, 0.29269016, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3equ0"]
+bg_color = Color(0.6666667, 0.36078432, 0.30980393, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[node name="PreguntaPopup" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -35.0
+offset_right = 9.0
+offset_bottom = -31.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_joiry")
+
+[node name="FeedbackPopup" parent="." instance=ExtResource("1_343jn")]
+layout_mode = 1
+anchors_preset = -1
+offset_left = 6.0
+offset_top = 7.0
+offset_right = 2.0
+offset_bottom = -1.0
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.9990001
+anchor_bottom = 0.94400007
+offset_left = 11.0
+offset_top = -2.0
+offset_right = 7.928833
+offset_bottom = -6.2960815
+theme_override_styles/panel = SubResource("StyleBoxEmpty_skcjj")
+
+[node name="MarginContainer" type="MarginContainer" parent="Panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_bottom = 70.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel/MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 25
+
+[node name="PanelContainerPregunta" type="PanelContainer" parent="Panel/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_jaxso")
+
+[node name="LabelPregunta" type="Label" parent="Panel/MarginContainer/VBoxContainer/PanelContainerPregunta"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = SubResource("SystemFont_skcjj")
+theme_override_font_sizes/font_size = 55
+theme_override_styles/normal = SubResource("StyleBoxFlat_r8dio")
+text = "Sección de la Pregunta"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Control" type="Control" parent="Panel/MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="PanelContainerBotones" type="PanelContainer" parent="Panel/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxEmpty_cp43k")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Panel/MarginContainer/VBoxContainer/PanelContainerBotones"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/separation = 25
+
+[node name="BotonOpcion1" type="Button" parent="Panel/MarginContainer/VBoxContainer/PanelContainerBotones/HBoxContainer"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxFlat_joiry")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_cp43k")
+theme_override_styles/hover = SubResource("StyleBoxFlat_hdbmd")
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxFlat_gwlu5")
+theme_override_styles/focus = SubResource("StyleBoxFlat_tbetp")
+text = "Opción1"
+autowrap_mode = 2
+
+[node name="BotonOpcion2" type="Button" parent="Panel/MarginContainer/VBoxContainer/PanelContainerBotones/HBoxContainer"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxFlat_l1aee")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_iqtaa")
+theme_override_styles/hover = SubResource("StyleBoxFlat_2ubq7")
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_j0cfs")
+theme_override_styles/focus = SubResource("StyleBoxFlat_jon2c")
+text = "Opción2"
+autowrap_mode = 3
+
+[node name="BotonOpcion3" type="Button" parent="Panel/MarginContainer/VBoxContainer/PanelContainerBotones/HBoxContainer"]
+custom_minimum_size = Vector2(80, 100)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxFlat_f7ucj")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_1e8dk")
+theme_override_styles/hover = SubResource("StyleBoxFlat_roo6s")
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_87voh")
+theme_override_styles/focus = SubResource("StyleBoxFlat_3equ0")
+text = "Opción3"
+autowrap_mode = 3

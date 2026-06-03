@@ -1,0 +1,96 @@
+[gd_scene load_steps=6 format=3 uid="uid://b1plyere0001"]
+
+[ext_resource type="Script" uid="uid://msatnggs0415" path="res://MenuPrincipal/Componentes/Scripts/PlayerEntry.gd" id="1_pe001"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_71see"]
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_gebx3"]
+bg_color = Color(0.8392157, 0.8392157, 0.8392157, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5uw86"]
+bg_color = Color(0.8392157, 0.8392157, 0.8392157, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_22d3j"]
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[node name="PlayerEntry" type="HBoxContainer"]
+custom_minimum_size = Vector2(0, 56)
+anchors_preset = -1
+anchor_left = 0.006
+anchor_top = 0.002
+anchor_right = 0.231
+anchor_bottom = 0.054
+offset_left = 0.47999954
+offset_top = -0.16000009
+offset_right = -0.52001953
+offset_bottom = -0.3199997
+theme_override_constants/separation = 8
+script = ExtResource("1_pe001")
+
+[node name="LblPlayerNum" type="Label" parent="."]
+custom_minimum_size = Vector2(110, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 25
+text = "Jugador 1:"
+vertical_alignment = 1
+
+[node name="InputPlayerName" type="LineEdit" parent="."]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 25
+theme_override_styles/normal = SubResource("StyleBoxFlat_71see")
+placeholder_text = "Nombre"
+
+[node name="AvatarBox" type="HBoxContainer" parent="."]
+layout_mode = 2
+theme_override_constants/separation = 4
+alignment = 1
+
+[node name="BtnAvatarPrev" type="Button" parent="AvatarBox"]
+custom_minimum_size = Vector2(28, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0.20392157, 0.20392157, 0.20392157, 1)
+theme_override_colors/font_hover_color = Color(0.20392157, 0.20392157, 0.20392157, 1)
+theme_override_font_sizes/font_size = 25
+theme_override_styles/normal = SubResource("StyleBoxFlat_gebx3")
+text = "<"
+
+[node name="Avatar" type="TextureRect" parent="AvatarBox"]
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="BtnAvatarSig" type="Button" parent="AvatarBox"]
+custom_minimum_size = Vector2(28, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0.20392157, 0.20392157, 0.20392157, 1)
+theme_override_colors/font_hover_color = Color(0.20392157, 0.20392157, 0.20392157, 1)
+theme_override_font_sizes/font_size = 25
+theme_override_styles/normal = SubResource("StyleBoxFlat_5uw86")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_22d3j")
+text = ">"
+
+[node name="BtnColor" type="ColorPickerButton" parent="."]
+custom_minimum_size = Vector2(70, 0)
+layout_mode = 2
+edit_alpha = false

@@ -1,6 +1,6 @@
 [gd_scene load_steps=23 format=3 uid="uid://bxtjmpnfl3o8h"]
 
-[ext_resource type="Script" uid="uid://ddn5olykwvrcy" path="res://MenuPrincipal/multijugador_modo.gd" id="1_mjmod"]
+[ext_resource type="Script" uid="uid://ddn5olykwvrcy" path="res://MenuPrincipal/Componentes/Scripts/multijugador_modo.gd" id="1_mjmod"]
 [ext_resource type="Texture2D" uid="uid://biikfd0se8k0n" path="res://Assets/FondoPrincipal.webp" id="2_1egmv"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tnqxg"]
