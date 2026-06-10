@@ -7,4 +7,5 @@ Claves y APIS/
 *.keystore
 *.jks
 
-Assets
+Assets/Mapas/*.png
+Assets/Mapas/*.webp
