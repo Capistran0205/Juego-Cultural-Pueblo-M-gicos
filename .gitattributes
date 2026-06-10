@@ -1,2 +1,4 @@
 # Normalize EOL for all files that Git considers text files.
 * text=auto eol=lf
+Assets/Mapas/*.png filter=lfs diff=lfs merge=lfs -text
+Assets/Mapas/*.webp filter=lfs diff=lfs merge=lfs -text

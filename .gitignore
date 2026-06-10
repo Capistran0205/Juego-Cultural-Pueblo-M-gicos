@@ -7,5 +7,6 @@ Claves y APIS/
 *.keystore
 *.jks
 
-Assets/Mapas/*.png
-Assets/Mapas/*.webp
+# Los mapas (.png/.webp) SÍ se versionan, pero vía Git LFS (ver .gitattributes).
+# El bundle redundante Mapas.zip (~155 MB) NO se versiona: rebasa el límite de GitHub.
+Assets/Mapas/*.zip
