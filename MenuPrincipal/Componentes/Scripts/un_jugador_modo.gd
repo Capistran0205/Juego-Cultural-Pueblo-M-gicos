@@ -1,6 +1,6 @@
 extends Control
 
-const MAIN_MENU := "res://MenuPrincipal/MenuPrincipal.tscn"
+const MAIN_MENU := "res://MenuPrincipal/Componentes/Escenas/MenuPrincipal.tscn"
 const GAME_BOARD := "res://Juego/TableroJuego/Tablero.tscn"
 const AVATARS_DIR := "res://Assets/Jugadores/"
 

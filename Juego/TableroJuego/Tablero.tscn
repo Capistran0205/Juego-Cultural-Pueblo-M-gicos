@@ -98,7 +98,6 @@ script = ExtResource("3_2en27")
 position = Vector2(0.06482355, 9.057422)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Mapa/Estados/Area_0/Location_0"]
-visible = false
 shape = SubResource("CircleShape2D_jggqs")
 
 [node name="Area_1" type="Polygon2D" parent="Mapa/Estados"]

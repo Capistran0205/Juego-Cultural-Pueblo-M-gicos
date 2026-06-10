@@ -1,10 +1,10 @@
 extends Control
 
 const SCENES := {
-	"un_jugador": "res://MenuPrincipal/UnJugadorModo.tscn",
-	"multijugador": "res://MenuPrincipal/MultijugadorModo.tscn",
-	"perfil": "res://MenuPrincipal/Perfil.tscn",
-	"estadisticas": "res://MenuPrincipal/Estadisticas.tscn",
+	"un_jugador": "res://MenuPrincipal/Componentes/Escenas/UnJugadorModo.tscn",
+	"multijugador": "res://MenuPrincipal/Componentes/Escenas/MultijugadorModo.tscn",
+	"perfil": "res://MenuPrincipal/Componentes/Escenas/Perfil.tscn",
+	"estadisticas": "res://MenuPrincipal/Componentes/Escenas/Estadisticas.tscn",
 }
 
 @onready var btn_salir: Button = $VBoxContainer/MarginContainer/VBoxContainer/ButtonSalir

@@ -5,9 +5,12 @@ extends Node
 # =========================================================
 
 signal player_added(player: Dictionary)
-signal player_removed(index: int)
+# signal player_removed(index: int)
 signal game_started
 signal game_ended(winner: Dictionary)
+signal dice_changed(value: int)
+signal turn_changed(current_turn: int)
+signal log_added(description: String)
 
 # =========================================================
 #                    ENUMS
@@ -165,6 +168,7 @@ func start_game():
 	game_state = GameState.PLAYING_MAP
 	current_turn_index = 0
 	turn_number = 1
+	turn_changed.emit(turn_number)
 	game_started.emit()
 
 func get_current_player() -> Dictionary:
@@ -193,8 +197,9 @@ func advance_turn():
 			continue
 		
 		# Este jugador puede jugar
+		turn_changed.emit(turn_number)
 		return
-	
+		
 	# Si todos terminaron o no pueden jugar, fin del juego
 	_end_game()
 
@@ -319,6 +324,27 @@ func is_local_multi() -> bool:
 func is_single_player() -> bool:
 	return game_mode == GameMode.SINGLE
 
+var dice_result: int = 0:
+	set(value):
+		dice_result = value
+		dice_changed.emit(value)
+
+var game_history: Array = []   # guarda Dictionaries, igual que tenías en Global
+
+func log_event(description: String) -> void:
+	var cp := get_current_player()
+	var event := {
+		"turn": turn_number,
+		"position": cp.get("state_index", 0),  # antes era current_player_position
+		"player": cp.get("name", ""),
+		"description": description,
+		"timestamp": Time.get_ticks_msec(),
+	}
+	game_history.append(event)
+	log_added.emit(description)
+	print("Evento registrado: %s" % description)
+	
+
 # =========================================================
 #              RESET
 # =========================================================
@@ -333,4 +359,6 @@ func reset():
 	match_id = ""
 	match_code = ""
 	match_name = ""
+	dice_result = 0
+	game_history.clear()
 	is_host = false

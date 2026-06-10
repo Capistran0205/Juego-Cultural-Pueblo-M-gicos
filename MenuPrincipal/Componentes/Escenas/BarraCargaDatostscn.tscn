@@ -1,7 +1,7 @@
 [gd_scene load_steps=12 format=3 uid="uid://cwcexurna1o6b"]
 
-[ext_resource type="Script" path="res://MenuPrincipal/Componentes/Scripts/Barra_carga_datos.gd" id="1_07lnh"]
-[ext_resource type="Texture2D" uid="uid://4suxfttcxaau" path="res://Assets/Marco_PueblosMagicos.webp" id="2_07lnh"]
+[ext_resource type="Script" uid="uid://bb151pdjl70kk" path="res://MenuPrincipal/Componentes/Scripts/Barra_carga_datos.gd" id="1_wdloi"]
+[ext_resource type="Texture2D" uid="uid://4suxfttcxaau" path="res://Assets/Marco_PueblosMagicos.webp" id="2_7qvvh"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hagek"]
 bg_color = Color(0.8732984, 0.8732984, 0.8732984, 1)
@@ -78,7 +78,7 @@ corner_radius_bottom_left = 10
 
 [node name="CanvasLayer" type="CanvasLayer"]
 layer = 100
-script = ExtResource("1_07lnh")
+script = ExtResource("1_wdloi")
 
 [node name="CenterContainer" type="CenterContainer" parent="."]
 anchors_preset = -1
@@ -94,7 +94,7 @@ size_flags_vertical = 3
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer"]
 layout_mode = 2
-texture = ExtResource("2_07lnh")
+texture = ExtResource("2_7qvvh")
 stretch_mode = 5
 
 [node name="MarginContainer" type="MarginContainer" parent="CenterContainer/TextureRect"]

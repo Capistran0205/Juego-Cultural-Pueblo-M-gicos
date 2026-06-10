@@ -701,7 +701,7 @@ func _on_restart_game():
 func _on_return_to_menu():
 	print("\n🏠 Regresando al menú principal...\n")
 	hide_stats_screen()
-	get_tree().change_scene_to_file("res://MenuPrincipal/MenuPrincipal.tscn")
+	get_tree().change_scene_to_file("res://MenuPrincipal/Componentes/Escenas/MenuPrincipal.tscn")
 
 # ============================================
 # TEXTO FLOTANTE

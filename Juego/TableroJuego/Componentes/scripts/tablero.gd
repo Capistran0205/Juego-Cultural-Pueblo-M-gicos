@@ -6,7 +6,7 @@ extends Node2D
 # la tabla del HUD), lo que chocaba con GameManager. Aquí solo dejamos la
 # navegación de "Regresar al menú".
 
-const MAIN_MENU := "res://MenuPrincipal/MenuPrincipal.tscn"
+const MAIN_MENU := "res://MenuPrincipal/Componentes/Escenas/MenuPrincipal.tscn"
 
 @onready var btn_regresar: Button = $HUD/HUDRoot/BtnRegresar
 

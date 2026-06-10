@@ -1,20 +1,30 @@
-[gd_scene load_steps=15 format=3 uid="uid://y8mnfu3488vt"]
+[gd_scene load_steps=16 format=3 uid="uid://y8mnfu3488vt"]
 
 [ext_resource type="Script" uid="uid://ckqk8svb5n3hh" path="res://MenuPrincipal/Componentes/Scripts/perfil.gd" id="1_perfil"]
 [ext_resource type="Texture2D" uid="uid://biikfd0se8k0n" path="res://Assets/FondoPrincipal.webp" id="2_fondo"]
 [ext_resource type="Texture2D" uid="uid://dcwy51kvl28ax" path="res://Assets/LogoPueblosMagicos.webp" id="3_logo"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_u8q3d"]
+bg_color = Color(0.6, 0.6, 0.6, 0.6117647)
 corner_radius_top_left = 25
 corner_radius_top_right = 25
 corner_radius_bottom_right = 25
 corner_radius_bottom_left = 25
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_e025y"]
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ts1w4"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
 corner_radius_top_left = 20
 corner_radius_bottom_left = 20
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_e025y"]
+bg_color = Color(0.6, 0.6, 0.6, 0.6117647)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_y1k67"]
+bg_color = Color(0.6, 0.6, 0.6, 0.6117647)
 corner_radius_top_left = 20
 corner_radius_top_right = 20
 corner_radius_bottom_right = 20
@@ -22,24 +32,28 @@ corner_radius_bottom_left = 20
 expand_margin_left = 5.0
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ter7a"]
+bg_color = Color(0.6, 0.6, 0.6, 0.6117647)
 corner_radius_top_left = 25
 corner_radius_top_right = 25
 corner_radius_bottom_right = 25
 corner_radius_bottom_left = 25
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jc18h"]
+bg_color = Color(0.6, 0.6, 0.6, 0.6117647)
 corner_radius_top_left = 25
 corner_radius_top_right = 25
 corner_radius_bottom_right = 25
 corner_radius_bottom_left = 25
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_b4mge"]
+bg_color = Color(0.6, 0.6, 0.6, 0.6117647)
 corner_radius_top_left = 20
 corner_radius_top_right = 20
 corner_radius_bottom_right = 20
 corner_radius_bottom_left = 20
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rrbi2"]
+bg_color = Color(0.6, 0.6, 0.6, 0.6117647)
 corner_radius_top_left = 20
 corner_radius_top_right = 20
 corner_radius_bottom_right = 20
@@ -133,6 +147,7 @@ theme_override_constants/separation = 16
 custom_minimum_size = Vector2(90, 90)
 layout_mode = 2
 size_flags_vertical = 4
+theme_override_styles/panel = SubResource("StyleBoxFlat_ts1w4")
 
 [node name="LblIniciales" type="Label" parent="MarginContainer/Contenido/TarjetaUsuario/HBox/AvatarCirculo"]
 layout_mode = 1

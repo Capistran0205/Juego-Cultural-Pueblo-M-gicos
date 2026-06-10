@@ -7,7 +7,7 @@ extends Control
 #   AdministradorOnline / backend en una iteración futura.
 # =========================================================
 
-const MAIN_MENU := "res://MenuPrincipal/MenuPrincipal.tscn"
+const MAIN_MENU := "res://MenuPrincipal/Componentes/Escenas/MenuPrincipal.tscn"
 
 # --- Tarjeta de usuario ---
 @onready var lbl_iniciales: Label = $MarginContainer/Contenido/TarjetaUsuario/HBox/AvatarCirculo/LblIniciales
